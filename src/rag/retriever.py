@@ -5,7 +5,7 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 
-from src.config import RAG_FETCH_K, RAG_MMR_LAMBDA, RAG_TOP_K, LOCAL_EMBEDDING_MODEL
+from src.config import RAG_FETCH_K, RAG_MMR_LAMBDA, RAG_TOP_K, LOCAL_EMBEDDING_MODEL, get_secret
 from src.embeddings.local_embedder import LocalEmbedder
 from src.embeddings.store import ReviewVectorStore
 
