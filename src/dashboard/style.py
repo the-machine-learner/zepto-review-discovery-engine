@@ -140,25 +140,25 @@ label, .stRadio label, .stSelectbox label { color: #B6ABB6 !important; font-weig
     overflow: visible !important;
 }
 
-/* Expand Sidebar Button (stExpandSidebarButton) */
-[data-testid="stExpandSidebarButton"],
+/* Compact Sleek Sidebar Toggle Button (stSidebarCollapseButton) */
 [data-testid="stSidebarCollapseButton"] button,
+[data-testid="stExpandSidebarButton"],
 [data-testid="stSidebarCollapsedControl"] button,
 [data-testid="collapsedControl"] button,
 [data-testid="stSidebarHeader"] button,
 button[aria-label="Collapse sidebar"],
 button[aria-label="Expand sidebar"] {
-    width: 52px !important;
-    height: 52px !important;
-    min-width: 52px !important;
-    min-height: 52px !important;
-    background: #FF8A00 !important;
-    border: 2px solid #FFFFFF !important;
-    border-radius: 12px !important;
+    width: 34px !important;
+    height: 34px !important;
+    min-width: 34px !important;
+    min-height: 34px !important;
+    background: #28183C !important;
+    border: 1.5px solid #FF8A00 !important;
+    border-radius: 8px !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 4px 16px rgba(255, 138, 0, 0.6) !important;
+    box-shadow: 0 2px 10px rgba(255, 138, 0, 0.4) !important;
     transition: all .2s ease-in-out !important;
     cursor: pointer !important;
     margin: 0 !important;
@@ -167,26 +167,27 @@ button[aria-label="Expand sidebar"] {
     visibility: visible !important;
 }
 
-[data-testid="stExpandSidebarButton"]:hover,
 [data-testid="stSidebarCollapseButton"] button:hover,
+[data-testid="stExpandSidebarButton"]:hover,
 [data-testid="stSidebarCollapsedControl"] button:hover,
 [data-testid="collapsedControl"] button:hover,
 [data-testid="stSidebarHeader"] button:hover {
-    background: #FFA233 !important;
-    transform: scale(1.08) !important;
-    box-shadow: 0 6px 20px rgba(255, 138, 0, 0.8) !important;
+    background: #3C1053 !important;
+    border-color: #FFA233 !important;
+    transform: scale(1.06) !important;
+    box-shadow: 0 4px 14px rgba(255, 138, 0, 0.6) !important;
 }
 
 /* Inner Span & Material Icon Centering */
+[data-testid="stSidebarCollapseButton"] button *,
 [data-testid="stExpandSidebarButton"] span,
 [data-testid="stExpandSidebarButton"] [data-testid="stIconMaterial"],
-[data-testid="stSidebarCollapseButton"] button *,
 [data-testid="stSidebarCollapsedControl"] button *,
 [data-testid="collapsedControl"] button *,
 .st-emotion-cache-189uypx,
 .st-emotion-cache-ujm5ma {
-    font-size: 1.8rem !important;
-    font-weight: 900 !important;
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
     color: #FFFFFF !important;
     fill: #FFFFFF !important;
     stroke: #FFFFFF !important;
