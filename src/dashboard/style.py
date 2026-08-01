@@ -139,10 +139,10 @@ div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
 [data-testid="collapsedControl"] button,
 div[data-testid="stHeader"] button[aria-label="Expand sidebar"],
 div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
-    background: #FF8A00 !important;
-    border: 2.5px solid #FFFFFF !important;
+    background: #FFFFFF !important;
+    border: 2.5px solid #FF8A00 !important;
     border-radius: 14px !important;
-    color: #FFFFFF !important;
+    color: #140C20 !important;
     width: 58px !important;
     height: 58px !important;
     min-width: 58px !important;
@@ -151,7 +151,7 @@ div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 0 22px rgba(255, 138, 0, 0.95), 0 4px 15px rgba(0, 0, 0, 0.5) !important;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 4px 15px rgba(0, 0, 0, 0.4) !important;
     transition: all .25s ease-in-out !important;
     cursor: pointer !important;
     z-index: 999999 !important;
@@ -163,8 +163,9 @@ div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
 div[data-testid="stHeader"] button[aria-label="Expand sidebar"]:hover,
 div[data-testid="stHeader"] button[aria-label="Open sidebar"]:hover {
     transform: scale(1.15) !important;
-    background: #FFA233 !important;
-    box-shadow: 0 0 28px rgba(255, 138, 0, 1), 0 6px 18px rgba(0, 0, 0, 0.6) !important;
+    background: #F0F0F0 !important;
+    border-color: #FF8A00 !important;
+    box-shadow: 0 0 26px rgba(255, 255, 255, 0.8), 0 6px 18px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Hide default internal arrow icon/svg text */
@@ -179,7 +180,7 @@ div[data-testid="stHeader"] button[aria-label="Expand sidebar"] [data-testid="st
     visibility: hidden !important;
 }
 
-/* Inject standard 3-lines hamburger menu icon (☰) */
+/* Inject standard 3-lines hamburger menu icon (☰) in dark color */
 [data-testid="stSidebarCollapsedControl"] button::after,
 [data-testid="collapsedControl"] button::after,
 div[data-testid="stHeader"] button[aria-label="Expand sidebar"]::after,
@@ -187,7 +188,7 @@ div[data-testid="stHeader"] button[aria-label="Open sidebar"]::after {
     content: "☰" !important;
     font-size: 2.2rem !important;
     font-weight: 900 !important;
-    color: #FFFFFF !important;
+    color: #140C20 !important;
     line-height: 1 !important;
     display: block !important;
 }
