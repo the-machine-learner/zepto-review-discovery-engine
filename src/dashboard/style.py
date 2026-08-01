@@ -123,103 +123,91 @@ label, .stRadio label, .stSelectbox label { color: #B6ABB6 !important; font-weig
     color: #FFFFFF !important;
     border-color: #5C1D80 !important;
 }
-/* Permanent High-Impact 3-Lines Hamburger Menu Button (Collapsed Sidebar) */
+/* Universal Sidebar Menu & Collapse Control Button Styling (Clean White 3-Lines Icon ☰) */
+[data-testid="stSidebarCollapseButton"],
 [data-testid="stSidebarCollapsedControl"],
 [data-testid="collapsedControl"],
-div[data-testid="stHeader"] button[aria-label="Expand sidebar"],
-div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
-    display: flex !important;
+[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"],
+div[data-testid="stHeader"] button[aria-label*="sidebar"],
+[data-testid="stSidebar"] button[data-testid="baseButton-header"],
+div[data-testid="stSidebarHeader"] button,
+button[aria-label="Collapse sidebar"],
+button[aria-label="Expand sidebar"],
+button[aria-label="Open sidebar"],
+button[aria-label="Close sidebar"] {
+    display: inline-flex !important;
     visibility: visible !important;
     opacity: 1 !important;
-    margin-top: .4rem !important;
-    margin-left: .4rem !important;
 }
 
+[data-testid="stSidebarCollapseButton"] button,
 [data-testid="stSidebarCollapsedControl"] button,
 [data-testid="collapsedControl"] button,
-div[data-testid="stHeader"] button[aria-label="Expand sidebar"],
-div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
-    background: #FFFFFF !important;
-    border: 2.5px solid #FF8A00 !important;
-    border-radius: 14px !important;
-    color: #140C20 !important;
-    width: 58px !important;
-    height: 58px !important;
-    min-width: 58px !important;
-    min-height: 58px !important;
+[data-testid="stSidebar"] button[data-testid="baseButton-header"],
+div[data-testid="stSidebarHeader"] button,
+div[data-testid="stHeader"] button[aria-label*="sidebar"],
+button[aria-label="Collapse sidebar"],
+button[aria-label="Expand sidebar"],
+button[aria-label="Open sidebar"],
+button[aria-label="Close sidebar"] {
+    background: #28183C !important;
+    border: 2px solid #FF8A00 !important;
+    border-radius: 12px !important;
+    color: #FFFFFF !important;
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
     padding: 0 !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 4px 15px rgba(0, 0, 0, 0.4) !important;
-    transition: all .25s ease-in-out !important;
+    box-shadow: 0 4px 14px rgba(255, 138, 0, 0.45) !important;
+    transition: all .2s ease-in-out !important;
     cursor: pointer !important;
-    z-index: 999999 !important;
     position: relative !important;
+    z-index: 999999 !important;
 }
 
+[data-testid="stSidebarCollapseButton"] button:hover,
 [data-testid="stSidebarCollapsedControl"] button:hover,
 [data-testid="collapsedControl"] button:hover,
-div[data-testid="stHeader"] button[aria-label="Expand sidebar"]:hover,
-div[data-testid="stHeader"] button[aria-label="Open sidebar"]:hover {
-    transform: scale(1.15) !important;
-    background: #F0F0F0 !important;
-    border-color: #FF8A00 !important;
-    box-shadow: 0 0 26px rgba(255, 255, 255, 0.8), 0 6px 18px rgba(0, 0, 0, 0.5) !important;
+[data-testid="stSidebar"] button[data-testid="baseButton-header"]:hover,
+div[data-testid="stSidebarHeader"] button:hover {
+    background: #3C1053 !important;
+    border-color: #FFA233 !important;
+    box-shadow: 0 6px 18px rgba(255, 138, 0, 0.7) !important;
+    transform: scale(1.08) !important;
 }
 
-/* Hide default internal arrow icon/svg text */
+/* Hide default internal arrow SVG / icon text */
+[data-testid="stSidebarCollapseButton"] button svg,
 [data-testid="stSidebarCollapsedControl"] button svg,
 [data-testid="collapsedControl"] button svg,
-div[data-testid="stHeader"] button[aria-label="Expand sidebar"] svg,
-[data-testid="stSidebarCollapsedControl"] [data-testid="stIconMaterial"],
-[data-testid="collapsedControl"] [data-testid="stIconMaterial"],
-div[data-testid="stHeader"] button[aria-label="Expand sidebar"] [data-testid="stIconMaterial"],
+[data-testid="stSidebar"] button[data-testid="baseButton-header"] svg,
+div[data-testid="stSidebarHeader"] button svg,
+[data-testid="stIconMaterial"],
 .st-emotion-cache-ujm5ma {
     display: none !important;
     visibility: hidden !important;
 }
 
-/* Inject standard 3-lines hamburger menu icon (☰) in dark color */
+/* Inject standard crisp WHITE 3-lines menu icon (☰) into all menu buttons */
+[data-testid="stSidebarCollapseButton"] button::after,
 [data-testid="stSidebarCollapsedControl"] button::after,
 [data-testid="collapsedControl"] button::after,
-div[data-testid="stHeader"] button[aria-label="Expand sidebar"]::after,
-div[data-testid="stHeader"] button[aria-label="Open sidebar"]::after {
+[data-testid="stSidebar"] button[data-testid="baseButton-header"]::after,
+div[data-testid="stSidebarHeader"] button::after,
+div[data-testid="stHeader"] button[aria-label*="sidebar"]::after,
+button[aria-label="Collapse sidebar"]::after,
+button[aria-label="Expand sidebar"]::after {
     content: "☰" !important;
-    font-size: 2.2rem !important;
+    font-size: 1.9rem !important;
     font-weight: 900 !important;
-    color: #140C20 !important;
+    color: #FFFFFF !important;
     line-height: 1 !important;
     display: block !important;
-}
-
-/* Normal size when sidebar is OPEN/EXPANDED */
-[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] button,
-[data-testid="stSidebar"] button[aria-label="Collapse sidebar"],
-[data-testid="stSidebar"] button[aria-label="Close sidebar"] {
-    width: 32px !important;
-    height: 32px !important;
-    min-width: 32px !important;
-    min-height: 32px !important;
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    color: #B6ABB6 !important;
-    padding: 4px !important;
-    transform: none !important;
-}
-[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] button:hover,
-[data-testid="stSidebar"] button[aria-label="Collapse sidebar"]:hover {
-    color: #FFFFFF !important;
-    background: #28183C !important;
-    transform: none !important;
-    box-shadow: none !important;
-    border: none !important;
-}
-[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] button svg,
-[data-testid="stSidebar"] button[aria-label="Collapse sidebar"] svg {
-    width: 18px !important;
-    height: 18px !important;
+    opacity: 1 !important;
 }
 
 /* Metrics */
