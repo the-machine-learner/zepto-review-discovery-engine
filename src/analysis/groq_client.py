@@ -10,7 +10,7 @@ import time
 from collections import deque
 from typing import Any
 
-from src.config import GROQ_CALL_SLEEP_S, GROQ_CHAT_MODEL
+from src.config import GROQ_CALL_SLEEP_S, GROQ_CHAT_MODEL, get_secret
 
 logger = logging.getLogger(__name__)
 
@@ -18,17 +18,17 @@ JSON_BLOCK = re.compile(r"```(?:json)?\s*([\s\S]*?)```", re.I)
 
 
 def _throttle_enabled() -> bool:
-    return os.getenv("GROQ_THROTTLE", "false").lower() in ("1", "true", "yes")
+    return get_secret("GROQ_THROTTLE", "false").lower() in ("1", "true", "yes")
 
 
 class AnalysisGroqClient:
     def __init__(self, model: str | None = None, sleep_s: float | None = None) -> None:
-        self.key = os.getenv("GROQ_API_KEY")
+        self.key = get_secret("GROQ_API_KEY")
         self._client = None
-        self.model = model or os.getenv("GROQ_CHAT_MODEL", GROQ_CHAT_MODEL)
-        self.sleep_s = float(sleep_s if sleep_s is not None else os.getenv("GROQ_CALL_SLEEP_S", GROQ_CALL_SLEEP_S))
-        self.tpm_limit = int(os.getenv("GROQ_TPM_LIMIT", "120000"))
-        self.rpm_limit = int(os.getenv("GROQ_RPM_LIMIT", "1000"))
+        self.model = model or get_secret("GROQ_CHAT_MODEL", GROQ_CHAT_MODEL)
+        self.sleep_s = float(sleep_s if sleep_s is not None else get_secret("GROQ_CALL_SLEEP_S", str(GROQ_CALL_SLEEP_S)))
+        self.tpm_limit = int(get_secret("GROQ_TPM_LIMIT", "120000"))
+        self.rpm_limit = int(get_secret("GROQ_RPM_LIMIT", "1000"))
         self.call_count = 0
         self.estimated_tokens = 0
         self._recent_calls: deque[float] = deque()

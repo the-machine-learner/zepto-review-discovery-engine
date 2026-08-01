@@ -17,6 +17,7 @@ import pandas as pd
 import streamlit as st
 from collections import defaultdict, Counter
 
+from src.config import get_secret
 from src.dashboard.bootstrap import apply_streamlit_secrets
 from src.dashboard.constants import APP_TITLE, APP_SUBTITLE, SEGMENT_DISCLAIMER
 from src.dashboard.data_loader import load_dashboard_data
@@ -482,7 +483,7 @@ def render_screen_4(retriever: ReviewRetriever) -> None:
         '<div class="rd-section-sub">Ask grounded discovery questions over all 15,000 customer reviews.</div>'
     )
 
-    api_key_set = bool(os.getenv("GROQ_API_KEY"))
+    api_key_set = bool(get_secret("GROQ_API_KEY"))
     status_label = "LLM Online" if api_key_set else "LLM Offline"
     status_color = "#FF8A00" if api_key_set else "#FF6B6B"
 

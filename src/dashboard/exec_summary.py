@@ -59,7 +59,7 @@ def generate_executive_summary(data: Any) -> dict[str, Any]:
     """One Groq call -> {summary, key_findings[], model, estimated_tokens}."""
     payload = _build_payload(data)
     
-    key = os.getenv("GROQ_API_KEY")
+    key = get_secret("GROQ_API_KEY")
     if not key:
         # Offline fallback executive summary
         summary = (

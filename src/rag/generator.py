@@ -28,26 +28,20 @@ Rules:
 """
 
 
-def _format_context(retrieved: list[RetrievedReview]) -> str:
+def format_context_docs(retrieved: list[RetrievedReview]) -> str:
+    """Format retrieved reviews for RAG prompt context."""
     blocks = []
-    for item in retrieved:
+    for idx, doc in enumerate(retrieved, start=1):
+        rating_str = f"{doc.rating}★" if doc.rating else "N/A"
+        date_str = doc.date or "Unknown date"
         blocks.append(
-            json.dumps(
-                {
-                    "review_id": item.review_id,
-                    "platform": item.platform,
-                    "rating": item.rating,
-                    "date": item.date,
-                    "text": item.document[:800],
-                },
-                ensure_ascii=False,
-            )
+            f"Review [{idx}] ({doc.source} | {rating_str} | {date_str}):\n{doc.content}"
         )
     return "\n".join(blocks)
 
 
 def generate_answer(question: str, retrieved: list[RetrievedReview]) -> tuple[str, dict[str, Any]]:
-    key = os.getenv("GROQ_API_KEY")
+    key = get_secret("GROQ_API_KEY")
     if not key:
         raise RuntimeError(
             "GROQ_API_KEY not found. Add it to .env locally, or to your platform "
@@ -56,13 +50,13 @@ def generate_answer(question: str, retrieved: list[RetrievedReview]) -> tuple[st
         
     from groq import Groq, RateLimitError
 
-    model = os.getenv("GROQ_CHAT_MODEL", GROQ_CHAT_MODEL)
-    max_tokens = int(os.getenv("RAG_MAX_ANSWER_TOKENS", RAG_MAX_ANSWER_TOKENS))
+    model = get_secret("GROQ_CHAT_MODEL", GROQ_CHAT_MODEL)
+    max_tokens = int(get_secret("RAG_MAX_ANSWER_TOKENS", str(RAG_MAX_ANSWER_TOKENS)))
     client = Groq(api_key=key, max_retries=10)
 
     user_prompt = (
         f"Question: {question}\n\n"
-        f"Retrieved review excerpts:\n{_format_context(retrieved)}\n\n"
+        f"Retrieved review excerpts:\n{format_context_docs(retrieved)}\n\n"
         "Answer the question using only these excerpts. Include [review_id: ...] citations."
     )
 

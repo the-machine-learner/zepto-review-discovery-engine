@@ -31,3 +31,4 @@ htmlcov/
 !data/raw/
 !data/processed/
 !data/chroma_db/
+.streamlit/secrets.toml
