@@ -123,90 +123,51 @@ label, .stRadio label, .stSelectbox label { color: #B6ABB6 !important; font-weig
     color: #FFFFFF !important;
     border-color: #5C1D80 !important;
 }
-/* Universal Sidebar Menu & Collapse Control Button Styling (Clean White 3-Lines Icon ☰) */
-[data-testid="stSidebarCollapseButton"],
-[data-testid="stSidebarCollapsedControl"],
-[data-testid="collapsedControl"],
-[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"],
-div[data-testid="stHeader"] button[aria-label*="sidebar"],
-[data-testid="stSidebar"] button[data-testid="baseButton-header"],
-div[data-testid="stSidebarHeader"] button,
-button[aria-label="Collapse sidebar"],
-button[aria-label="Expand sidebar"],
-button[aria-label="Open sidebar"],
-button[aria-label="Close sidebar"] {
-    display: inline-flex !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-}
-
+/* Clean Sidebar Toggle & Collapse Controls */
 [data-testid="stSidebarCollapseButton"] button,
 [data-testid="stSidebarCollapsedControl"] button,
 [data-testid="collapsedControl"] button,
-[data-testid="stSidebar"] button[data-testid="baseButton-header"],
-div[data-testid="stSidebarHeader"] button,
-div[data-testid="stHeader"] button[aria-label*="sidebar"],
+[data-testid="stSidebarHeader"] button,
 button[aria-label="Collapse sidebar"],
 button[aria-label="Expand sidebar"],
 button[aria-label="Open sidebar"],
 button[aria-label="Close sidebar"] {
-    background: #28183C !important;
-    border: 2px solid #FF8A00 !important;
-    border-radius: 12px !important;
+    background-color: #28183C !important;
     color: #FFFFFF !important;
-    width: 44px !important;
-    height: 44px !important;
-    min-width: 44px !important;
-    min-height: 44px !important;
-    padding: 0 !important;
+    border: 1.5px solid #FF8A00 !important;
+    border-radius: 10px !important;
+    padding: .4rem .6rem !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 4px 14px rgba(255, 138, 0, 0.45) !important;
-    transition: all .2s ease-in-out !important;
-    cursor: pointer !important;
-    position: relative !important;
-    z-index: 999999 !important;
+    box-shadow: 0 2px 10px rgba(255, 138, 0, 0.4) !important;
+    transition: all .2s ease !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 [data-testid="stSidebarCollapseButton"] button:hover,
 [data-testid="stSidebarCollapsedControl"] button:hover,
 [data-testid="collapsedControl"] button:hover,
-[data-testid="stSidebar"] button[data-testid="baseButton-header"]:hover,
-div[data-testid="stSidebarHeader"] button:hover {
-    background: #3C1053 !important;
+[data-testid="stSidebarHeader"] button:hover,
+button[aria-label="Collapse sidebar"]:hover,
+button[aria-label="Expand sidebar"]:hover {
+    background-color: #3C1053 !important;
     border-color: #FFA233 !important;
-    box-shadow: 0 6px 18px rgba(255, 138, 0, 0.7) !important;
-    transform: scale(1.08) !important;
-}
-
-/* Hide default internal arrow SVG / icon text */
-[data-testid="stSidebarCollapseButton"] button svg,
-[data-testid="stSidebarCollapsedControl"] button svg,
-[data-testid="collapsedControl"] button svg,
-[data-testid="stSidebar"] button[data-testid="baseButton-header"] svg,
-div[data-testid="stSidebarHeader"] button svg,
-[data-testid="stIconMaterial"],
-.st-emotion-cache-ujm5ma {
-    display: none !important;
-    visibility: hidden !important;
-}
-
-/* Inject standard crisp WHITE 3-lines menu icon (☰) into all menu buttons */
-[data-testid="stSidebarCollapseButton"] button::after,
-[data-testid="stSidebarCollapsedControl"] button::after,
-[data-testid="collapsedControl"] button::after,
-[data-testid="stSidebar"] button[data-testid="baseButton-header"]::after,
-div[data-testid="stSidebarHeader"] button::after,
-div[data-testid="stHeader"] button[aria-label*="sidebar"]::after,
-button[aria-label="Collapse sidebar"]::after,
-button[aria-label="Expand sidebar"]::after {
-    content: "☰" !important;
-    font-size: 1.9rem !important;
-    font-weight: 900 !important;
     color: #FFFFFF !important;
-    line-height: 1 !important;
-    display: block !important;
+    box-shadow: 0 4px 14px rgba(255, 138, 0, 0.6) !important;
+}
+
+/* Ensure all icons and text inside sidebar toggle buttons are bright white */
+[data-testid="stSidebarCollapseButton"] button *,
+[data-testid="stSidebarCollapsedControl"] button *,
+[data-testid="collapsedControl"] button *,
+[data-testid="stSidebarHeader"] button *,
+button[aria-label="Collapse sidebar"] *,
+button[aria-label="Expand sidebar"] * {
+    color: #FFFFFF !important;
+    fill: #FFFFFF !important;
+    stroke: #FFFFFF !important;
     opacity: 1 !important;
 }
 
