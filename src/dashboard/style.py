@@ -35,19 +35,95 @@ html, body, [class*="css"], .stApp, button, input, textarea, select {
 .stApp { background-color: #0C0614; }
 
 /* Hide default Streamlit chrome & deploy button for a cleaner product look */
-/* Header & Container Zero-Margin Alignment */
-header[data-testid="stHeader"],
-.stAppHeader,
-.st-emotion-cache-1j22a0y,
-.e3g0k5y4 {
-    background: transparent !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    top: 0 !important;
-    left: 0 !important;
-}
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
+header[data-testid="stHeader"] { background: transparent; }
+[data-testid="stAppDeployButton"], .stDeployButton { display: none !important; visibility: hidden !important; }
+.block-container { padding-top: 1.5rem !important; padding-bottom: 3rem !important; max-width: 1200px; }
 
-/* Parent Container Alignment for Sidebar Toggle Button */
+/* Entry animation */
+@keyframes fadeUp { 0% { opacity: 0; transform: translateY(16px); } 100% { opacity: 1; transform: translateY(0); } }
+@keyframes pop { 0% { opacity: 0; transform: scale(.97); } 100% { opacity: 1; transform: scale(1); } }
+.block-container > div { animation: fadeUp .5s cubic-bezier(.2,.8,.2,1); }
+
+h1, h2, h3, h4, h5, h6 { color: #FFFFFF !important; font-weight: 800 !important; letter-spacing: -.02em !important; }
+
+/* Tabs -> Zepto Purple Pills */
+.stTabs [data-baseweb="tab-list"] { gap: .5rem; border-bottom: none; background: transparent; }
+.stTabs [data-baseweb="tab"] {
+    background: #1B1028 !important; border-radius: 500px !important; padding: .45rem 1.25rem !important;
+    color: #B6ABB6 !important; font-weight: 700 !important; font-size: .85rem !important; border: none !important;
+    transition: all .25s ease !important;
+}
+.stTabs [data-baseweb="tab"]:hover { color: #FFFFFF !important; background: #28183C !important; }
+.stTabs [aria-selected="true"] { background: #3C1053 !important; color: #FFFFFF !important; border: 1px solid #FF8A00 !important; }
+.stTabs [data-baseweb="tab-highlight"], .stTabs [data-baseweb="tab-border"] { display: none !important; }
+
+/* Buttons -> Orange pills */
+.stButton > button {
+    border-radius: 500px !important; font-weight: 700 !important; letter-spacing: .04em !important;
+    border: none !important; background: #FF8A00 !important; color: #FFFFFF !important;
+    padding: .5rem 1.5rem !important; transition: all .2s ease !important;
+}
+.stButton > button:hover { transform: scale(1.04); background: #FFA233 !important; color: #FFFFFF !important; }
+.stButton > button:focus { box-shadow: none !important; color: #FFFFFF !important; }
+
+/* Inputs */
+input, textarea, div[data-baseweb="input"] input, [data-testid="stChatInput"] textarea {
+    background: #28183C !important; color: #FFFFFF !important; border-radius: 8px !important; border: 1px solid transparent !important;
+}
+div[data-baseweb="select"] > div, div[data-baseweb="input"] {
+    background: #28183C !important; border-radius: 8px !important; border: 1px solid transparent !important; color: #fff !important;
+}
+div[data-baseweb="select"]:hover > div { border-color: #FF8A00 !important; }
+label, .stRadio label, .stSelectbox label { color: #B6ABB6 !important; font-weight: 600 !important; }
+
+/* Radio navigation chips */
+.stRadio [role="radiogroup"] { gap: .5rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
+.stRadio [role="radiogroup"] label {
+    background: #1B1028 !important; border-radius: 500px !important; padding: .45rem 1.25rem !important;
+    color: #B6ABB6 !important; font-weight: 700 !important; font-size: .88rem !important; border: 1px solid #351F50 !important;
+    transition: all .25s ease !important; cursor: pointer; display: inline-flex !important; align-items: center !important;
+}
+.stRadio [role="radiogroup"] label:hover { color: #FFFFFF !important; background: #28183C !important; }
+.stRadio [role="radiogroup"] label:has(input:checked) { background: #3C1053 !important; color: #FFFFFF !important; border: 1px solid #FF8A00 !important; }
+.stRadio [role="radiogroup"] input { display: none !important; }
+
+/* Sidebar Vertical Navigation Runner */
+[data-testid="stSidebar"] {
+    background-color: #140C20 !important;
+    border-right: 1px solid #351F50 !important;
+}
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h2, 
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"] h3 {
+    color: #FFFFFF !important;
+    font-size: 1.1rem !important;
+    letter-spacing: -.01em !important;
+}
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: .55rem !important;
+    width: 100% !important;
+}
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] label {
+    display: flex !important;
+    width: 100% !important;
+    border-radius: 12px !important;
+    padding: .75rem 1rem !important;
+    background: #1B1028 !important;
+    border: 1px solid #351F50 !important;
+    color: #B6ABB6 !important;
+    font-weight: 700 !important;
+    font-size: .88rem !important;
+    transition: all .2s ease !important;
+}
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] label:hover {
+    background: #28183C !important;
+    color: #FFFFFF !important;
+    border-color: #5C1D80 !important;
+}
+/* Parent Container Expansion & Alignment for stExpandSidebarButton */
 .st-emotion-cache-70qvj9,
 .st-emotion-cache-8ezv7j,
 .e3g0k5y5,
@@ -56,14 +132,15 @@ header[data-testid="stHeader"],
 [data-testid="collapsedControl"] {
     width: auto !important;
     height: auto !important;
-    margin: 0 !important;
-    padding: 0 !important;
+    min-width: 52px !important;
+    min-height: 52px !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
+    overflow: visible !important;
 }
 
-/* Compact Sleek Sidebar Button (38px x 38px) */
+/* Expand Sidebar Button (stExpandSidebarButton) */
 [data-testid="stExpandSidebarButton"],
 [data-testid="stSidebarCollapseButton"] button,
 [data-testid="stSidebarCollapsedControl"] button,
@@ -71,17 +148,17 @@ header[data-testid="stHeader"],
 [data-testid="stSidebarHeader"] button,
 button[aria-label="Collapse sidebar"],
 button[aria-label="Expand sidebar"] {
-    width: 38px !important;
-    height: 38px !important;
-    min-width: 38px !important;
-    min-height: 38px !important;
-    background: #28183C !important;
-    border: 1.5px solid #FF8A00 !important;
-    border-radius: 8px !important;
+    width: 52px !important;
+    height: 52px !important;
+    min-width: 52px !important;
+    min-height: 52px !important;
+    background: #FF8A00 !important;
+    border: 2px solid #FFFFFF !important;
+    border-radius: 12px !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 2px 10px rgba(255, 138, 0, 0.4) !important;
+    box-shadow: 0 4px 16px rgba(255, 138, 0, 0.6) !important;
     transition: all .2s ease-in-out !important;
     cursor: pointer !important;
     margin: 0 !important;
@@ -95,10 +172,9 @@ button[aria-label="Expand sidebar"] {
 [data-testid="stSidebarCollapsedControl"] button:hover,
 [data-testid="collapsedControl"] button:hover,
 [data-testid="stSidebarHeader"] button:hover {
-    background: #3C1053 !important;
-    border-color: #FFA233 !important;
-    transform: scale(1.06) !important;
-    box-shadow: 0 4px 14px rgba(255, 138, 0, 0.6) !important;
+    background: #FFA233 !important;
+    transform: scale(1.08) !important;
+    box-shadow: 0 6px 20px rgba(255, 138, 0, 0.8) !important;
 }
 
 /* Inner Span & Material Icon Centering */
@@ -109,8 +185,8 @@ button[aria-label="Expand sidebar"] {
 [data-testid="collapsedControl"] button *,
 .st-emotion-cache-189uypx,
 .st-emotion-cache-ujm5ma {
-    font-size: 1.3rem !important;
-    font-weight: 700 !important;
+    font-size: 1.8rem !important;
+    font-weight: 900 !important;
     color: #FFFFFF !important;
     fill: #FFFFFF !important;
     stroke: #FFFFFF !important;
