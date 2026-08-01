@@ -123,7 +123,7 @@ label, .stRadio label, .stSelectbox label { color: #B6ABB6 !important; font-weig
     color: #FFFFFF !important;
     border-color: #5C1D80 !important;
 }
-/* Make Collapsed Sidebar Toggle Button & Material Icon Large & Noticeable */
+/* Permanent High-Impact 3-Lines Hamburger Menu Button (Collapsed Sidebar) */
 [data-testid="stSidebarCollapsedControl"],
 [data-testid="collapsedControl"],
 div[data-testid="stHeader"] button[aria-label="Expand sidebar"],
@@ -139,8 +139,8 @@ div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
 [data-testid="collapsedControl"] button,
 div[data-testid="stHeader"] button[aria-label="Expand sidebar"],
 div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
-    background: linear-gradient(135deg, #7B2CBF, #3A0CA3) !important;
-    border: 2.5px solid #FF8A00 !important;
+    background: #FF8A00 !important;
+    border: 2.5px solid #FFFFFF !important;
     border-radius: 14px !important;
     color: #FFFFFF !important;
     width: 58px !important;
@@ -151,35 +151,45 @@ div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 6px 20px rgba(255, 138, 0, 0.6) !important;
+    box-shadow: 0 0 22px rgba(255, 138, 0, 0.95), 0 4px 15px rgba(0, 0, 0, 0.5) !important;
     transition: all .25s ease-in-out !important;
     cursor: pointer !important;
     z-index: 999999 !important;
+    position: relative !important;
 }
 
 [data-testid="stSidebarCollapsedControl"] button:hover,
 [data-testid="collapsedControl"] button:hover,
 div[data-testid="stHeader"] button[aria-label="Expand sidebar"]:hover,
 div[data-testid="stHeader"] button[aria-label="Open sidebar"]:hover {
-    transform: scale(1.16) !important;
-    background: linear-gradient(135deg, #9D4EDD, #5C068C) !important;
-    box-shadow: 0 8px 26px rgba(255, 138, 0, 0.8) !important;
-    border-color: #FFA233 !important;
+    transform: scale(1.15) !important;
+    background: #FFA233 !important;
+    box-shadow: 0 0 28px rgba(255, 138, 0, 1), 0 6px 18px rgba(0, 0, 0, 0.6) !important;
 }
 
-/* Material Icon & Emotion Class for Collapsed Control Arrow */
+/* Hide default internal arrow icon/svg text */
+[data-testid="stSidebarCollapsedControl"] button svg,
+[data-testid="collapsedControl"] button svg,
+div[data-testid="stHeader"] button[aria-label="Expand sidebar"] svg,
 [data-testid="stSidebarCollapsedControl"] [data-testid="stIconMaterial"],
 [data-testid="collapsedControl"] [data-testid="stIconMaterial"],
 div[data-testid="stHeader"] button[aria-label="Expand sidebar"] [data-testid="stIconMaterial"],
-.st-emotion-cache-ujm5ma,
-[data-testid="stIconMaterial"] {
+.st-emotion-cache-ujm5ma {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Inject standard 3-lines hamburger menu icon (☰) */
+[data-testid="stSidebarCollapsedControl"] button::after,
+[data-testid="collapsedControl"] button::after,
+div[data-testid="stHeader"] button[aria-label="Expand sidebar"]::after,
+div[data-testid="stHeader"] button[aria-label="Open sidebar"]::after {
+    content: "☰" !important;
     font-size: 2.2rem !important;
-    font-weight: bold !important;
-    width: 34px !important;
-    height: 34px !important;
-    line-height: 1 !important;
+    font-weight: 900 !important;
     color: #FFFFFF !important;
-    fill: #FFFFFF !important;
+    line-height: 1 !important;
+    display: block !important;
 }
 
 /* Normal size when sidebar is OPEN/EXPANDED */
