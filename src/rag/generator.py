@@ -34,8 +34,9 @@ def format_context_docs(retrieved: list[RetrievedReview]) -> str:
     for idx, doc in enumerate(retrieved, start=1):
         rating_str = f"{doc.rating}★" if doc.rating else "N/A"
         date_str = doc.date or "Unknown date"
+        platform_str = doc.platform or "Unknown platform"
         blocks.append(
-            f"Review [{idx}] ({doc.source} | {rating_str} | {date_str}):\n{doc.content}"
+            f"Review [{idx}] (ID: {doc.review_id} | {platform_str} | {rating_str} | {date_str}):\n{doc.document}"
         )
     return "\n".join(blocks)
 
