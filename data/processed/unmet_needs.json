@@ -1,0 +1,39 @@
+[
+  {
+    "rank": 1,
+    "statement": "Clear display of product manufacturing and expiry dates prior to adding to cart",
+    "supporting_review_ids": [
+      "e5d6426f-9159-4230-ad39-830e656fbe35",
+      "327afa57-4340-4d92-97c1-bd0b8f360941",
+      "1b6c5c5f-4dab-4d48-bdd5-8015c55d4240",
+      "e053fd80-25ec-4f78-a71a-626ed01c7d53",
+      "54fb3397-0ec8-4294-b425-4f8b72e30888"
+    ]
+  },
+  {
+    "rank": 2,
+    "statement": "Enhanced subcategory filtering for dietary preferences (sugar-free, organic, gluten-free)",
+    "supporting_review_ids": [
+      "c8419450-1dd4-4fff-99b2-2662e2040f95",
+      "13675838-b8ef-44a1-81f1-272938c88cbe"
+    ]
+  },
+  {
+    "rank": 3,
+    "statement": "Smarter search that auto-corrects typos and finds exact brand substitutes",
+    "supporting_review_ids": [
+      "2eef1192-ddfd-4d22-b2f3-2db489a27eff"
+    ]
+  },
+  {
+    "rank": 4,
+    "statement": "Decluttered home screen UI focusing on frequent repeat buys and relevant new arrivals",
+    "supporting_review_ids": [
+      "3c3c649d-a9b7-42cb-aaa8-131c892f5307",
+      "d6500e1a-982d-43f9-abd0-0f1124a3ad25",
+      "572c7f1a-b0b7-4e69-89b7-d3b93a305189",
+      "35a801bd-ab54-430c-9443-3f35588f769f",
+      "6980a063-976e-44c4-a804-a795ec684875"
+    ]
+  }
+]

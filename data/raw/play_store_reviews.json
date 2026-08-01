@@ -1,0 +1,992 @@
+[
+  {
+    "reviewId": "gp_rev_0",
+    "userName": "Aditi Gupta",
+    "score": 2,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-15 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_1",
+    "userName": "Aditi Bose",
+    "score": 5,
+    "content": "Zepto has become a habit. I order milk and bread daily. Super fast.",
+    "thumbsUpCount": 2,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-29 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_2",
+    "userName": "Neha Bose",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 6,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-25 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_3",
+    "userName": "Vijay Kumar",
+    "score": 2,
+    "content": "Very bad experience. Late delivery occurred again. Customer service did not help.",
+    "thumbsUpCount": 0,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-13 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_4",
+    "userName": "Rajesh Joshi",
+    "score": 4,
+    "content": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 10,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-12 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_5",
+    "userName": "Aditi Kumar",
+    "score": 5,
+    "content": "Zepto has become a habit. I order fruits daily. Super fast.",
+    "thumbsUpCount": 8,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-22 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_6",
+    "userName": "Kiran Bose",
+    "score": 5,
+    "content": "Zepto has become a habit. I order milk and bread daily. Super fast.",
+    "thumbsUpCount": 9,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-25 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_7",
+    "userName": "Tanvi Joshi",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 2,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-15 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_8",
+    "userName": "Neha Rao",
+    "score": 4,
+    "content": "Zepto has become a habit. I order milk and bread daily. Super fast.",
+    "thumbsUpCount": 8,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-06 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_9",
+    "userName": "Pooja Patel",
+    "score": 5,
+    "content": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 8,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-18 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_10",
+    "userName": "Aditi Nair",
+    "score": 1,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-26 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_11",
+    "userName": "Kiran Kumar",
+    "score": 4,
+    "content": "I discovered the new pet care section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 1,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-10 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_12",
+    "userName": "Arjun Joshi",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 6,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-26 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_13",
+    "userName": "Pooja Reddy",
+    "score": 2,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 14,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-05 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_14",
+    "userName": "Sanjay Patel",
+    "score": 2,
+    "content": "Very bad experience. Late delivery occurred again. Customer service did not help.",
+    "thumbsUpCount": 13,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-23 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_15",
+    "userName": "Rajesh Joshi",
+    "score": 1,
+    "content": "Very bad experience. Late delivery occurred again. Customer service did not help.",
+    "thumbsUpCount": 2,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-29 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_16",
+    "userName": "Aditi Patel",
+    "score": 1,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 13,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-10 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_17",
+    "userName": "Aditi Kumar",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 8,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-27 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_18",
+    "userName": "Arjun Mehta",
+    "score": 2,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 10,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-11 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_19",
+    "userName": "Sanjay Kumar",
+    "score": 2,
+    "content": "Very bad experience. Out of stock items occurred again. Customer service did not help.",
+    "thumbsUpCount": 8,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-14 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_20",
+    "userName": "Manish Bose",
+    "score": 5,
+    "content": "Zepto has become a habit. I order eggs and yogurt daily. Super fast.",
+    "thumbsUpCount": 6,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-28 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_21",
+    "userName": "Pooja Patel",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 10,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-22 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_22",
+    "userName": "Arjun Mehta",
+    "score": 5,
+    "content": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-27 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_23",
+    "userName": "Aditi Mehta",
+    "score": 2,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 2,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-08 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_24",
+    "userName": "Manish Patel",
+    "score": 2,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 5,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-25 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_25",
+    "userName": "Vijay Nair",
+    "score": 2,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 6,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-01 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_26",
+    "userName": "Sanjay Kumar",
+    "score": 2,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 14,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-02 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_27",
+    "userName": "Neha Reddy",
+    "score": 5,
+    "content": "Zepto has become a habit. I order milk and bread daily. Super fast.",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-23 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_28",
+    "userName": "Neha Gupta",
+    "score": 4,
+    "content": "Zepto has become a habit. I order milk and bread daily. Super fast.",
+    "thumbsUpCount": 1,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-26 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_29",
+    "userName": "Aditi Bose",
+    "score": 2,
+    "content": "Very bad experience. Late delivery occurred again. Customer service did not help.",
+    "thumbsUpCount": 6,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-29 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_30",
+    "userName": "Manish Nair",
+    "score": 4,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 15,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-15 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_31",
+    "userName": "Neha Mehta",
+    "score": 5,
+    "content": "Zepto has become a habit. I order fruits daily. Super fast.",
+    "thumbsUpCount": 13,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-03 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_32",
+    "userName": "Arjun Mehta",
+    "score": 5,
+    "content": "Zepto has become a habit. I order eggs and yogurt daily. Super fast.",
+    "thumbsUpCount": 3,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-09 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_33",
+    "userName": "Neha Reddy",
+    "score": 4,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 13,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-22 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_34",
+    "userName": "Sanjay Sen",
+    "score": 1,
+    "content": "Very bad experience. Damaged items occurred again. Customer service did not help.",
+    "thumbsUpCount": 3,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-09 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_35",
+    "userName": "Vijay Gupta",
+    "score": 4,
+    "content": "Zepto has become a habit. I order milk and bread daily. Super fast.",
+    "thumbsUpCount": 15,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-04 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_36",
+    "userName": "Neha Kumar",
+    "score": 4,
+    "content": "Zepto has become a habit. I order fruits daily. Super fast.",
+    "thumbsUpCount": 12,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-30 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_37",
+    "userName": "Kiran Rao",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 6,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-21 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_38",
+    "userName": "Neha Gupta",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 10,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-13 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_39",
+    "userName": "Arjun Nair",
+    "score": 2,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 2,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-27 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_40",
+    "userName": "Aditi Nair",
+    "score": 4,
+    "content": "Zepto has become a habit. I order fruits daily. Super fast.",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-23 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_41",
+    "userName": "Tanvi Gupta",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 10,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-04 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_42",
+    "userName": "Neha Joshi",
+    "score": 2,
+    "content": "Very bad experience. Damaged items occurred again. Customer service did not help.",
+    "thumbsUpCount": 9,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-22 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_43",
+    "userName": "Pooja Mehta",
+    "score": 5,
+    "content": "Zepto has become a habit. I order eggs and yogurt daily. Super fast.",
+    "thumbsUpCount": 3,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-24 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_44",
+    "userName": "Vijay Reddy",
+    "score": 4,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 11,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-22 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_45",
+    "userName": "Neha Joshi",
+    "score": 4,
+    "content": "I discovered the new home utilities section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 9,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-07 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_46",
+    "userName": "Vijay Gupta",
+    "score": 2,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 3,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-01 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_47",
+    "userName": "Sanjay Mehta",
+    "score": 4,
+    "content": "Zepto has become a habit. I order fruits daily. Super fast.",
+    "thumbsUpCount": 6,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-12 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_48",
+    "userName": "Pooja Reddy",
+    "score": 2,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 15,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-28 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_49",
+    "userName": "Arjun Mehta",
+    "score": 2,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 8,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-07 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_50",
+    "userName": "Arjun Joshi",
+    "score": 2,
+    "content": "Very bad experience. Out of stock items occurred again. Customer service did not help.",
+    "thumbsUpCount": 14,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-13 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_51",
+    "userName": "Rajesh Bose",
+    "score": 4,
+    "content": "Zepto has become a habit. I order milk and bread daily. Super fast.",
+    "thumbsUpCount": 4,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-04 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_52",
+    "userName": "Arjun Joshi",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 4,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-03 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_53",
+    "userName": "Sanjay Joshi",
+    "score": 5,
+    "content": "Zepto has become a habit. I order milk and bread daily. Super fast.",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-17 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_54",
+    "userName": "Aditi Joshi",
+    "score": 4,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 4,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-21 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_55",
+    "userName": "Manish Patel",
+    "score": 2,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 10,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-19 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_56",
+    "userName": "Neha Rao",
+    "score": 1,
+    "content": "Very bad experience. Damaged items occurred again. Customer service did not help.",
+    "thumbsUpCount": 1,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-05 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_57",
+    "userName": "Neha Reddy",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-11 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_58",
+    "userName": "Arjun Reddy",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 2,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-13 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_59",
+    "userName": "Pooja Bose",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 3,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-29 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_60",
+    "userName": "Manish Nair",
+    "score": 4,
+    "content": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 13,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-22 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_61",
+    "userName": "Pooja Kumar",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 6,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-06 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_62",
+    "userName": "Arjun Kumar",
+    "score": 4,
+    "content": "Zepto has become a habit. I order fruits daily. Super fast.",
+    "thumbsUpCount": 2,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-03 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_63",
+    "userName": "Pooja Nair",
+    "score": 4,
+    "content": "I discovered the new pet care section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 9,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-03 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_64",
+    "userName": "Sanjay Kumar",
+    "score": 5,
+    "content": "I discovered the new pet care section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 4,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-12 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_65",
+    "userName": "Rajesh Kumar",
+    "score": 1,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 9,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-21 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_66",
+    "userName": "Vijay Gupta",
+    "score": 5,
+    "content": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 10,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-03 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_67",
+    "userName": "Kiran Sen",
+    "score": 1,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 15,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-28 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_68",
+    "userName": "Manish Mehta",
+    "score": 5,
+    "content": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-08 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_69",
+    "userName": "Sanjay Reddy",
+    "score": 1,
+    "content": "Very bad experience. Out of stock items occurred again. Customer service did not help.",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-28 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_70",
+    "userName": "Tanvi Mehta",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 6,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-04 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_71",
+    "userName": "Rajesh Sen",
+    "score": 2,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 0,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-21 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_72",
+    "userName": "Rajesh Reddy",
+    "score": 2,
+    "content": "Very bad experience. Out of stock items occurred again. Customer service did not help.",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-25 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_73",
+    "userName": "Kiran Patel",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 14,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-12 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_74",
+    "userName": "Vijay Kumar",
+    "score": 4,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 5,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-03 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_75",
+    "userName": "Kiran Sen",
+    "score": 4,
+    "content": "I discovered the new pet care section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 15,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-13 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_76",
+    "userName": "Neha Rao",
+    "score": 2,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 9,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-15 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_77",
+    "userName": "Sanjay Joshi",
+    "score": 4,
+    "content": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-21 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_78",
+    "userName": "Manish Reddy",
+    "score": 5,
+    "content": "Zepto has become a habit. I order fruits daily. Super fast.",
+    "thumbsUpCount": 14,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-09 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_79",
+    "userName": "Arjun Reddy",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 0,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-03 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_80",
+    "userName": "Rajesh Sen",
+    "score": 5,
+    "content": "Zepto has become a habit. I order fruits daily. Super fast.",
+    "thumbsUpCount": 12,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-12 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_81",
+    "userName": "Vijay Bose",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 7,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-29 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_82",
+    "userName": "Rajesh Sen",
+    "score": 5,
+    "content": "Zepto has become a habit. I order fruits daily. Super fast.",
+    "thumbsUpCount": 12,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-06-18 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_83",
+    "userName": "Manish Sen",
+    "score": 1,
+    "content": "Very bad experience. Damaged items occurred again. Customer service did not help.",
+    "thumbsUpCount": 0,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-23 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_84",
+    "userName": "Rajesh Patel",
+    "score": 2,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 8,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-27 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_85",
+    "userName": "Pooja Reddy",
+    "score": 3,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 12,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-09 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_86",
+    "userName": "Rajesh Rao",
+    "score": 5,
+    "content": "Zepto has become a habit. I order milk and bread daily. Super fast.",
+    "thumbsUpCount": 1,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-13 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_87",
+    "userName": "Neha Mehta",
+    "score": 1,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 0,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-06-12 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_88",
+    "userName": "Neha Gupta",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 4,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-15 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_89",
+    "userName": "Aditi Nair",
+    "score": 2,
+    "content": "Very bad experience. Late delivery occurred again. Customer service did not help.",
+    "thumbsUpCount": 11,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-14 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_90",
+    "userName": "Tanvi Nair",
+    "score": 1,
+    "content": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!",
+    "thumbsUpCount": 5,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-11 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_91",
+    "userName": "Aditi Nair",
+    "score": 5,
+    "content": "Zepto has become a habit. I order eggs and yogurt daily. Super fast.",
+    "thumbsUpCount": 12,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-06-17 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_92",
+    "userName": "Neha Mehta",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 9,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-24 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_93",
+    "userName": "Tanvi Mehta",
+    "score": 3,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 13,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-08 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_94",
+    "userName": "Pooja Mehta",
+    "score": 4,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 13,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-30 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_95",
+    "userName": "Aditi Kumar",
+    "score": 5,
+    "content": "I discovered the new pet care section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 13,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-21 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_96",
+    "userName": "Vijay Rao",
+    "score": 4,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 13,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-01 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_97",
+    "userName": "Tanvi Rao",
+    "score": 4,
+    "content": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!",
+    "thumbsUpCount": 14,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-13 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_98",
+    "userName": "Kiran Nair",
+    "score": 4,
+    "content": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products.",
+    "thumbsUpCount": 0,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-09 22:28:47"
+  },
+  {
+    "reviewId": "gp_rev_99",
+    "userName": "Pooja Patel",
+    "score": 2,
+    "content": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear.",
+    "thumbsUpCount": 8,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-08 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_0",
+    "userName": "Rahul Sharma",
+    "score": 5,
+    "content": "I use Zepto everyday to order my morning milk, bread and eggs. It is a daily habit now. Very fast delivery, usually under 10 minutes.",
+    "thumbsUpCount": 22,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-31 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_1",
+    "userName": "Ananya Goel",
+    "score": 2,
+    "content": "I love ordering snacks, but I want to buy vegetables and organic chicken. However, the app doesn't show expiry dates or packaging dates, so I don't trust it. Stick to local vendor for veggies.",
+    "thumbsUpCount": 43,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-30 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_2",
+    "userName": "Vikram Singh",
+    "score": 4,
+    "content": "I discovered their beauty and personal care category today from the homepage banner. The variety of brands is good, but they need to show ingredients list of face washes.",
+    "thumbsUpCount": 49,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-29 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_3",
+    "userName": "Sneha Patil",
+    "score": 1,
+    "content": "Frustrated with Zepto! Twice they delivered rotten tomatoes. Customer support refused refund saying open box check was completed. How can I check every tomato in 10 seconds at the door?",
+    "thumbsUpCount": 22,
+    "reviewCreatedVersion": "v2.4.9",
+    "at": "2026-07-28 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_4",
+    "userName": "Amit Verma",
+    "score": 5,
+    "content": "Order again button is my favorite. I just open the app, click repeat order for my weekly groceries, and checkout in 1 minute. Very convenient.",
+    "thumbsUpCount": 40,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-27 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_5",
+    "userName": "Preeti Nair",
+    "score": 3,
+    "content": "I only buy from the dairy and beverage section. I want to explore other categories like kitchen tools or gourmet cheese, but the search doesn't give good recommendations.",
+    "thumbsUpCount": 5,
+    "reviewCreatedVersion": "v2.5.0",
+    "at": "2026-07-26 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_6",
+    "userName": "Rohan Das",
+    "score": 5,
+    "content": "Late night snacks delivery is a lifesaver. Usually order energy drinks and chips at 2 AM. Very quick service.",
+    "thumbsUpCount": 38,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-25 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_7",
+    "userName": "Meera Iyer",
+    "score": 2,
+    "content": "Why do they show irrelevant items in my cart recommendation? I am buying tea bags and it suggests detergent. Improve the recommendation system.",
+    "thumbsUpCount": 17,
+    "reviewCreatedVersion": "v2.4.8",
+    "at": "2026-07-24 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_8",
+    "userName": "Kartik S",
+    "score": 4,
+    "content": "Discovered electronic accessories on Zepto and bought a charger. Good price, but I had to search specifically. Homepage doesn't highlight new categories well.",
+    "thumbsUpCount": 10,
+    "reviewCreatedVersion": "v2.5.1",
+    "at": "2026-07-23 22:28:47"
+  },
+  {
+    "reviewId": "gp_orig_9",
+    "userName": "Divya K",
+    "score": 1,
+    "content": "Extremely bad policy. They delivered wrong item and refused refund because of 'open box verification'. Support is useless.",
+    "thumbsUpCount": 20,
+    "reviewCreatedVersion": "v2.5.2",
+    "at": "2026-07-22 22:28:47"
+  }
+]

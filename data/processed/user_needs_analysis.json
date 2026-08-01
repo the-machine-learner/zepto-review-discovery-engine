@@ -1,0 +1,214 @@
+{
+  "run_timestamp": "2026-08-01T10:56:33.511789+00:00",
+  "sample_size": 450,
+  "total_corpus_size": 15607,
+  "themes": [
+    {
+      "theme_id": "g1_missing_categories",
+      "label": "Missing Product Categories & Subcategories",
+      "summary": "Users report frustration over absent niche categories like specialized organic items, specific regional brands, pet supplies, and gourmet ingredients.",
+      "severity": "high",
+      "supporting_review_ids": [
+        "d51df783-e2a7-46b4-8cf5-784e747efa11",
+        "49918276-b8fb-42ab-beaa-63cc85707f4e",
+        "b68dd2fa-21a6-4709-ae4e-59ab422a7b84",
+        "f51fd268-f86d-4479-9c74-b65b8d55198d",
+        "2a7e9b26-eb14-4ed7-b82e-e812dae053b4",
+        "9fb17e71-a267-45b8-a1dd-c4120183dcdf",
+        "75c327ae-62f8-4f9f-b64e-2d1f49cb9887",
+        "82b11f5e-ed94-49d5-abf5-8d322450a4ce",
+        "98ae4f20-ca09-435c-bc60-a7d80070fa3b",
+        "a4550a16-fc78-4391-9b50-470a95b439c7",
+        "40593885-e58a-41c0-982c-36af198bbd7e",
+        "85c1812c-114c-4942-a9c8-f231b64379e6",
+        "6e99ac60-ac08-4773-ac0c-f18f859a3694",
+        "8a5e3584-865b-4606-999e-bd962bcda692",
+        "4d785d2d-40b0-4a49-9e44-e0944a714711",
+        "767c4f0b-a4f1-46a8-a230-09d5e7c67366",
+        "c33c7abd-a260-4238-aa9e-819eb34d3df1",
+        "67e0a931-ebdc-4bd3-8c49-ea987095eb16",
+        "2b746489-236c-4a10-b521-71089f73788e",
+        "35adefff-f712-40c8-b390-008e25c1b0e7"
+      ],
+      "quotes": [
+        {
+          "review_id": "d51df783-e2a7-46b4-8cf5-784e747efa11",
+          "text": "A year ago, this was one of the best delivery apps. Today, it's a complete disappointment. My order had a missing item worth ₹620, yet the app offered"
+        },
+        {
+          "review_id": "49918276-b8fb-42ab-beaa-63cc85707f4e",
+          "text": "one star is too high for the app as the customer service is very very very poor. Only email option is available for the customer support in case of mi"
+        },
+        {
+          "review_id": "2a7e9b26-eb14-4ed7-b82e-e812dae053b4",
+          "text": "Unsafe food & pathetic support! 🛑 Deliver dairy items with missing expiry dates, bloated/spoiled packets, and punctures causing leakage. When you comp"
+        }
+      ],
+      "review_count": 118,
+      "avg_rating": 1.05
+    },
+    {
+      "theme_id": "g2_search_recommendation_fails",
+      "label": "Search Failures & Irrelevant Recommendations",
+      "summary": "Users complain that keyword searches yield unrelated items, filters fail to narrow down options, and recommended items on home screen feel clogged or push unwanted products.",
+      "severity": "high",
+      "supporting_review_ids": [
+        "fe867d6d-173f-455a-8278-d6a0337a9ae3",
+        "0de689ed-41bb-441d-b7e2-b67477f7361b",
+        "f51fd268-f86d-4479-9c74-b65b8d55198d",
+        "6e99ac60-ac08-4773-ac0c-f18f859a3694",
+        "c8419450-1dd4-4fff-99b2-2662e2040f95",
+        "d6500e1a-982d-43f9-abd0-0f1124a3ad25",
+        "572c7f1a-b0b7-4e69-89b7-d3b93a305189",
+        "35a801bd-ab54-430c-9443-3f35588f769f",
+        "6980a063-976e-44c4-a804-a795ec684875",
+        "261968b8-75a3-46e1-b725-0b2d7d8b0941",
+        "cb2deb4d-4953-4632-aba0-d2412bbc7fc7",
+        "7829ca17-9e06-41fa-9be3-3d9489c2c4c4",
+        "8c9de987-ac51-4c9e-8975-8391b599877b",
+        "1eb8cb05-1570-4128-8407-ed97da88ef36",
+        "a6005a1c-5a3f-473c-b4d3-c91e36c6990b",
+        "4417269b-1e37-4de0-a30f-430d097479e5",
+        "fc0df127-d896-4d9b-8232-f0e8be38cd28",
+        "52a83051-61a9-4628-9e65-46103bd26c32",
+        "8ef1947e-32a6-409a-94c8-c9990872c901",
+        "2eef1192-ddfd-4d22-b2f3-2db489a27eff"
+      ],
+      "quotes": [
+        {
+          "review_id": "2eef1192-ddfd-4d22-b2f3-2db489a27eff",
+          "text": "There's no options for sorting, app crashes instantly i switch to another app, constantly asks for location, why can't be the location saved permanent"
+        }
+      ],
+      "review_count": 84,
+      "avg_rating": 1.1
+    },
+    {
+      "theme_id": "g3_item_details_expiry",
+      "label": "Missing Product Specs & Expiry Dates",
+      "summary": "Shoppers express hesitancy to try new categories because weight, ingredients, brand origin, or expiry date details are absent prior to ordering.",
+      "severity": "medium",
+      "supporting_review_ids": [
+        "e5d6426f-9159-4230-ad39-830e656fbe35",
+        "327afa57-4340-4d92-97c1-bd0b8f360941",
+        "1b6c5c5f-4dab-4d48-bdd5-8015c55d4240",
+        "eac4224f-6c86-4e1b-a18d-9f5ec114f088",
+        "e053fd80-25ec-4f78-a71a-626ed01c7d53",
+        "54fb3397-0ec8-4294-b425-4f8b72e30888",
+        "b2189284-1baf-4c8f-9088-35e466b5873e",
+        "2a7e9b26-eb14-4ed7-b82e-e812dae053b4",
+        "12072800695",
+        "75c327ae-62f8-4f9f-b64e-2d1f49cb9887",
+        "fdbe23af-5606-4312-a8fa-b0a799e978f0",
+        "98ae4f20-ca09-435c-bc60-a7d80070fa3b",
+        "f223d1ae-2e1b-4693-af85-407c247f6fd2",
+        "a4550a16-fc78-4391-9b50-470a95b439c7",
+        "40593885-e58a-41c0-982c-36af198bbd7e",
+        "1098bf22-702c-472d-b388-5357b53a3ceb",
+        "d785b6f9-8154-4d57-b115-0266cd51b0e7",
+        "6719cd75-c38c-4610-acd8-31bb07b59af9",
+        "9a67544b-d432-4615-9835-f2dc4c89b6b3",
+        "8a5e3584-865b-4606-999e-bd962bcda692"
+      ],
+      "quotes": [
+        {
+          "review_id": "e5d6426f-9159-4230-ad39-830e656fbe35",
+          "text": "Very disappointing experience with this order. I received a 1 kg product that is expiring in July 2026, which is a very short shelf life for such a la"
+        },
+        {
+          "review_id": "327afa57-4340-4d92-97c1-bd0b8f360941",
+          "text": "I ordered 8 packets of Amul buttermilk from Zepto for the entire week. After receiving the order, I checked the expiry dates and found that all the pa"
+        },
+        {
+          "review_id": "1b6c5c5f-4dab-4d48-bdd5-8015c55d4240",
+          "text": "Worst customer support. Received 2 months old expired Curd and when raised request for replacement or refund then rejected it stating it's within the "
+        }
+      ],
+      "review_count": 62,
+      "avg_rating": 1.05
+    },
+    {
+      "theme_id": "g4_stock_availability",
+      "label": "Out-of-Stock Disruption & Limited Variety",
+      "summary": "Repeat replenishment breaks when popular items go out of stock without suitable alternative recommendations, forcing users to switch platforms.",
+      "severity": "medium",
+      "supporting_review_ids": [
+        "48e3dda4-d4db-4ffb-a02a-1efb7aca21e4",
+        "e5d6426f-9159-4230-ad39-830e656fbe35",
+        "3d1c9923-3f08-4af2-a5ba-8e1bb53f9d3b",
+        "e5763e1f-ea38-4e54-b446-8e652076c7ab",
+        "3473737b-3d02-4d2c-ae27-1b86b01747f5",
+        "4127cc07-94cc-4a28-bd57-ca0e0f98fb01",
+        "29351147-1a30-48d5-ad26-f63599db44a4",
+        "1195579b-34cc-4f73-8c44-79ebb4e590df",
+        "41708176-b7ea-4df1-a3e5-8ab9c35a9f51",
+        "a94bc05e-120d-4cce-8a02-3ce9807b0afc",
+        "fc009cd4-969d-4196-be87-ff5edac4f553",
+        "33227104-53e6-405a-9fda-d3a6be98d152",
+        "eb2c1de8-d71e-4e8d-a1a7-d852502afb59",
+        "56436ea0-a459-4c8f-9ae0-0da55f63e004",
+        "ee094faf-0273-4811-939f-0f8d561ff00d",
+        "8dd2708d-6178-4d4b-a044-ab4aafaface7",
+        "d6bdfbac-d515-4f88-8cca-c169d628e741",
+        "068189ea-6f93-4240-abe9-1e7964a3a08b",
+        "eb385fef-d3de-4a13-8b2a-32ffc2821618",
+        "2147fe1c-cf3d-4530-936c-63b5c56f6e33"
+      ],
+      "quotes": [
+        {
+          "review_id": "48e3dda4-d4db-4ffb-a02a-1efb7aca21e4",
+          "text": "My experience with the Zepto app has been quite disappointing. They accept orders, but later mark items as out of stock or send substitute products wi"
+        },
+        {
+          "review_id": "e5d6426f-9159-4230-ad39-830e656fbe35",
+          "text": "Very disappointing experience with this order. I received a 1 kg product that is expiring in July 2026, which is a very short shelf life for such a la"
+        },
+        {
+          "review_id": "3d1c9923-3f08-4af2-a5ba-8e1bb53f9d3b",
+          "text": "Blinkit and other delivery apps offer a much better experience. In my recent order, there was no real customer support—only bot responses with differe"
+        }
+      ],
+      "review_count": 43,
+      "avg_rating": 1.05
+    }
+  ],
+  "unmet_needs": [
+    {
+      "rank": 1,
+      "statement": "Clear display of product manufacturing and expiry dates prior to adding to cart",
+      "supporting_review_ids": [
+        "e5d6426f-9159-4230-ad39-830e656fbe35",
+        "327afa57-4340-4d92-97c1-bd0b8f360941",
+        "1b6c5c5f-4dab-4d48-bdd5-8015c55d4240",
+        "e053fd80-25ec-4f78-a71a-626ed01c7d53",
+        "54fb3397-0ec8-4294-b425-4f8b72e30888"
+      ]
+    },
+    {
+      "rank": 2,
+      "statement": "Enhanced subcategory filtering for dietary preferences (sugar-free, organic, gluten-free)",
+      "supporting_review_ids": [
+        "c8419450-1dd4-4fff-99b2-2662e2040f95",
+        "13675838-b8ef-44a1-81f1-272938c88cbe"
+      ]
+    },
+    {
+      "rank": 3,
+      "statement": "Smarter search that auto-corrects typos and finds exact brand substitutes",
+      "supporting_review_ids": [
+        "2eef1192-ddfd-4d22-b2f3-2db489a27eff"
+      ]
+    },
+    {
+      "rank": 4,
+      "statement": "Decluttered home screen UI focusing on frequent repeat buys and relevant new arrivals",
+      "supporting_review_ids": [
+        "3c3c649d-a9b7-42cb-aaa8-131c892f5307",
+        "d6500e1a-982d-43f9-abd0-0f1124a3ad25",
+        "572c7f1a-b0b7-4e69-89b7-d3b93a305189",
+        "35a801bd-ab54-430c-9443-3f35588f769f",
+        "6980a063-976e-44c4-a804-a795ec684875"
+      ]
+    }
+  ]
+}

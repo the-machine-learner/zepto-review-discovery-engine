@@ -1,0 +1,1622 @@
+[
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Gupta"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_0"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/0"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Bose"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order milk and bread daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_1"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/1"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Bose"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_2"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/2"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Vijay Kumar"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Very bad experience. Late delivery occurred again. Customer service did not help."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_3"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/3"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Rajesh Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!"
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_4"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/4"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Kumar"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order fruits daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_5"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/5"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Kiran Bose"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order milk and bread daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_6"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/6"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Tanvi Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_7"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/7"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Rao"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order milk and bread daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_8"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/8"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Pooja Patel"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!"
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_9"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/9"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Nair"
+      }
+    },
+    "im:rating": {
+      "label": "1"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_10"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/10"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Kiran Kumar"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "I discovered the new pet care section from the app search. Didn't know they sold this!"
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_11"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/11"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Arjun Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_12"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/12"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Pooja Reddy"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_13"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/13"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Sanjay Patel"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Very bad experience. Late delivery occurred again. Customer service did not help."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_14"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/14"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Rajesh Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "1"
+    },
+    "content": {
+      "label": "Very bad experience. Late delivery occurred again. Customer service did not help."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_15"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/15"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Patel"
+      }
+    },
+    "im:rating": {
+      "label": "1"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_16"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/16"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Kumar"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_17"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/17"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Arjun Mehta"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_18"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/18"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Sanjay Kumar"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Very bad experience. Out of stock items occurred again. Customer service did not help."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_19"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/19"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Manish Bose"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order eggs and yogurt daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_20"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/20"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Pooja Patel"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_21"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/21"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Arjun Mehta"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "I discovered the new beauty and cosmetics section from the app search. Didn't know they sold this!"
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_22"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/22"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Mehta"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_23"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/23"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Manish Patel"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_24"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/24"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Vijay Nair"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_25"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/25"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Sanjay Kumar"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_26"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/26"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Reddy"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order milk and bread daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_27"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/27"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Gupta"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order milk and bread daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_28"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/28"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Bose"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Very bad experience. Late delivery occurred again. Customer service did not help."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_29"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/29"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Manish Nair"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_30"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/30"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Mehta"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order fruits daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_31"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/31"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Arjun Mehta"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order eggs and yogurt daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_32"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/32"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Reddy"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_33"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/33"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Sanjay Sen"
+      }
+    },
+    "im:rating": {
+      "label": "1"
+    },
+    "content": {
+      "label": "Very bad experience. Damaged items occurred again. Customer service did not help."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_34"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/34"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Vijay Gupta"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order milk and bread daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_35"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/35"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Kumar"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order fruits daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_36"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/36"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Kiran Rao"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_37"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/37"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Gupta"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_38"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/38"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Arjun Nair"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_39"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/39"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Nair"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order fruits daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_40"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/40"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Tanvi Gupta"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_41"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/41"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Very bad experience. Damaged items occurred again. Customer service did not help."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_42"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/42"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Pooja Mehta"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order eggs and yogurt daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_43"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/43"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Vijay Reddy"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_44"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/44"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "I discovered the new home utilities section from the app search. Didn't know they sold this!"
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_45"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/45"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Vijay Gupta"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_46"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/46"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Sanjay Mehta"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order fruits daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_47"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/47"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Pooja Reddy"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_48"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/48"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Arjun Mehta"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Delivered wrong items. When asked for refund, they rejected it stating open box check was done. Highly unfair policy!"
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_49"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/49"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Arjun Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "Very bad experience. Out of stock items occurred again. Customer service did not help."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_50"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/50"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Rajesh Bose"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order milk and bread daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_51"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/51"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Arjun Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_52"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/52"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Sanjay Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "5"
+    },
+    "content": {
+      "label": "Zepto has become a habit. I order milk and bread daily. Super fast."
+    },
+    "im:version": {
+      "label": "v2.5.2"
+    },
+    "id": {
+      "label": "as_rev_53"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/53"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Aditi Joshi"
+      }
+    },
+    "im:rating": {
+      "label": "4"
+    },
+    "content": {
+      "label": "I repeatedly buy from snacks and beverages. I would try fresh vegetables if there were customer reviews or ratings on individual products."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_54"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/54"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Manish Patel"
+      }
+    },
+    "im:rating": {
+      "label": "2"
+    },
+    "content": {
+      "label": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_55"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/55"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Rao"
+      }
+    },
+    "im:rating": {
+      "label": "1"
+    },
+    "content": {
+      "label": "Very bad experience. Damaged items occurred again. Customer service did not help."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_56"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/56"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Neha Reddy"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear."
+    },
+    "im:version": {
+      "label": "v2.5.0"
+    },
+    "id": {
+      "label": "as_rev_57"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/57"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Arjun Reddy"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_58"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/58"
+      }
+    }
+  },
+  {
+    "author": {
+      "name": {
+        "label": "Pooja Bose"
+      }
+    },
+    "im:rating": {
+      "label": "3"
+    },
+    "content": {
+      "label": "The app has good products, but I need more details like expiry dates or a clear description before I try a new category. Make it clear."
+    },
+    "im:version": {
+      "label": "v2.5.1"
+    },
+    "id": {
+      "label": "as_rev_59"
+    },
+    "title": {
+      "label": "Zepto Feedback"
+    },
+    "link": {
+      "attributes": {
+        "href": "https://apps.apple.com/app/id1590204781/review/59"
+      }
+    }
+  }
+]
