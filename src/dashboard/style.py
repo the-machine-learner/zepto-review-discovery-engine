@@ -123,14 +123,11 @@ label, .stRadio label, .stSelectbox label { color: #B6ABB6 !important; font-weig
     color: #FFFFFF !important;
     border-color: #5C1D80 !important;
 }
-/* Make Collapsed Sidebar Toggle Button Large & Noticeable (54px x 54px Floating Action Target) */
+/* Make Collapsed Sidebar Toggle Button Large & Noticeable ONLY when sidebar is CLOSED/COLLAPSED */
 [data-testid="stSidebarCollapsedControl"],
-[data-testid="stSidebarCollapseButton"],
 [data-testid="collapsedControl"],
-div[data-testid="stHeader"] button[aria-label*="sidebar"],
-button[aria-label*="sidebar"],
-button[aria-label="Expand sidebar"],
-button[aria-label="Open sidebar"] {
+div[data-testid="stHeader"] button[aria-label="Expand sidebar"],
+div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
     display: flex !important;
     visibility: visible !important;
     opacity: 1 !important;
@@ -139,12 +136,9 @@ button[aria-label="Open sidebar"] {
 }
 
 [data-testid="stSidebarCollapsedControl"] button,
-[data-testid="stSidebarCollapseButton"] button,
 [data-testid="collapsedControl"] button,
-div[data-testid="stHeader"] button[aria-label*="sidebar"],
-button[aria-label*="sidebar"],
-button[aria-label="Expand sidebar"],
-button[aria-label="Open sidebar"] {
+div[data-testid="stHeader"] button[aria-label="Expand sidebar"],
+div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
     background: linear-gradient(135deg, #7B2CBF, #3A0CA3) !important;
     border: 2.5px solid #FF8A00 !important;
     border-radius: 14px !important;
@@ -164,12 +158,9 @@ button[aria-label="Open sidebar"] {
 }
 
 [data-testid="stSidebarCollapsedControl"] button:hover,
-[data-testid="stSidebarCollapseButton"] button:hover,
 [data-testid="collapsedControl"] button:hover,
-div[data-testid="stHeader"] button[aria-label*="sidebar"]:hover,
-button[aria-label*="sidebar"]:hover,
-button[aria-label="Expand sidebar"]:hover,
-button[aria-label="Open sidebar"]:hover {
+div[data-testid="stHeader"] button[aria-label="Expand sidebar"]:hover,
+div[data-testid="stHeader"] button[aria-label="Open sidebar"]:hover {
     transform: scale(1.16) !important;
     background: linear-gradient(135deg, #9D4EDD, #5C068C) !important;
     box-shadow: 0 8px 26px rgba(255, 138, 0, 0.8) !important;
@@ -177,18 +168,44 @@ button[aria-label="Open sidebar"]:hover {
 }
 
 [data-testid="stSidebarCollapsedControl"] button svg,
-[data-testid="stSidebarCollapseButton"] button svg,
 [data-testid="collapsedControl"] button svg,
-div[data-testid="stHeader"] button[aria-label*="sidebar"] svg,
-button[aria-label*="sidebar"] svg,
-button[aria-label="Expand sidebar"] svg,
-button[aria-label="Open sidebar"] svg {
+div[data-testid="stHeader"] button[aria-label="Expand sidebar"] svg,
+div[data-testid="stHeader"] button[aria-label="Open sidebar"] svg {
     width: 28px !important;
     height: 28px !important;
     color: #FFFFFF !important;
     fill: #FFFFFF !important;
     stroke: #FFFFFF !important;
     stroke-width: 2 !important;
+}
+
+/* Normal size when sidebar is OPEN/EXPANDED */
+[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] button,
+[data-testid="stSidebar"] button[aria-label="Collapse sidebar"],
+[data-testid="stSidebar"] button[aria-label="Close sidebar"] {
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+    min-height: 32px !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #B6ABB6 !important;
+    padding: 4px !important;
+    transform: none !important;
+}
+[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] button:hover,
+[data-testid="stSidebar"] button[aria-label="Collapse sidebar"]:hover {
+    color: #FFFFFF !important;
+    background: #28183C !important;
+    transform: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] button svg,
+[data-testid="stSidebar"] button[aria-label="Collapse sidebar"] svg {
+    width: 18px !important;
+    height: 18px !important;
 }
 
 /* Metrics */
