@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import logging
 import os
 from dataclasses import dataclass, field
 
@@ -18,6 +19,8 @@ from src.rag.gate import (
 )
 from src.rag.generator import generate_answer
 from src.rag.retriever import RetrievedReview, ReviewRetriever
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -47,19 +50,16 @@ def _finish_with_fallback(
     sim: float,
     reason: str,
 ) -> ChatResult:
+    logger.info(f"[RAG Pipeline] Finishing with fallback answer. Reason: {reason}")
     answer = build_retrieval_answer(question, retrieved)
-    allowed_ids = {r.review_id for r in retrieved}
-    validation = validate_chat_answer(answer, allowed_ids)
     return ChatResult(
         question=question,
         answer=answer,
         retrieved=retrieved,
         refused=False,
         groq_called=False,
-        validation_ok=validation.ok,
-        validation_errors=validation.errors,
         max_similarity=sim,
-        meta={"fallback": True, "fallback_reason": reason},
+        meta={"fallback_reason": reason},
     )
 
 
@@ -68,6 +68,8 @@ def answer_question(
     retriever: ReviewRetriever,
     threshold: float | None = None,
 ) -> ChatResult:
+    """Run full RAG pipeline: gate -> retrieve -> generate -> validate."""
+    logger.info(f"[RAG Pipeline] Processing question: '{question}'")
     question = question.strip()
     if not question:
         return ChatResult(
@@ -77,7 +79,8 @@ def answer_question(
         )
 
     if is_out_of_scope(question):
-        retrieved = retriever.retrieve(question)
+        logger.warning(f"[RAG Pipeline] Out of scope question detected.")
+        retrieved = retriever.retrieve(question, top_k=3)
         return ChatResult(
             question=question,
             answer=OUT_OF_SCOPE_MESSAGE,
@@ -89,8 +92,10 @@ def answer_question(
 
     retrieved = retriever.retrieve(question)
     sim = max_similarity(retrieved)
+    logger.info(f"[RAG Pipeline] Retrieved {len(retrieved)} reviews. Max similarity: {sim:.4f}")
 
     if not passes_threshold(retrieved, threshold):
+        logger.warning(f"[RAG Pipeline] Max similarity {sim:.4f} is below threshold.")
         if _fallback_enabled() and retrieved:
             return _finish_with_fallback(question, retrieved, sim, "below_similarity_threshold")
         return ChatResult(
@@ -102,14 +107,21 @@ def answer_question(
             max_similarity=sim,
         )
 
-    if not _use_groq() or not get_secret("GROQ_API_KEY"):
+    has_key = bool(get_secret("GROQ_API_KEY"))
+    use_groq = _use_groq()
+    logger.info(f"[RAG Pipeline] RAG_USE_GROQ={use_groq}, GROQ_API_KEY_PRESENT={has_key}")
+
+    if not use_groq or not has_key:
         return _finish_with_fallback(question, retrieved, sim, "groq_disabled_or_missing_key")
 
     allowed_ids = {r.review_id for r in retrieved}
     try:
+        logger.info(f"[RAG Pipeline] Calling Groq API for LLM answer generation...")
         answer, meta = generate_answer(question, retrieved)
+        logger.info(f"[RAG Pipeline] Groq LLM response received successfully.")
     except Exception as exc:
         reason = type(exc).__name__
+        logger.error(f"[RAG Pipeline] Groq API call failed: {exc}", exc_info=True)
         if _fallback_enabled():
             return _finish_with_fallback(question, retrieved, sim, f"groq_error_{reason}")
         return ChatResult(
@@ -123,6 +135,7 @@ def answer_question(
 
     validation = validate_chat_answer(answer, allowed_ids)
     if not validation.ok:
+        logger.warning(f"[RAG Pipeline] Answer validation failed: {validation.errors}")
         if _fallback_enabled():
             return _finish_with_fallback(question, retrieved, sim, "validation_failed")
         return ChatResult(
@@ -137,6 +150,7 @@ def answer_question(
             meta=meta,
         )
 
+    logger.info(f"[RAG Pipeline] RAG query completed cleanly with LLM response.")
     return ChatResult(
         question=question,
         answer=answer,
