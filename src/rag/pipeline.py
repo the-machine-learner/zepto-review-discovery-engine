@@ -5,6 +5,8 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass, field
 
+from src.config import get_secret
+
 from src.analysis.validators import validate_chat_answer
 from src.rag.fallback_answer import build_retrieval_answer
 from src.rag.gate import (
@@ -100,7 +102,7 @@ def answer_question(
             max_similarity=sim,
         )
 
-    if not _use_groq() or not os.getenv("GROQ_API_KEY"):
+    if not _use_groq() or not get_secret("GROQ_API_KEY"):
         return _finish_with_fallback(question, retrieved, sim, "groq_disabled_or_missing_key")
 
     allowed_ids = {r.review_id for r in retrieved}
