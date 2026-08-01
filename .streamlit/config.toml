@@ -1,0 +1,8 @@
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[server.fileWatcherType]
+# Suppress deep scanning of Hugging Face / Transformers models that causes torchvision warning spam
+fileWatcherType = "none"
