@@ -123,43 +123,72 @@ label, .stRadio label, .stSelectbox label { color: #B6ABB6 !important; font-weig
     color: #FFFFFF !important;
     border-color: #5C1D80 !important;
 }
-/* Make Collapsed Sidebar Toggle Button Large & Noticeable */
+/* Make Collapsed Sidebar Toggle Button Large & Noticeable (54px x 54px Floating Action Target) */
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="stSidebarCollapseButton"],
 [data-testid="collapsedControl"],
-[data-testid="stSidebarCollapseButton"] {
+div[data-testid="stHeader"] button[aria-label*="sidebar"],
+button[aria-label*="sidebar"],
+button[aria-label="Expand sidebar"],
+button[aria-label="Open sidebar"] {
     display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    visibility: visible !important;
+    opacity: 1 !important;
     margin-top: .4rem !important;
     margin-left: .4rem !important;
 }
 
+[data-testid="stSidebarCollapsedControl"] button,
+[data-testid="stSidebarCollapseButton"] button,
 [data-testid="collapsedControl"] button,
-[data-testid="stSidebarCollapseButton"] button {
-    background: linear-gradient(135deg, #5C068C, #7B2CBF) !important;
-    border: 2px solid #FF8A00 !important;
-    border-radius: 12px !important;
+div[data-testid="stHeader"] button[aria-label*="sidebar"],
+button[aria-label*="sidebar"],
+button[aria-label="Expand sidebar"],
+button[aria-label="Open sidebar"] {
+    background: linear-gradient(135deg, #7B2CBF, #3A0CA3) !important;
+    border: 2.5px solid #FF8A00 !important;
+    border-radius: 14px !important;
     color: #FFFFFF !important;
-    padding: .5rem .75rem !important;
-    min-width: 46px !important;
-    min-height: 46px !important;
-    box-shadow: 0 4px 14px rgba(255, 138, 0, 0.4) !important;
+    width: 54px !important;
+    height: 54px !important;
+    min-width: 54px !important;
+    min-height: 54px !important;
+    padding: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 6px 20px rgba(255, 138, 0, 0.55) !important;
     transition: all .25s ease-in-out !important;
     cursor: pointer !important;
+    z-index: 999999 !important;
 }
 
+[data-testid="stSidebarCollapsedControl"] button:hover,
+[data-testid="stSidebarCollapseButton"] button:hover,
 [data-testid="collapsedControl"] button:hover,
-[data-testid="stSidebarCollapseButton"] button:hover {
-    transform: scale(1.12) !important;
-    background: linear-gradient(135deg, #7B2CBF, #9D4EDD) !important;
-    box-shadow: 0 6px 18px rgba(255, 138, 0, 0.6) !important;
+div[data-testid="stHeader"] button[aria-label*="sidebar"]:hover,
+button[aria-label*="sidebar"]:hover,
+button[aria-label="Expand sidebar"]:hover,
+button[aria-label="Open sidebar"]:hover {
+    transform: scale(1.16) !important;
+    background: linear-gradient(135deg, #9D4EDD, #5C068C) !important;
+    box-shadow: 0 8px 26px rgba(255, 138, 0, 0.8) !important;
+    border-color: #FFA233 !important;
 }
 
+[data-testid="stSidebarCollapsedControl"] button svg,
+[data-testid="stSidebarCollapseButton"] button svg,
 [data-testid="collapsedControl"] button svg,
-[data-testid="stSidebarCollapseButton"] button svg {
-    width: 24px !important;
-    height: 24px !important;
+div[data-testid="stHeader"] button[aria-label*="sidebar"] svg,
+button[aria-label*="sidebar"] svg,
+button[aria-label="Expand sidebar"] svg,
+button[aria-label="Open sidebar"] svg {
+    width: 28px !important;
+    height: 28px !important;
     color: #FFFFFF !important;
     fill: #FFFFFF !important;
+    stroke: #FFFFFF !important;
+    stroke-width: 2 !important;
 }
 
 /* Metrics */
