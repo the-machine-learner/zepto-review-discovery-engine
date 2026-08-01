@@ -179,6 +179,13 @@ def render_header(data) -> None:
             <div style="color:#B6ABB6;font-size:.92rem;margin-top:.15rem;">{APP_SUBTITLE}</div>
           </div>
         </div>
+        <script>
+          try {{
+            const doc = window.parent.document;
+            const btn = doc.querySelector('button[data-testid="stExpandSidebarButton"], [data-testid="stSidebarCollapsedControl"] button, [data-testid="collapsedControl"] button');
+            if (btn) {{ btn.click(); }}
+          }} catch(e) {{}}
+        </script>
         """
     )
 
