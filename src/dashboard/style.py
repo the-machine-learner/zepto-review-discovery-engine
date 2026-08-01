@@ -123,7 +123,7 @@ label, .stRadio label, .stSelectbox label { color: #B6ABB6 !important; font-weig
     color: #FFFFFF !important;
     border-color: #5C1D80 !important;
 }
-/* Make Collapsed Sidebar Toggle Button Large & Noticeable ONLY when sidebar is CLOSED/COLLAPSED */
+/* Make Collapsed Sidebar Toggle Button & Material Icon Large & Noticeable */
 [data-testid="stSidebarCollapsedControl"],
 [data-testid="collapsedControl"],
 div[data-testid="stHeader"] button[aria-label="Expand sidebar"],
@@ -143,15 +143,15 @@ div[data-testid="stHeader"] button[aria-label="Open sidebar"] {
     border: 2.5px solid #FF8A00 !important;
     border-radius: 14px !important;
     color: #FFFFFF !important;
-    width: 54px !important;
-    height: 54px !important;
-    min-width: 54px !important;
-    min-height: 54px !important;
+    width: 58px !important;
+    height: 58px !important;
+    min-width: 58px !important;
+    min-height: 58px !important;
     padding: 0 !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 6px 20px rgba(255, 138, 0, 0.55) !important;
+    box-shadow: 0 6px 20px rgba(255, 138, 0, 0.6) !important;
     transition: all .25s ease-in-out !important;
     cursor: pointer !important;
     z-index: 999999 !important;
@@ -167,16 +167,19 @@ div[data-testid="stHeader"] button[aria-label="Open sidebar"]:hover {
     border-color: #FFA233 !important;
 }
 
-[data-testid="stSidebarCollapsedControl"] button svg,
-[data-testid="collapsedControl"] button svg,
-div[data-testid="stHeader"] button[aria-label="Expand sidebar"] svg,
-div[data-testid="stHeader"] button[aria-label="Open sidebar"] svg {
-    width: 28px !important;
-    height: 28px !important;
+/* Material Icon & Emotion Class for Collapsed Control Arrow */
+[data-testid="stSidebarCollapsedControl"] [data-testid="stIconMaterial"],
+[data-testid="collapsedControl"] [data-testid="stIconMaterial"],
+div[data-testid="stHeader"] button[aria-label="Expand sidebar"] [data-testid="stIconMaterial"],
+.st-emotion-cache-ujm5ma,
+[data-testid="stIconMaterial"] {
+    font-size: 2.2rem !important;
+    font-weight: bold !important;
+    width: 34px !important;
+    height: 34px !important;
+    line-height: 1 !important;
     color: #FFFFFF !important;
     fill: #FFFFFF !important;
-    stroke: #FFFFFF !important;
-    stroke-width: 2 !important;
 }
 
 /* Normal size when sidebar is OPEN/EXPANDED */
