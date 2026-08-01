@@ -35,11 +35,14 @@ def max_similarity(retrieved: list[RetrievedReview]) -> float:
     return max(r.similarity for r in retrieved)
 
 
+from src.config import RAG_SIMILARITY_THRESHOLD, get_secret
+
+
 def passes_threshold(
     retrieved: list[RetrievedReview],
     threshold: float | None = None,
 ) -> bool:
     limit = threshold if threshold is not None else float(
-        os.getenv("RAG_SIMILARITY_THRESHOLD", RAG_SIMILARITY_THRESHOLD)
+        get_secret("RAG_SIMILARITY_THRESHOLD", str(RAG_SIMILARITY_THRESHOLD))
     )
     return max_similarity(retrieved) >= limit

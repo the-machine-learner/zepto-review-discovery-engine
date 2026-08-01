@@ -22,9 +22,11 @@ class RetrievedReview:
 
 
 class ReviewRetriever:
+    """Wraps vector database retrieval with MMR re-ranking."""
+
     def __init__(self) -> None:
         self.store = ReviewVectorStore()
-        model = os.getenv("LOCAL_EMBEDDING_MODEL", LOCAL_EMBEDDING_MODEL)
+        model = get_secret("LOCAL_EMBEDDING_MODEL", LOCAL_EMBEDDING_MODEL)
         self.embedder = LocalEmbedder(model_name=model)
 
     @property
@@ -32,12 +34,12 @@ class ReviewRetriever:
         return self.store.count()
 
     def retrieve(self, question: str, top_k: int | None = None) -> list[RetrievedReview]:
-        k = top_k if top_k is not None else int(os.getenv("RAG_TOP_K", RAG_TOP_K))
+        k = top_k if top_k is not None else int(get_secret("RAG_TOP_K", str(RAG_TOP_K)))
         count = self.store.count()
         if count == 0:
             return []
 
-        fetch_k = max(k, int(os.getenv("RAG_FETCH_K", RAG_FETCH_K)))
+        fetch_k = max(k, int(get_secret("RAG_FETCH_K", str(RAG_FETCH_K))))
         vector = self.embedder.embed_one(question)
         results = self.store.query(
             vector,
@@ -85,7 +87,7 @@ class ReviewRetriever:
             import numpy as np
             np.seterr(all='ignore')
 
-            lambda_mult = float(os.getenv("RAG_MMR_LAMBDA", RAG_MMR_LAMBDA))
+            lambda_mult = float(get_secret("RAG_MMR_LAMBDA", str(RAG_MMR_LAMBDA)))
             q = np.asarray(query_vec, dtype=float)
             mat = np.asarray(cand_vecs, dtype=float)
             if mat.ndim != 2 or mat.shape[0] != n_candidates:

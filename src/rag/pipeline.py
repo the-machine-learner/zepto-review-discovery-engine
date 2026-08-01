@@ -34,11 +34,11 @@ class ChatResult:
 
 
 def _fallback_enabled() -> bool:
-    return os.getenv("RAG_FALLBACK", "true").lower() in ("1", "true", "yes")
+    return str(get_secret("RAG_FALLBACK", "true")).lower() in ("1", "true", "yes")
 
 
 def _use_groq() -> bool:
-    return os.getenv("RAG_USE_GROQ", "true").lower() in ("1", "true", "yes")
+    return str(get_secret("RAG_USE_GROQ", "true")).lower() in ("1", "true", "yes")
 
 
 def _finish_with_fallback(
