@@ -123,51 +123,79 @@ label, .stRadio label, .stSelectbox label { color: #B6ABB6 !important; font-weig
     color: #FFFFFF !important;
     border-color: #5C1D80 !important;
 }
-/* Clean Sidebar Toggle & Collapse Controls */
+/* Parent Container Expansion & Alignment for stExpandSidebarButton */
+.st-emotion-cache-70qvj9,
+.st-emotion-cache-8ezv7j,
+.e3g0k5y5,
+.e3g0k5y3,
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="collapsedControl"] {
+    width: auto !important;
+    height: auto !important;
+    min-width: 52px !important;
+    min-height: 52px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    overflow: visible !important;
+}
+
+/* Expand Sidebar Button (stExpandSidebarButton) */
+[data-testid="stExpandSidebarButton"],
 [data-testid="stSidebarCollapseButton"] button,
 [data-testid="stSidebarCollapsedControl"] button,
 [data-testid="collapsedControl"] button,
 [data-testid="stSidebarHeader"] button,
 button[aria-label="Collapse sidebar"],
-button[aria-label="Expand sidebar"],
-button[aria-label="Open sidebar"],
-button[aria-label="Close sidebar"] {
-    background-color: #28183C !important;
-    color: #FFFFFF !important;
-    border: 1.5px solid #FF8A00 !important;
-    border-radius: 10px !important;
-    padding: .4rem .6rem !important;
+button[aria-label="Expand sidebar"] {
+    width: 52px !important;
+    height: 52px !important;
+    min-width: 52px !important;
+    min-height: 52px !important;
+    background: #FF8A00 !important;
+    border: 2px solid #FFFFFF !important;
+    border-radius: 12px !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 2px 10px rgba(255, 138, 0, 0.4) !important;
-    transition: all .2s ease !important;
+    box-shadow: 0 4px 16px rgba(255, 138, 0, 0.6) !important;
+    transition: all .2s ease-in-out !important;
+    cursor: pointer !important;
+    margin: 0 !important;
+    padding: 0 !important;
     opacity: 1 !important;
     visibility: visible !important;
 }
 
+[data-testid="stExpandSidebarButton"]:hover,
 [data-testid="stSidebarCollapseButton"] button:hover,
 [data-testid="stSidebarCollapsedControl"] button:hover,
 [data-testid="collapsedControl"] button:hover,
-[data-testid="stSidebarHeader"] button:hover,
-button[aria-label="Collapse sidebar"]:hover,
-button[aria-label="Expand sidebar"]:hover {
-    background-color: #3C1053 !important;
-    border-color: #FFA233 !important;
-    color: #FFFFFF !important;
-    box-shadow: 0 4px 14px rgba(255, 138, 0, 0.6) !important;
+[data-testid="stSidebarHeader"] button:hover {
+    background: #FFA233 !important;
+    transform: scale(1.08) !important;
+    box-shadow: 0 6px 20px rgba(255, 138, 0, 0.8) !important;
 }
 
-/* Ensure all icons and text inside sidebar toggle buttons are bright white */
+/* Inner Span & Material Icon Centering */
+[data-testid="stExpandSidebarButton"] span,
+[data-testid="stExpandSidebarButton"] [data-testid="stIconMaterial"],
 [data-testid="stSidebarCollapseButton"] button *,
 [data-testid="stSidebarCollapsedControl"] button *,
 [data-testid="collapsedControl"] button *,
-[data-testid="stSidebarHeader"] button *,
-button[aria-label="Collapse sidebar"] *,
-button[aria-label="Expand sidebar"] * {
+.st-emotion-cache-189uypx,
+.st-emotion-cache-ujm5ma {
+    font-size: 1.8rem !important;
+    font-weight: 900 !important;
     color: #FFFFFF !important;
     fill: #FFFFFF !important;
     stroke: #FFFFFF !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    line-height: 1 !important;
+    width: auto !important;
+    height: auto !important;
     opacity: 1 !important;
 }
 
