@@ -7,7 +7,7 @@ import logging
 import os
 from typing import Any
 
-from src.config import GROQ_CHAT_MODEL, RAG_MAX_ANSWER_TOKENS, get_secret
+from src.config import GROQ_CHAT_MODEL, RAG_MAX_ANSWER_TOKENS
 from src.rag.retriever import RetrievedReview
 
 logger = logging.getLogger(__name__)
