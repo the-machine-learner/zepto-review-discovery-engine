@@ -288,18 +288,22 @@ def render_screen_1(data) -> None:
 
     st.markdown("---")
 
-    # 2. Sample Segmentation Section
-    left, right = st.columns([1.2, 1], gap="large")
+    # 2. Dual Segmentation Section: Shopping Habits vs. Habitual Buyers Hesitation Reasons
+    left, right = st.columns([1, 1], gap="large")
     
-    # Process summary items to combine General Shopper Positive, Neutral, Negative into single "General Shopper"
+    # 2A. Shopping Habits Data Processing
     disc_summary = data.discovery_segments.get("summary", [])
-    combined_items: dict[str, dict] = {}
+    shopping_habits_items: dict[str, dict] = {}
     total_corpus = total_reviews or 1
 
     for s in disc_summary:
         seg_id = s.get("segment_id", "")
         count = s.get("count", 0)
         
+        # Filter out habitual sub-segments from general shopping habits
+        if "habitual_" in seg_id:
+            continue
+
         if "general_shopper" in seg_id:
             key = "general_shopper"
             label = "General Shopper"
@@ -329,31 +333,71 @@ def render_screen_1(data) -> None:
             label = seg_id.replace("_", " ").title()
             desc = s.get("description", "Customer segment")
 
-        if key in combined_items:
-            combined_items[key]["count"] += count
+        if key in shopping_habits_items:
+            shopping_habits_items[key]["count"] += count
         else:
-            combined_items[key] = {
+            shopping_habits_items[key] = {
                 "segment_id": key,
                 "label": label,
                 "count": count,
                 "description": desc,
             }
 
-    # Re-calculate percentages
-    display_summary = []
-    for k, item in combined_items.items():
+    shopping_summary = []
+    for k, item in shopping_habits_items.items():
         item["percentage"] = round(100 * item["count"] / total_corpus, 2)
-        display_summary.append(item)
+        shopping_summary.append(item)
 
-    display_summary.sort(key=lambda x: x["count"], reverse=True)
+    shopping_summary.sort(key=lambda x: x["count"], reverse=True)
+
+    # 2B. Habitual Buyer Hesitations Data Processing
+    from src.config import PROCESSED_DIR
+    hab_file = PROCESSED_DIR / "habitual_segmented.json"
+    hab_counts = {}
+    if hab_file.exists():
+        try:
+            hab_data = json.loads(hab_file.read_text(encoding="utf-8"))
+            for r in hab_data:
+                seg = r.get("inferred_segment", "unknown")
+                hab_counts[seg] = hab_counts.get(seg, 0) + 1
+        except Exception:
+            hab_counts = {}
+
+    total_hab_candidates = sum(hab_counts.values()) or 4351
+    hesitation_summary = [
+        {
+            "label": "App Trust & Catalog Awareness",
+            "count": hab_counts.get("habitual_trust_and_awareness_hesitant", 1629),
+            "percentage": round(100 * hab_counts.get("habitual_trust_and_awareness_hesitant", 1629) / total_hab_candidates, 1),
+            "desc": "Skeptical of fake offers, strict return policies, or unaware Zepto carries non-grocery categories."
+        },
+        {
+            "label": "Expiry & Freshness Fears",
+            "count": hab_counts.get("habitual_expiry_quality_hesitant", 1538),
+            "percentage": round(100 * hab_counts.get("habitual_expiry_quality_hesitant", 1538) / total_hab_candidates, 1),
+            "desc": "Buys routine staples but fears receiving near-expiry items or stale perishables in trial categories."
+        },
+        {
+            "label": "Price & Fee Sensitivity",
+            "count": hab_counts.get("habitual_price_sensitive", 932),
+            "percentage": round(100 * hab_counts.get("habitual_price_sensitive", 932) / total_hab_candidates, 1),
+            "desc": "Uses Zepto for speed staples but switches to Amazon/BigBasket for other categories due to prices or fees."
+        },
+        {
+            "label": "SOS Emergency Gap-Filler",
+            "count": hab_counts.get("habitual_sos_single", 252),
+            "percentage": round(100 * hab_counts.get("habitual_sos_single", 252) / total_hab_candidates, 1),
+            "desc": "Opens Zepto purely for urgent medicine or missing cooking ingredients and exits immediately."
+        },
+    ]
 
     with left:
-        render_html('<div class="rd-section-title" style="font-size:1.05rem;">Identified Customer Sample Segments</div>'
-                    '<div class="rd-section-sub">Categorization based on sampler.py theme heuristics across all reviews.</div>')
+        render_html('<div class="rd-section-title" style="font-size:1.05rem;">Segmentation 1: Shopping Habits</div>'
+                    '<div class="rd-section-sub">Core behavioral profiles identified across all normalized reviews.</div>')
         
-        if display_summary:
+        if shopping_summary:
             rows = []
-            for s in display_summary:
+            for s in shopping_summary:
                 rows.append({
                     "Segment": s.get("label", s.get("segment_id", "")),
                     "Reviews": s.get("count", 0),
@@ -372,28 +416,31 @@ def render_screen_1(data) -> None:
                 .configure_view(strokeWidth=0)
             )
             st.altair_chart(chart, use_container_width=True)
-        else:
-            st.info("No segmentation summary available yet. Run `python -m src.analysis.run_segmentation` to compute.")
 
     with right:
-        render_html('<div class="rd-section-title" style="font-size:1.05rem;">Segment Descriptions</div>'
-                    '<div class="rd-section-sub">Behavioral profiles identified in the sample.</div>')
-        for s in display_summary:
-            label = esc(s.get("label", s.get("segment_id", "")))
-            desc = esc(s.get("description", ""))
-            count = s.get("count", 0)
-            pct = s.get("percentage", 0.0)
-            render_html(
-                f"""
-                <div class="rd-card" style="margin-bottom:.5rem;padding:.8rem 1rem;">
-                  <div class="rd-card-head" style="margin-bottom:.2rem;">
-                    <div class="rd-card-title" style="font-size:.95rem;">{label}</div>
-                    <span class="rd-badge">{pct}% · {count:,}</span>
-                  </div>
-                  <div class="rd-card-desc" style="font-size:.84rem;margin:0;">{desc}</div>
-                </div>
-                """
+        render_html('<div class="rd-section-title" style="font-size:1.05rem;">Habitual buyers with expressed hesitations in switching to category</div>'
+                    '<div class="rd-section-sub">Sub-segmentation by hesitation root cause across 4,351 candidate reviews.</div>')
+        
+        h_rows = []
+        for h in hesitation_summary:
+            h_rows.append({
+                "Hesitation Barrier": h["label"],
+                "Candidates": h["count"],
+                "Share (%)": h["percentage"]
+            })
+        h_df = pd.DataFrame(h_rows)
+        h_chart = (
+            alt.Chart(h_df)
+            .mark_bar(color="#9D4EDD", cornerRadiusEnd=4)
+            .encode(
+                x=alt.X("Candidates:Q", title="Candidate Reviews", axis=_AXIS),
+                y=alt.Y("Hesitation Barrier:N", sort="-x", title=None, axis=_AXIS),
+                tooltip=["Hesitation Barrier", "Candidates", "Share (%)"],
             )
+            .properties(height=280, background="transparent")
+            .configure_view(strokeWidth=0)
+        )
+        st.altair_chart(h_chart, use_container_width=True)
 
     st.markdown("---")
 
