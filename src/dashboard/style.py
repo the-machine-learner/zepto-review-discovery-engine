@@ -282,6 +282,48 @@ blockquote { border-left: 4px solid #FF8A00 !important; padding: .25rem 0 .25rem
     padding: .12rem .42rem; margin: 0 .12rem; vertical-align: middle; letter-spacing: .03em;
     white-space: nowrap; }
 @media (max-width: 480px) { .rd-answer { font-size: .98rem; } }
+/* ---- Green Refresh Pipeline Button & Status Badge ---- */
+div.green-btn > button {
+    background: #10B981 !important;
+    color: #FFFFFF !important;
+    border-radius: 500px !important;
+    font-weight: 800 !important;
+    font-size: 1.02rem !important;
+    padding: .65rem 2rem !important;
+    border: none !important;
+    box-shadow: 0 4px 16px rgba(16, 185, 129, 0.4) !important;
+    transition: all .2s ease-in-out !important;
+}
+div.green-btn > button:hover {
+    background: #059669 !important;
+    color: #FFFFFF !important;
+    transform: scale(1.04) !important;
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6) !important;
+}
+.pipeline-status-badge {
+    background: #06371B;
+    border: 1px solid #0E5C2E;
+    border-radius: 500px;
+    padding: .35rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    box-shadow: 0 2px 10px rgba(16, 185, 129, 0.2);
+}
+.pipeline-status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #10B981;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 8px #10B981;
+}
+.pipeline-status-text {
+    color: #10B981;
+    font-weight: 800;
+    font-size: .92rem;
+    letter-spacing: -.01em;
+}
 </style>
 """
 

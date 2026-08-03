@@ -74,5 +74,6 @@ jobs:
             echo "No artifact changes to commit."
           else
             git commit -m "chore: weekly review refresh (ingest + embed + analysis + search index)"
+            git pull --rebase origin main
             git push
           fi

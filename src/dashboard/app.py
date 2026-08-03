@@ -167,28 +167,55 @@ def _load_data():
 # 2. Header Render
 def render_header(data) -> None:
     inject_global_css()
-    
-    render_html(
-        f"""
-        <div style="margin-bottom:1.5rem;display:flex;align-items:center;gap:.75rem;">
-          <div style="display:inline-flex;align-items:center;gap:.35rem;background:linear-gradient(135deg, #4A0072, #7B2CBF);padding:.4rem .85rem;border-radius:10px;border:1px solid #9D4EDD;box-shadow:0 4px 14px rgba(123,44,191,0.35);">
-            <span style="font-family:'Outfit',sans-serif;font-weight:900;font-size:1.6rem;color:#FFFFFF;letter-spacing:-0.05em;line-height:1;">zepto</span>
-            <span style="color:#FF8A00;font-weight:900;font-size:1.3rem;">⚡</span>
-          </div>
-          <div>
-            <h1 style="margin:0;font-size:2.1rem;font-weight:900;letter-spacing:-.03em;">{APP_TITLE}</h1>
-            <div style="color:#B6ABB6;font-size:.92rem;margin-top:.15rem;">{APP_SUBTITLE}</div>
-          </div>
-        </div>
-        <script>
-          try {{
-            const doc = window.parent.document;
-            const btn = doc.querySelector('button[data-testid="stExpandSidebarButton"], [data-testid="stSidebarCollapsedControl"] button, [data-testid="collapsedControl"] button');
-            if (btn) {{ btn.click(); }}
-          }} catch(e) {{}}
-        </script>
-        """
-    )
+    status = get_pipeline_status()
+
+    head_left, head_right = st.columns([1.5, 1], gap="medium")
+
+    with head_left:
+        render_html(
+            f"""
+            <div style="display:flex;align-items:center;gap:.75rem;margin-bottom:.5rem;">
+              <div style="display:inline-flex;align-items:center;gap:.35rem;background:linear-gradient(135deg, #4A0072, #7B2CBF);padding:.4rem .85rem;border-radius:10px;border:1px solid #9D4EDD;box-shadow:0 4px 14px rgba(123,44,191,0.35);">
+                <span style="font-family:'Outfit',sans-serif;font-weight:900;font-size:1.6rem;color:#FFFFFF;letter-spacing:-0.05em;line-height:1;">zepto</span>
+                <span style="color:#FF8A00;font-weight:900;font-size:1.3rem;">⚡</span>
+              </div>
+              <div>
+                <h1 style="margin:0;font-size:2.1rem;font-weight:900;letter-spacing:-.03em;">{APP_TITLE}</h1>
+                <div style="color:#B6ABB6;font-size:.92rem;margin-top:.15rem;">{APP_SUBTITLE}</div>
+              </div>
+            </div>
+            """
+        )
+
+    with head_right:
+        online_badge = (
+            '<div class="pipeline-status-badge"><span class="pipeline-status-dot"></span><span class="pipeline-status-text">Pipeline online</span></div>'
+            if status.online else
+            '<div class="pipeline-status-badge" style="background:#370606;border-color:#5C0E0E;"><span class="pipeline-status-dot" style="background:#FF6B6B;box-shadow:0 0 8px #FF6B6B;"></span><span class="pipeline-status-text" style="color:#FF6B6B;">Pipeline offline</span></div>'
+        )
+        render_html(
+            f"""
+            <div style="display:flex;flex-direction:column;align-items:flex-end;gap:.3rem;margin-bottom:.4rem;">
+              {online_badge}
+              <div style="text-align:right;font-size:.84rem;color:#FFFFFF;font-weight:700;margin-top:.1rem;">
+                Synced <span style="font-weight:900;color:#FFFFFF;">{status.synced_label}</span>
+              </div>
+              <div style="text-align:right;font-size:.76rem;color:#B6ABB6;font-weight:600;">
+                {status.synced_local}
+              </div>
+            </div>
+            """
+        )
+        st.markdown('<div class="green-btn">', unsafe_allow_html=True)
+        if st.button("Refresh pipeline", use_container_width=True, key="header_refresh_pipeline_btn"):
+            with st.spinner("Running incremental review refresh & vector indexing..."):
+                from src.ops.run import run_refresh_pipeline
+                run_refresh_pipeline(incremental=True, rule_baseline=True)
+                _load_data.clear()
+                _get_retriever.clear()
+                st.toast("Incremental pipeline refresh completed successfully!", icon="⚡")
+                st.rerun()
+        st.markdown('</div>', unsafe_allow_html=True)
 
 
 # --- SCREEN 1: HOME & DISCOVERY QUESTIONS ---
