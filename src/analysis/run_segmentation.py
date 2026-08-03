@@ -16,6 +16,10 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 SEGMENT_DESCRIPTIONS = {
+    "habitual_trust_hesitant": "Habitual Shoppers (Trust Hesitant): Buys routine staples but avoids non-staple categories due to expiry, damaged goods, or strict return policies.",
+    "habitual_price_sensitive": "Habitual Shoppers (Price Sensitive): Uses Zepto for daily staples but switches to Amazon/BigBasket for other categories due to prices/fees.",
+    "habitual_sos_single": "Habitual Shoppers (SOS Gap-Fillers): Uses Zepto purely for urgent medicine or missing cooking ingredients and exits immediately.",
+    "habitual_unaware_explorer": "Habitual Shoppers (Unaware/Browsing Friction): Unaware Zepto carries other categories or faces search/browsing friction.",
     "household_replenisher": "Shopping for family/households, buying daily groceries, staples, milk, cooking oil & vegetables.",
     "impulse_snaker_night_owl": "Ordering late-night snacks, munchies, beverages, bachelors/students looking for convenience.",
     "hesitant_multi_platformer": "Compares prices across Blinkit, Instamart, BigBasket, Amazon; sensitive to delivery charges and trust.",
@@ -43,6 +47,16 @@ def run_segmentation_pipeline(
 
     # Segment all reviews using stage_d_segments (LLM or heuristic)
     segment_tags = stage_d_segments(reviews)
+
+    # Overlay habitual buyer segmented data if present
+    hab_file = PROCESSED_DIR / "habitual_segmented.json"
+    if hab_file.exists():
+        hab_data = json.loads(hab_file.read_text(encoding="utf-8"))
+        hab_map = {item["review_id"]: item["inferred_segment"] for item in hab_data}
+        for tag in segment_tags:
+            rid = tag.get("review_id")
+            if rid in hab_map:
+                tag["inferred_segment"] = hab_map[rid]
 
     # Compute summary counts & distributions
     segment_counts: dict[str, int] = {}

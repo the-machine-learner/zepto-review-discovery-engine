@@ -56,6 +56,10 @@ _AXIS = alt.Axis(
 )
 
 _SEGMENT_LABELS = {
+    "habitual_trust_hesitant": "Habitual Single-Category (Trust & Expiry Hesitant)",
+    "habitual_price_sensitive": "Habitual Single-Category (Price & Fee Switchers)",
+    "habitual_sos_single": "Habitual Single-Category (SOS Emergency Gap-Fillers)",
+    "habitual_unaware_explorer": "Habitual Single-Category (Unaware / UI Non-Explorers)",
     "household_replenisher": "Household Replenishers (Family groceries & staples)",
     "impulse_snaker_night_owl": "Impulse Snackers & Night‑Owls (Late‑night, bachelors/students)",
     "hesitant_multi_platformer": "Hesitant Multi‑Platformers (Uses Amazon/BigBasket/Blinkit, price/trust blocks)",
