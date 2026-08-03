@@ -240,19 +240,21 @@ def render_header(data) -> None:
         )
         render_html(
             f"""
-            <div style="display:flex;flex-direction:column;align-items:flex-start;gap:.25rem;margin-bottom:.4rem;">
+            <div style="display:flex;flex-direction:column;align-items:flex-end;text-align:right;gap:.25rem;margin-bottom:.4rem;width:100%;">
               {online_badge}
-              <div style="text-align:left;font-size:.84rem;color:#FFFFFF;font-weight:700;margin-top:.1rem;">
+              <div style="text-align:right;font-size:.84rem;color:#FFFFFF;font-weight:700;margin-top:.1rem;">
                 Synced <span style="font-weight:900;color:#FFFFFF;">{status.synced_label}</span>
               </div>
-              <div style="text-align:left;font-size:.76rem;color:#B6ABB6;font-weight:600;">
+              <div style="text-align:right;font-size:.76rem;color:#B6ABB6;font-weight:600;">
                 {status.synced_local}
               </div>
             </div>
             """
         )
-        if st.button("Refresh pipeline", use_container_width=False, key="header_refresh_pipeline_btn"):
-            handle_pipeline_refresh()
+        _, btn_col = st.columns([1, 1])
+        with btn_col:
+            if st.button("Refresh pipeline", use_container_width=True, key="header_refresh_pipeline_btn"):
+                handle_pipeline_refresh()
 
         if st.session_state.get("show_refresh_notice"):
             render_html(
