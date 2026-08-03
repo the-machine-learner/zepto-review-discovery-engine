@@ -206,7 +206,6 @@ def render_header(data) -> None:
             </div>
             """
         )
-        st.markdown('<div class="green-btn">', unsafe_allow_html=True)
         if st.button("Refresh pipeline", use_container_width=True, key="header_refresh_pipeline_btn"):
             st.session_state["show_refresh_notice"] = True
             with st.spinner("Running incremental review refresh & vector indexing..."):
@@ -216,13 +215,12 @@ def render_header(data) -> None:
                 _get_retriever.clear()
                 st.toast("Incremental pipeline refresh completed successfully!", icon="⚡")
                 st.rerun()
-        st.markdown('</div>', unsafe_allow_html=True)
 
         if st.session_state.get("show_refresh_notice"):
             render_html(
                 """
-                <div style="background:#1B1028;border:1px solid #10B981;border-radius:10px;padding:.65rem .85rem;margin-top:.6rem;font-size:.82rem;color:#E0E0E0;line-height:1.4;">
-                  ⚡ Live run started — track it on <a href="https://github.com/the-machine-learner/zepto-review-discovery-engine/actions/workflows/weekly_refresh.yml" target="_blank" style="color:#10B981;font-weight:700;text-decoration:underline;">GitHub Actions</a>. New numbers appear automatically once the run commits and the app redeploys (~6 min).
+                <div style="background:#1B1028;border:1px solid #FF8A00;border-radius:10px;padding:.65rem .85rem;margin-top:.6rem;font-size:.82rem;color:#E0E0E0;line-height:1.4;">
+                  ⚡ Live run started — track it on <a href="https://github.com/the-machine-learner/zepto-review-discovery-engine/actions/workflows/weekly_refresh.yml" target="_blank" style="color:#FF8A00;font-weight:700;text-decoration:underline;">GitHub Actions</a>. New numbers appear automatically once the run commits and the app redeploys (~6 min).
                 </div>
                 """
             )
@@ -716,6 +714,37 @@ def main():
             key="active_nav_tab",
             label_visibility="collapsed"
         )
+
+        st.markdown("---")
+        status = get_pipeline_status()
+        online_badge = (
+            '<div class="pipeline-status-badge"><span class="pipeline-status-dot"></span><span class="pipeline-status-text">Pipeline online</span></div>'
+            if status.online else
+            '<div class="pipeline-status-badge" style="background:#370606;border-color:#5C0E0E;"><span class="pipeline-status-dot" style="background:#FF6B6B;box-shadow:0 0 8px #FF6B6B;"></span><span class="pipeline-status-text" style="color:#FF6B6B;">Pipeline offline</span></div>'
+        )
+        render_html(
+            f"""
+            <div style="margin-bottom:.8rem;">
+              <div style="font-weight:800;color:#FFF;font-size:.84rem;margin-bottom:.4rem;text-transform:uppercase;letter-spacing:.05em;">Pipeline Status</div>
+              {online_badge}
+              <div style="font-size:.82rem;color:#FFF;font-weight:700;margin-top:.48rem;">
+                Synced <span style="font-weight:900;color:#FFF;">{status.synced_label}</span>
+              </div>
+              <div style="font-size:.75rem;color:#B6ABB6;margin-top:.1rem;">
+                {status.synced_local}
+              </div>
+            </div>
+            """
+        )
+        if st.button("Refresh pipeline", use_container_width=True, key="sidebar_refresh_pipeline_btn"):
+            st.session_state["show_refresh_notice"] = True
+            with st.spinner("Running incremental review refresh & vector indexing..."):
+                from src.ops.run import run_refresh_pipeline
+                run_refresh_pipeline(incremental=True, rule_baseline=True)
+                _load_data.clear()
+                _get_retriever.clear()
+                st.toast("Incremental pipeline refresh completed successfully!", icon="⚡")
+                st.rerun()
 
     if selected_nav == nav_tabs[0]:
         render_screen_1(data)
