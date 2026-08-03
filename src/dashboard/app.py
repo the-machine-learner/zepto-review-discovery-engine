@@ -89,24 +89,11 @@ DISCOVERY_QUESTIONS = [
     {
         "q": "What prevents users from exploring new categories?",
         "answer": (
-            "Category exploration is stalled by two core friction drivers across key product categories:\n\n"
-            "1. 🥦 Fresh Meat, Eggs & Dairy:\n"
-            "   • App Trust Barrier: Fear of receiving near-expiry stock, bad odor, or spoiled items with strict non-refundable policies.\n"
-            "   • Product Awareness Barrier: Lack of pre-purchase freshness/pack date visibility on product listing cards.\n\n"
-            "2. 💄 Beauty, Cosmetics & Personal Care:\n"
-            "   • App Trust Barrier: Skepticism around product authenticity/counterfeit goods on a 10-minute grocery app.\n"
-            "   • Product Awareness Barrier: Search auto-correction failures when querying specific skin-type or brand shade names.\n\n"
-            "3. ⚡ Electronics, Chargers & Gadgets:\n"
-            "   • App Trust Barrier: High monetary risk perception, fear of receiving open-box/damaged items, and strict return disputes.\n"
-            "   • Product Awareness Barrier: Unawareness that Zepto carries electronics, hidden beneath crowded grocery banners.\n\n"
-            "4. 🍷 Gourmet, Imported & Niche Foods:\n"
-            "   • App Trust Barrier: Perceived price inflation & handling charges compared to Amazon or local specialty stores.\n"
-            "   • Product Awareness Barrier: Incomplete dietary badges (gluten-free, sugar-free, vegan) and missing nutritional specs.\n\n"
-            "5. 💊 Pharmacy & Healthcare:\n"
-            "   • App Trust Barrier: Anxiety over wrong brand substitution during emergency health needs.\n"
-            "   • Product Awareness Barrier: Low catalog awareness; users view Zepto as an SOS medicine option rather than a full health hub."
+            "Major exploration blockers include: missing product specification details (ingredients, weight, expiry dates), "
+            "fear of receiving near-expiry items without refund guarantees, higher price perception compared to Amazon/BigBasket, "
+            "and home screen clutter pushing irrelevant recommendations."
         ),
-        "key_takeaway": "Category-specific friction: Fresh items face expiry trust fears, Beauty & Electronics face authenticity/policy fears, while Gourmet & Pharmacy suffer from low catalog awareness and search friction."
+        "key_takeaway": "Trust & Information gaps: lack of pre-purchase product specs and refund uncertainty stall category trial."
     },
     {
         "q": "How do users discover products today?",
@@ -475,7 +462,7 @@ def render_screen_1(data) -> None:
                 <div class="rd-card accent" style="background:#1E1028;margin-top:.4rem;">
                   <div style="color:#FF8A00;font-weight:700;font-size:.82rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.3rem;">Key Takeaway</div>
                   <div style="color:#FFFFFF;font-weight:700;font-size:1.02rem;margin-bottom:.8rem;">{esc(item['key_takeaway'])}</div>
-                  <div style="color:#E0E0E0;font-size:.95rem;line-height:1.6;white-space:pre-line;">{esc(item['answer'])}</div>
+                  <div style="color:#E0E0E0;font-size:.95rem;line-height:1.6;">{esc(item['answer'])}</div>
                 </div>
                 """
             )
