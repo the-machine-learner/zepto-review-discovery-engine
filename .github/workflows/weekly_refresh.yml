@@ -53,7 +53,7 @@ jobs:
             python -m src.ops.run refresh --incremental --rule-baseline
           fi
 
-      - name: Smoke test (no Groq tokens)
+      - name: Smoke test
         continue-on-error: true
         env:
           EMBEDDING_BACKEND: local
