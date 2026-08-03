@@ -288,8 +288,8 @@ blockquote { border-left: 4px solid #FF8A00 !important; padding: .25rem 0 .25rem
     color: #FFFFFF !important;
     border-radius: 500px !important;
     font-weight: 800 !important;
-    font-size: 0.86rem !important;
-    padding: .42rem 1.25rem !important;
+    font-size: 0.81rem !important;
+    padding: .35rem 1.05rem !important;
     border: none !important;
     box-shadow: 0 4px 12px rgba(255, 138, 0, 0.35) !important;
     transition: all .2s ease-in-out !important;
