@@ -164,6 +164,51 @@ def _load_data():
     return load_dashboard_data()
 
 
+def trigger_github_action() -> tuple[bool, str]:
+    """Trigger the weekly_refresh.yml workflow on GitHub via REST API."""
+    import requests
+    token = get_secret("GITHUB_TOKEN") or os.getenv("GITHUB_TOKEN") or os.getenv("GH_PAT")
+    if not token:
+        return False, "GITHUB_TOKEN not found in secrets."
+
+    owner = "the-machine-learner"
+    repo = "zepto-review-discovery-engine"
+    workflow_id = "weekly_refresh.yml"
+    url = f"https://api.github.com/repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches"
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+    }
+    payload = {"ref": "main"}
+
+    try:
+        res = requests.post(url, headers=headers, json=payload, timeout=10)
+        if res.status_code == 204:
+            return True, "GitHub Action dispatched successfully!"
+        return False, f"GitHub API status {res.status_code}: {res.text}"
+    except Exception as exc:
+        return False, f"Request failed: {exc}"
+
+
+def handle_pipeline_refresh():
+    """Trigger incremental refresh via GitHub API if GITHUB_TOKEN exists, else run locally."""
+    st.session_state["show_refresh_notice"] = True
+    ok, msg = trigger_github_action()
+    if ok:
+        st.toast("⚡ Live run dispatched on GitHub Actions!", icon="⚡")
+    else:
+        # Fallback to local incremental execution if GITHUB_TOKEN is not set
+        with st.spinner("Running incremental review refresh & vector indexing..."):
+            from src.ops.run import run_refresh_pipeline
+            run_refresh_pipeline(incremental=True, rule_baseline=True)
+            _load_data.clear()
+            _get_retriever.clear()
+            st.toast("Incremental pipeline refresh completed locally!", icon="⚡")
+    st.rerun()
+
+
 # 2. Header Render
 def render_header(data) -> None:
     inject_global_css()
@@ -207,14 +252,7 @@ def render_header(data) -> None:
             """
         )
         if st.button("Refresh pipeline", use_container_width=True, key="header_refresh_pipeline_btn"):
-            st.session_state["show_refresh_notice"] = True
-            with st.spinner("Running incremental review refresh & vector indexing..."):
-                from src.ops.run import run_refresh_pipeline
-                run_refresh_pipeline(incremental=True, rule_baseline=True)
-                _load_data.clear()
-                _get_retriever.clear()
-                st.toast("Incremental pipeline refresh completed successfully!", icon="⚡")
-                st.rerun()
+            handle_pipeline_refresh()
 
         if st.session_state.get("show_refresh_notice"):
             render_html(
@@ -737,14 +775,7 @@ def main():
             """
         )
         if st.button("Refresh pipeline", use_container_width=True, key="sidebar_refresh_pipeline_btn"):
-            st.session_state["show_refresh_notice"] = True
-            with st.spinner("Running incremental review refresh & vector indexing..."):
-                from src.ops.run import run_refresh_pipeline
-                run_refresh_pipeline(incremental=True, rule_baseline=True)
-                _load_data.clear()
-                _get_retriever.clear()
-                st.toast("Incremental pipeline refresh completed successfully!", icon="⚡")
-                st.rerun()
+            handle_pipeline_refresh()
 
     if selected_nav == nav_tabs[0]:
         render_screen_1(data)
