@@ -60,8 +60,10 @@ def run_llm_habitual_segmentation(batch_size: int = 20) -> dict[str, Any]:
 
         for r in batch:
             sigs = r.get("signals", {})
-            if sigs.get("lack_of_trust"):
-                inferred = "habitual_trust_hesitant"
+            if sigs.get("expiry_and_quality"):
+                inferred = "habitual_expiry_quality_hesitant"
+            elif sigs.get("trust_and_policy"):
+                inferred = "habitual_trust_app_hesitant"
             elif sigs.get("price_and_fees"):
                 inferred = "habitual_price_sensitive"
             elif sigs.get("sos_emergency"):

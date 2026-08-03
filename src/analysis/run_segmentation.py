@@ -16,7 +16,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 SEGMENT_DESCRIPTIONS = {
-    "habitual_trust_hesitant": "Habitual Shoppers (Trust Hesitant): Buys routine staples but avoids non-staple categories due to expiry, damaged goods, or strict return policies.",
+    "habitual_expiry_quality_hesitant": "Habitual Shoppers (Expiry & Quality Hesitant): Buys routine staples but fears expired items, spoiled groceries, or stale stock in trial categories.",
+    "habitual_trust_app_hesitant": "Habitual Shoppers (App Trust & Policy Hesitant): Skeptical of fake offers, strict non-refundable policies, or fraud fears on quick-commerce apps.",
     "habitual_price_sensitive": "Habitual Shoppers (Price Sensitive): Uses Zepto for daily staples but switches to Amazon/BigBasket for other categories due to prices/fees.",
     "habitual_sos_single": "Habitual Shoppers (SOS Gap-Fillers): Uses Zepto purely for urgent medicine or missing cooking ingredients and exits immediately.",
     "habitual_unaware_explorer": "Habitual Shoppers (Unaware/Browsing Friction): Unaware Zepto carries other categories or faces search/browsing friction.",

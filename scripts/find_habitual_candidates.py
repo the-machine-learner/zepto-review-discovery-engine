@@ -27,8 +27,12 @@ PATTERNS = {
         r"didn't know|unaware|don't explore|never explore|hard to find|search fail|cluttered|never browse|no variety|limited choice|catalog|find other|search results",
         re.IGNORECASE,
     ),
-    "lack_of_trust": re.compile(
-        r"trust issue|expiry|expiration|expiry date|fake|authentic|bad return|strict refund|damaged|near expiry|expired|risk|doubt|quality issue|spoiled|stale|condition",
+    "expiry_and_quality": re.compile(
+        r"expiry|expiration|expiry date|near expiry|expired|spoiled|stale|rotten|foul smell|bad egg|damaged food|freshness|quality issue|fungus|fungal",
+        re.IGNORECASE,
+    ),
+    "trust_and_policy": re.compile(
+        r"trust issue|fake|authentic|scam|cheat|bad return|strict refund|no return|no cancellation|fraud|trust|doubt|cheating|fake offer|policy",
         re.IGNORECASE,
     ),
     "price_and_fees": re.compile(
