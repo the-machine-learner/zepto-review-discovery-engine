@@ -753,30 +753,6 @@ def main():
             label_visibility="collapsed"
         )
 
-        st.markdown("---")
-        status = get_pipeline_status()
-        online_badge = (
-            '<div class="pipeline-status-badge"><span class="pipeline-status-dot"></span><span class="pipeline-status-text">Pipeline online</span></div>'
-            if status.online else
-            '<div class="pipeline-status-badge" style="background:#370606;border-color:#5C0E0E;"><span class="pipeline-status-dot" style="background:#FF6B6B;box-shadow:0 0 8px #FF6B6B;"></span><span class="pipeline-status-text" style="color:#FF6B6B;">Pipeline offline</span></div>'
-        )
-        render_html(
-            f"""
-            <div style="margin-bottom:.8rem;">
-              <div style="font-weight:800;color:#FFF;font-size:.84rem;margin-bottom:.4rem;text-transform:uppercase;letter-spacing:.05em;">Pipeline Status</div>
-              {online_badge}
-              <div style="font-size:.82rem;color:#FFF;font-weight:700;margin-top:.48rem;">
-                Synced <span style="font-weight:900;color:#FFF;">{status.synced_label}</span>
-              </div>
-              <div style="font-size:.75rem;color:#B6ABB6;margin-top:.1rem;">
-                {status.synced_local}
-              </div>
-            </div>
-            """
-        )
-        if st.button("Refresh pipeline", use_container_width=True, key="sidebar_refresh_pipeline_btn"):
-            handle_pipeline_refresh()
-
     if selected_nav == nav_tabs[0]:
         render_screen_1(data)
     elif selected_nav == nav_tabs[1]:
