@@ -431,7 +431,7 @@ def render_screen_1(data) -> None:
         h_df = pd.DataFrame(h_rows)
         h_chart = (
             alt.Chart(h_df)
-            .mark_bar(color="#9D4EDD", cornerRadiusEnd=4)
+            .mark_bar(color=ZEPTO_ORANGE, cornerRadiusEnd=4)
             .encode(
                 x=alt.X("Candidates:Q", title="Candidate Reviews", axis=_AXIS),
                 y=alt.Y("Hesitation Barrier:N", sort="-x", title=None, axis=_AXIS),
