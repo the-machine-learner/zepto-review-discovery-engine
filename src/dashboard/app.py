@@ -392,8 +392,8 @@ def render_screen_1(data) -> None:
     ]
 
     with left:
-        render_html('<div class="rd-section-title" style="font-size:1.05rem;">Segmentation 1: Shopping Habits</div>'
-                    '<div class="rd-section-sub">Core behavioral profiles identified across all normalized reviews.</div>')
+        render_html(f'<div class="rd-section-title" style="font-size:1.05rem;">Segmentation by Shopping Habits</div>'
+                    f'<div class="rd-section-sub">Core behavioral profiles identified across all normalized {total_reviews:,} reviews.</div>')
         
         if shopping_summary:
             rows = []
@@ -418,8 +418,8 @@ def render_screen_1(data) -> None:
             st.altair_chart(chart, use_container_width=True)
 
     with right:
-        render_html('<div class="rd-section-title" style="font-size:1.05rem;">Habitual buyers with expressed hesitations in switching to category</div>'
-                    '<div class="rd-section-sub">Sub-segmentation by hesitation root cause across 4,351 candidate reviews.</div>')
+        render_html(f'<div class="rd-section-title" style="font-size:1.05rem;">Sub-segmentation by hesitation root cause</div>'
+                    f'<div class="rd-section-sub">Habitual buyers with expressed hesitations in switching to category across {total_hab_candidates:,} candidate reviews.</div>')
         
         h_rows = []
         for h in hesitation_summary:
