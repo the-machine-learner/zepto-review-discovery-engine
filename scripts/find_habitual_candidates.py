@@ -23,16 +23,12 @@ PATTERNS = {
         r"only buy|only use|only order|just buy|just order|stick to|never try|won't try|only for|only grocery|only milk|only snacks|single item|specific item|routine",
         re.IGNORECASE,
     ),
-    "lack_of_awareness": re.compile(
-        r"didn't know|unaware|don't explore|never explore|hard to find|search fail|cluttered|never browse|no variety|limited choice|catalog|find other|search results",
+    "trust_and_awareness": re.compile(
+        r"didn't know|unaware|don't explore|never explore|hard to find|search fail|cluttered|never browse|no variety|limited choice|catalog|find other|search results|trust issue|fake|authentic|scam|cheat|bad return|strict refund|no return|no cancellation|fraud|trust|doubt|cheating|fake offer|policy",
         re.IGNORECASE,
     ),
     "expiry_and_quality": re.compile(
         r"expiry|expiration|expiry date|near expiry|expired|spoiled|stale|rotten|foul smell|bad egg|damaged food|freshness|quality issue|fungus|fungal",
-        re.IGNORECASE,
-    ),
-    "trust_and_policy": re.compile(
-        r"trust issue|fake|authentic|scam|cheat|bad return|strict refund|no return|no cancellation|fraud|trust|doubt|cheating|fake offer|policy",
         re.IGNORECASE,
     ),
     "price_and_fees": re.compile(

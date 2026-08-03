@@ -56,8 +56,8 @@ _AXIS = alt.Axis(
 )
 
 _SEGMENT_LABELS = {
+    "habitual_trust_and_awareness_hesitant": "Habitual Single-Category (App Trust & Awareness Hesitant)",
     "habitual_expiry_quality_hesitant": "Habitual Single-Category (Expiry & Freshness Hesitant)",
-    "habitual_trust_app_hesitant": "Habitual Single-Category (App Trust & Policy Hesitant)",
     "habitual_price_sensitive": "Habitual Single-Category (Price & Fee Switchers)",
     "habitual_sos_single": "Habitual Single-Category (SOS Emergency Gap-Fillers)",
     "habitual_unaware_explorer": "Habitual Single-Category (Unaware / UI Non-Explorers)",
