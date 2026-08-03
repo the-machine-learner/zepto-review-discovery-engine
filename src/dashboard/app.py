@@ -208,6 +208,7 @@ def render_header(data) -> None:
         )
         st.markdown('<div class="green-btn">', unsafe_allow_html=True)
         if st.button("Refresh pipeline", use_container_width=True, key="header_refresh_pipeline_btn"):
+            st.session_state["show_refresh_notice"] = True
             with st.spinner("Running incremental review refresh & vector indexing..."):
                 from src.ops.run import run_refresh_pipeline
                 run_refresh_pipeline(incremental=True, rule_baseline=True)
@@ -216,6 +217,15 @@ def render_header(data) -> None:
                 st.toast("Incremental pipeline refresh completed successfully!", icon="⚡")
                 st.rerun()
         st.markdown('</div>', unsafe_allow_html=True)
+
+        if st.session_state.get("show_refresh_notice"):
+            render_html(
+                """
+                <div style="background:#1B1028;border:1px solid #10B981;border-radius:10px;padding:.65rem .85rem;margin-top:.6rem;font-size:.82rem;color:#E0E0E0;line-height:1.4;">
+                  ⚡ Live run started — track it on <a href="https://github.com/the-machine-learner/zepto-review-discovery-engine/actions/workflows/weekly_refresh.yml" target="_blank" style="color:#10B981;font-weight:700;text-decoration:underline;">GitHub Actions</a>. New numbers appear automatically once the run commits and the app redeploys (~6 min).
+                </div>
+                """
+            )
 
 
 # --- SCREEN 1: HOME & DISCOVERY QUESTIONS ---
