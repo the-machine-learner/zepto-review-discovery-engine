@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-08-01T10:23:36.272233+00:00",
+  "run_timestamp": "2026-08-03T10:08:35.386525+00:00",
   "sample_size": 450,
-  "total_corpus_size": 15607,
+  "total_corpus_size": 15923,
   "themes": [
     {
       "theme_id": "mc1_staples_and_snacks",
@@ -13,9 +13,11 @@
         "Fresh Produce"
       ],
       "supporting_review_ids": [
+        "reddit_post_1va2chk",
         "c29b2723-1bcf-4604-b96b-b332933b801e",
         "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
         "a80a8704-8e0d-4963-be79-55d83a0f2933",
+        "3b68852b-1782-4f10-b3bf-4941f74bf4e2",
         "504a6d2e-003e-40a4-8fd1-f5b50b95ddc9",
         "5dd976c3-f9ab-4566-909d-4f6c46c3369f",
         "266b943e-c091-4802-b026-f1e7ffff3043",
@@ -27,12 +29,10 @@
         "894d95f2-ab49-48ea-a4fe-ac33dc6d9fa3",
         "c95027e1-5b1f-42f0-bae6-ccce846a3a1b",
         "96737543-3905-44c9-b4dd-182339b50667",
+        "yt_yt_cmt_7",
+        "reddit_post_1vbkfs1",
         "79fc3f4d-6ec0-4e31-9697-ee5cb6a69fec",
-        "5b4f3258-de47-4d60-b879-b9f4ff9a3d39",
-        "7df631b4-5de8-43f1-a237-3093c5899542",
-        "b2fc645e-11e7-4cfa-9947-8014886c18a7",
-        "ca4a3361-fd63-46aa-8e64-7794c6ad2d54",
-        "4ea74603-c3b5-4d3d-8a54-199dcae98012"
+        "5b4f3258-de47-4d60-b879-b9f4ff9a3d39"
       ],
       "quotes": [
         {
@@ -49,7 +49,7 @@
         }
       ],
       "review_count": 20,
-      "avg_rating": 1.35
+      "avg_rating": 1.45
     },
     {
       "theme_id": "mc2_price_trust_app_switching",
@@ -62,25 +62,25 @@
       ],
       "supporting_review_ids": [
         "64686682-d053-4467-b03d-da4e45467d40",
+        "reddit_post_1va2chk",
         "c29b2723-1bcf-4604-b96b-b332933b801e",
+        "yt_yt_cmt_5",
         "da1e05f6-9ed0-4f33-b012-432021187cc3",
         "b6da22ad-5b86-4264-af11-21ecdcce9477",
         "16911149-53b3-4c8d-b252-61ac04b1a16b",
         "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
         "a80a8704-8e0d-4963-be79-55d83a0f2933",
+        "3b68852b-1782-4f10-b3bf-4941f74bf4e2",
         "619e1a4d-48fc-47b1-975d-56db931ebcc3",
         "4788b090-8766-4a84-8b1f-0a1f9e79ad1e",
         "5489a7e3-42cc-4bc1-91bf-ad108a66d453",
+        "reddit_post_1v8yh4s",
         "504a6d2e-003e-40a4-8fd1-f5b50b95ddc9",
         "5d42b8fa-5d0f-4e54-95d2-c045b7904922",
         "5dd976c3-f9ab-4566-909d-4f6c46c3369f",
         "266b943e-c091-4802-b026-f1e7ffff3043",
         "25187d7f-658b-40a5-b0b1-035457f106aa",
-        "aa566a61-60cc-4c23-9d40-0083b308f58f",
-        "bf97e7c5-d766-4509-913f-89f463a007a9",
-        "81d4e8d2-07fd-47ed-9ac2-fe9668da433a",
-        "894d95f2-ab49-48ea-a4fe-ac33dc6d9fa3",
-        "c95027e1-5b1f-42f0-bae6-ccce846a3a1b"
+        "aa566a61-60cc-4c23-9d40-0083b308f58f"
       ],
       "quotes": [
         {
@@ -88,16 +88,16 @@
           "text": "iam loving the experience. as it's truly ahead of its competitors.. I have tried all platforms including Amazon fresh, flipkart minutes, blinkit,Swigg"
         },
         {
-          "review_id": "c29b2723-1bcf-4604-b96b-b332933b801e",
-          "text": "Very disappointing experience with Zepto. I received spoiled, curdled milk (Order #HONTKHTKG79227), and earlier I also received paneer with fungus. Th"
+          "review_id": "reddit_post_1va2chk",
+          "text": "Please take a minute out of your busy day to read this idea. Your honest feedback could help shape a startup that supports both customers and local Ry"
         },
         {
-          "review_id": "da1e05f6-9ed0-4f33-b012-432021187cc3",
-          "text": "Terrible experience with stock and fulfillment.Very disappointed. Multiple times now, I’ve added high-demand items to my cart that the app clearly sho"
+          "review_id": "c29b2723-1bcf-4604-b96b-b332933b801e",
+          "text": "Very disappointing experience with Zepto. I received spoiled, curdled milk (Order #HONTKHTKG79227), and earlier I also received paneer with fungus. Th"
         }
       ],
       "review_count": 20,
-      "avg_rating": 1.4
+      "avg_rating": 1.7
     },
     {
       "theme_id": "mc3_emergency_pharmacy_gaps",
@@ -115,7 +115,8 @@
         "26023e5f-81fc-4f9a-b309-118b98b677e3",
         "ab7d8303-dc3a-4149-aef4-ab12ac7bf53a",
         "6704063e-6bb2-4dc6-8bb2-06969ac17270",
-        "d9d82714-712b-4ba8-a832-8ceb1138053a"
+        "d9d82714-712b-4ba8-a832-8ceb1138053a",
+        "reddit_post_1ve58tl"
       ],
       "quotes": [
         {
@@ -125,10 +126,14 @@
         {
           "review_id": "a442f21d-6fc1-4717-a085-6393f049364b",
           "text": "Please start delivering medicines especially at night time. Other apps are useless. Night time emergency medicine and hospital services are terrible i"
+        },
+        {
+          "review_id": "reddit_post_1ve58tl",
+          "text": "Zepto is selling expired product and refused to acknowledge it and refund the item. Please don't buy from Zepto, this will be my last order. Atleast d"
         }
       ],
-      "review_count": 7,
-      "avg_rating": 2.14
+      "review_count": 8,
+      "avg_rating": 2.25
     },
     {
       "theme_id": "mc4_premium_organic_experimenters",
@@ -140,12 +145,31 @@
         "Health & Wellness"
       ],
       "supporting_review_ids": [
+        "reddit_post_1va2chk",
+        "yt_yt_cmt_7",
+        "reddit_post_1v75b42",
+        "yt_yt_cmt_6",
+        "3039433c-9783-4a89-ba9c-e66462809dcb",
+        "yt_yt_cmt_8",
         "5bd31e01-28c7-44d2-9d08-0732a37aaf1e",
         "229521d7-0074-42d0-8e65-c4dcf2e0a85f"
       ],
-      "quotes": [],
-      "review_count": 2,
-      "avg_rating": 1.0
+      "quotes": [
+        {
+          "review_id": "yt_yt_cmt_7",
+          "text": "I used to only buy late-night cold drinks and chips on Zepto, but recently I noticed their fitness section. I ordered organic almond milk and high-pro"
+        },
+        {
+          "review_id": "yt_yt_cmt_6",
+          "text": "Why doesn't Zepto offer any options in dog food? Every time I search for Pedigree or organic dog treats, they show 'Out of stock' or suggest unrelated"
+        },
+        {
+          "review_id": "yt_yt_cmt_8",
+          "text": "The app has a major echo chamber problem. I buy milk, curd, and bread every single day. Now, my entire homepage is just milk and bread. I didn't even "
+        }
+      ],
+      "review_count": 8,
+      "avg_rating": 2.75
     }
   ],
   "platform_insights": [

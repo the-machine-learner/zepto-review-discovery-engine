@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-08-01T10:56:33.511789+00:00",
+  "run_timestamp": "2026-08-03T10:08:34.674603+00:00",
   "sample_size": 450,
-  "total_corpus_size": 15607,
+  "total_corpus_size": 15923,
   "themes": [
     {
       "theme_id": "g1_missing_categories",
@@ -28,7 +28,7 @@
         "c33c7abd-a260-4238-aa9e-819eb34d3df1",
         "67e0a931-ebdc-4bd3-8c49-ea987095eb16",
         "2b746489-236c-4a10-b521-71089f73788e",
-        "35adefff-f712-40c8-b390-008e25c1b0e7"
+        "2f43bf87-1bec-4e04-9616-8e06fd524ce4"
       ],
       "quotes": [
         {
@@ -71,17 +71,17 @@
         "4417269b-1e37-4de0-a30f-430d097479e5",
         "fc0df127-d896-4d9b-8232-f0e8be38cd28",
         "52a83051-61a9-4628-9e65-46103bd26c32",
-        "8ef1947e-32a6-409a-94c8-c9990872c901",
-        "2eef1192-ddfd-4d22-b2f3-2db489a27eff"
+        "reddit_post_1vbkfs1",
+        "8ef1947e-32a6-409a-94c8-c9990872c901"
       ],
       "quotes": [
         {
-          "review_id": "2eef1192-ddfd-4d22-b2f3-2db489a27eff",
-          "text": "There's no options for sorting, app crashes instantly i switch to another app, constantly asks for location, why can't be the location saved permanent"
+          "review_id": "yt_yt_cmt_6",
+          "text": "Why doesn't Zepto offer any options in dog food? Every time I search for Pedigree or organic dog treats, they show 'Out of stock' or suggest unrelated"
         }
       ],
       "review_count": 84,
-      "avg_rating": 1.1
+      "avg_rating": 1.15
     },
     {
       "theme_id": "g3_item_details_expiry",
@@ -189,14 +189,16 @@
       "statement": "Enhanced subcategory filtering for dietary preferences (sugar-free, organic, gluten-free)",
       "supporting_review_ids": [
         "c8419450-1dd4-4fff-99b2-2662e2040f95",
-        "13675838-b8ef-44a1-81f1-272938c88cbe"
+        "yt_yt_cmt_7",
+        "13675838-b8ef-44a1-81f1-272938c88cbe",
+        "yt_yt_cmt_6"
       ]
     },
     {
       "rank": 3,
       "statement": "Smarter search that auto-corrects typos and finds exact brand substitutes",
       "supporting_review_ids": [
-        "2eef1192-ddfd-4d22-b2f3-2db489a27eff"
+        "yt_yt_cmt_6"
       ]
     },
     {
