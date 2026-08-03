@@ -251,7 +251,7 @@ def render_header(data) -> None:
             </div>
             """
         )
-        if st.button("Refresh pipeline", use_container_width=True, key="header_refresh_pipeline_btn"):
+        if st.button("Refresh pipeline", use_container_width=False, key="header_refresh_pipeline_btn"):
             handle_pipeline_refresh()
 
         if st.session_state.get("show_refresh_notice"):
