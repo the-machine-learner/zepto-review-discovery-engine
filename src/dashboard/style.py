@@ -304,24 +304,25 @@ blockquote { border-left: 4px solid #FF8A00 !important; padding: .25rem 0 .25rem
     background: #06371B;
     border: 1px solid #0E5C2E;
     border-radius: 500px;
-    padding: .35rem 1rem;
+    padding: .18rem .7rem;
     display: inline-flex;
     align-items: center;
-    gap: .5rem;
-    box-shadow: 0 2px 10px rgba(16, 185, 129, 0.2);
+    gap: .4rem;
+    line-height: 1.2;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.15);
 }
 .pipeline-status-dot {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     background-color: #10B981;
     border-radius: 50%;
     display: inline-block;
-    box-shadow: 0 0 8px #10B981;
+    box-shadow: 0 0 6px #10B981;
 }
 .pipeline-status-text {
     color: #10B981;
     font-weight: 800;
-    font-size: .92rem;
+    font-size: .78rem;
     letter-spacing: -.01em;
 }
 </style>

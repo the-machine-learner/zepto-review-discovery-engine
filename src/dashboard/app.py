@@ -236,16 +236,16 @@ def render_header(data) -> None:
         online_badge = (
             '<div class="pipeline-status-badge"><span class="pipeline-status-dot"></span><span class="pipeline-status-text">Pipeline online</span></div>'
             if status.online else
-            '<div class="pipeline-status-badge" style="background:#370606;border-color:#5C0E0E;"><span class="pipeline-status-dot" style="background:#FF6B6B;box-shadow:0 0 8px #FF6B6B;"></span><span class="pipeline-status-text" style="color:#FF6B6B;">Pipeline offline</span></div>'
+            '<div class="pipeline-status-badge" style="background:#370606;border-color:#5C0E0E;"><span class="pipeline-status-dot" style="background:#FF6B6B;box-shadow:0 0 6px #FF6B6B;"></span><span class="pipeline-status-text" style="color:#FF6B6B;">Pipeline offline</span></div>'
         )
         render_html(
             f"""
-            <div style="display:flex;flex-direction:column;align-items:flex-end;gap:.3rem;margin-bottom:.4rem;">
+            <div style="display:flex;flex-direction:column;align-items:flex-start;gap:.25rem;margin-bottom:.4rem;">
               {online_badge}
-              <div style="text-align:right;font-size:.84rem;color:#FFFFFF;font-weight:700;margin-top:.1rem;">
+              <div style="text-align:left;font-size:.84rem;color:#FFFFFF;font-weight:700;margin-top:.1rem;">
                 Synced <span style="font-weight:900;color:#FFFFFF;">{status.synced_label}</span>
               </div>
-              <div style="text-align:right;font-size:.76rem;color:#B6ABB6;font-weight:600;">
+              <div style="text-align:left;font-size:.76rem;color:#B6ABB6;font-weight:600;">
                 {status.synced_local}
               </div>
             </div>
