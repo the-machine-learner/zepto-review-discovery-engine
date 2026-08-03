@@ -126400,6 +126400,14 @@
     "confidence": "heuristic"
   },
   {
+    "review_id": "4051345e-477d-48b3-b17c-12c2daab1863",
+    "rating_tier": "negative",
+    "app_version": "26.7.4",
+    "inferred_segment": "household_replenisher",
+    "inferred": true,
+    "confidence": "heuristic"
+  },
+  {
     "review_id": "2c9b3ae3-6f5b-4634-9535-d6ab4e961a8c",
     "rating_tier": "negative",
     "app_version": "",
@@ -127377,6 +127385,46 @@
   },
   {
     "review_id": "reddit_post_1v569c3",
+    "rating_tier": "neutral",
+    "app_version": "",
+    "inferred_segment": "general_shopper_neutral",
+    "inferred": true,
+    "confidence": "heuristic"
+  },
+  {
+    "review_id": "reddit_cmt_1vclkd5_0",
+    "rating_tier": "neutral",
+    "app_version": "",
+    "inferred_segment": "impulse_snaker_night_owl",
+    "inferred": true,
+    "confidence": "heuristic"
+  },
+  {
+    "review_id": "reddit_cmt_1vclkd5_1",
+    "rating_tier": "neutral",
+    "app_version": "",
+    "inferred_segment": "premium_gourmet_shopper",
+    "inferred": true,
+    "confidence": "heuristic"
+  },
+  {
+    "review_id": "reddit_cmt_1vclkd5_2",
+    "rating_tier": "neutral",
+    "app_version": "",
+    "inferred_segment": "premium_gourmet_shopper",
+    "inferred": true,
+    "confidence": "heuristic"
+  },
+  {
+    "review_id": "reddit_cmt_1vclkd5_3",
+    "rating_tier": "neutral",
+    "app_version": "",
+    "inferred_segment": "premium_gourmet_shopper",
+    "inferred": true,
+    "confidence": "heuristic"
+  },
+  {
+    "review_id": "reddit_cmt_1vclkd5_4",
     "rating_tier": "neutral",
     "app_version": "",
     "inferred_segment": "general_shopper_neutral",

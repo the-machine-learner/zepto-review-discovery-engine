@@ -1,11 +1,11 @@
 {
-  "total_reviews": 15923,
+  "total_reviews": 15929,
   "summary": [
     {
       "segment_id": "general_shopper_negative",
       "label": "General Shopper Negative",
       "count": 8374,
-      "percentage": 52.59,
+      "percentage": 52.57,
       "description": "General customers submitting negative feedback (1-2 stars) on app errors or delivery issues."
     },
     {
@@ -18,7 +18,7 @@
     {
       "segment_id": "household_replenisher",
       "label": "Household Replenisher",
-      "count": 2032,
+      "count": 2033,
       "percentage": 12.76,
       "description": "Shopping for family/households, buying daily groceries, staples, milk, cooking oil & vegetables."
     },
@@ -32,22 +32,22 @@
     {
       "segment_id": "impulse_snaker_night_owl",
       "label": "Impulse Snaker Night Owl",
-      "count": 869,
+      "count": 870,
       "percentage": 5.46,
       "description": "Ordering late-night snacks, munchies, beverages, bachelors/students looking for convenience."
     },
     {
       "segment_id": "general_shopper_neutral",
       "label": "General Shopper Neutral",
-      "count": 407,
+      "count": 408,
       "percentage": 2.56,
       "description": "General customers submitting neutral/mixed feedback (3 stars)."
     },
     {
       "segment_id": "premium_gourmet_shopper",
       "label": "Premium Gourmet Shopper",
-      "count": 273,
-      "percentage": 1.71,
+      "count": 276,
+      "percentage": 1.73,
       "description": "Buying high-value items like electronics, branded apparel, smartwatches, luxury, or gourmet imported goods."
     },
     {
@@ -126460,6 +126460,14 @@
       "confidence": "heuristic"
     },
     {
+      "review_id": "4051345e-477d-48b3-b17c-12c2daab1863",
+      "rating_tier": "negative",
+      "app_version": "26.7.4",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
       "review_id": "2c9b3ae3-6f5b-4634-9535-d6ab4e961a8c",
       "rating_tier": "negative",
       "app_version": "",
@@ -127437,6 +127445,46 @@
     },
     {
       "review_id": "reddit_post_1v569c3",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_cmt_1vclkd5_0",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_cmt_1vclkd5_1",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_cmt_1vclkd5_2",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_cmt_1vclkd5_3",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_cmt_1vclkd5_4",
       "rating_tier": "neutral",
       "app_version": "",
       "inferred_segment": "general_shopper_neutral",
