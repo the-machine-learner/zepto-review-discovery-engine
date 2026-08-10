@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-08-03T10:14:31.565917+00:00",
+  "run_timestamp": "2026-08-10T07:52:50.072989+00:00",
   "sample_size": 450,
-  "total_corpus_size": 15929,
+  "total_corpus_size": 16622,
   "themes": [
     {
       "theme_id": "g1_missing_categories",
@@ -11,10 +11,12 @@
       "supporting_review_ids": [
         "d51df783-e2a7-46b4-8cf5-784e747efa11",
         "49918276-b8fb-42ab-beaa-63cc85707f4e",
+        "2f43bf87-1bec-4e04-9616-8e06fd524ce4",
         "b68dd2fa-21a6-4709-ae4e-59ab422a7b84",
         "f51fd268-f86d-4479-9c74-b65b8d55198d",
         "2a7e9b26-eb14-4ed7-b82e-e812dae053b4",
         "9fb17e71-a267-45b8-a1dd-c4120183dcdf",
+        "0a41ac39-43b4-4593-bd3b-3867f11afbca",
         "75c327ae-62f8-4f9f-b64e-2d1f49cb9887",
         "82b11f5e-ed94-49d5-abf5-8d322450a4ce",
         "98ae4f20-ca09-435c-bc60-a7d80070fa3b",
@@ -26,9 +28,7 @@
         "4d785d2d-40b0-4a49-9e44-e0944a714711",
         "767c4f0b-a4f1-46a8-a230-09d5e7c67366",
         "c33c7abd-a260-4238-aa9e-819eb34d3df1",
-        "67e0a931-ebdc-4bd3-8c49-ea987095eb16",
-        "2b746489-236c-4a10-b521-71089f73788e",
-        "2f43bf87-1bec-4e04-9616-8e06fd524ce4"
+        "67e0a931-ebdc-4bd3-8c49-ea987095eb16"
       ],
       "quotes": [
         {
@@ -40,8 +40,8 @@
           "text": "one star is too high for the app as the customer service is very very very poor. Only email option is available for the customer support in case of mi"
         },
         {
-          "review_id": "2a7e9b26-eb14-4ed7-b82e-e812dae053b4",
-          "text": "Unsafe food & pathetic support! 🛑 Deliver dairy items with missing expiry dates, bloated/spoiled packets, and punctures causing leakage. When you comp"
+          "review_id": "2f43bf87-1bec-4e04-9616-8e06fd524ce4",
+          "text": "⭐ 1 Star. Ordered 4 items, received only 3. One item was missing. I immediately checked with the delivery person after sharing the OTP, and he told me"
         }
       ],
       "review_count": 118,
@@ -97,6 +97,7 @@
         "54fb3397-0ec8-4294-b425-4f8b72e30888",
         "b2189284-1baf-4c8f-9088-35e466b5873e",
         "2a7e9b26-eb14-4ed7-b82e-e812dae053b4",
+        "0a41ac39-43b4-4593-bd3b-3867f11afbca",
         "12072800695",
         "75c327ae-62f8-4f9f-b64e-2d1f49cb9887",
         "fdbe23af-5606-4312-a8fa-b0a799e978f0",
@@ -107,8 +108,7 @@
         "1098bf22-702c-472d-b388-5357b53a3ceb",
         "d785b6f9-8154-4d57-b115-0266cd51b0e7",
         "6719cd75-c38c-4610-acd8-31bb07b59af9",
-        "9a67544b-d432-4615-9835-f2dc4c89b6b3",
-        "8a5e3584-865b-4606-999e-bd962bcda692"
+        "9a67544b-d432-4615-9835-f2dc4c89b6b3"
       ],
       "quotes": [
         {
@@ -135,6 +135,7 @@
       "supporting_review_ids": [
         "48e3dda4-d4db-4ffb-a02a-1efb7aca21e4",
         "e5d6426f-9159-4230-ad39-830e656fbe35",
+        "0a41ac39-43b4-4593-bd3b-3867f11afbca",
         "3d1c9923-3f08-4af2-a5ba-8e1bb53f9d3b",
         "e5763e1f-ea38-4e54-b446-8e652076c7ab",
         "3473737b-3d02-4d2c-ae27-1b86b01747f5",
@@ -148,11 +149,10 @@
         "eb2c1de8-d71e-4e8d-a1a7-d852502afb59",
         "56436ea0-a459-4c8f-9ae0-0da55f63e004",
         "ee094faf-0273-4811-939f-0f8d561ff00d",
+        "faea1be9-b085-400e-baaf-ac01d6150a25",
         "8dd2708d-6178-4d4b-a044-ab4aafaface7",
         "d6bdfbac-d515-4f88-8cca-c169d628e741",
-        "068189ea-6f93-4240-abe9-1e7964a3a08b",
-        "eb385fef-d3de-4a13-8b2a-32ffc2821618",
-        "2147fe1c-cf3d-4530-936c-63b5c56f6e33"
+        "068189ea-6f93-4240-abe9-1e7964a3a08b"
       ],
       "quotes": [
         {
@@ -164,8 +164,8 @@
           "text": "Very disappointing experience with this order. I received a 1 kg product that is expiring in July 2026, which is a very short shelf life for such a la"
         },
         {
-          "review_id": "3d1c9923-3f08-4af2-a5ba-8e1bb53f9d3b",
-          "text": "Blinkit and other delivery apps offer a much better experience. In my recent order, there was no real customer support—only bot responses with differe"
+          "review_id": "0a41ac39-43b4-4593-bd3b-3867f11afbca",
+          "text": "Extremely disappointed with Zepto service now. My order #KQGSSMWEJ02550 dated 06-08-2026 - Ordered 2 Kids Rakhi, received only 1. Refund still not don"
         }
       ],
       "review_count": 43,

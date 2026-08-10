@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-08-03T10:14:32.258432+00:00",
+  "run_timestamp": "2026-08-10T07:52:50.557749+00:00",
   "sample_size": 450,
-  "total_corpus_size": 15929,
+  "total_corpus_size": 16622,
   "themes": [
     {
       "theme_id": "mc1_staples_and_snacks",
@@ -16,6 +16,7 @@
         "reddit_post_1va2chk",
         "c29b2723-1bcf-4604-b96b-b332933b801e",
         "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
+        "c803a574-614a-4330-8ad5-9d2489171ae4",
         "a80a8704-8e0d-4963-be79-55d83a0f2933",
         "3b68852b-1782-4f10-b3bf-4941f74bf4e2",
         "504a6d2e-003e-40a4-8fd1-f5b50b95ddc9",
@@ -31,8 +32,7 @@
         "96737543-3905-44c9-b4dd-182339b50667",
         "yt_yt_cmt_7",
         "reddit_post_1vbkfs1",
-        "79fc3f4d-6ec0-4e31-9697-ee5cb6a69fec",
-        "5b4f3258-de47-4d60-b879-b9f4ff9a3d39"
+        "79fc3f4d-6ec0-4e31-9697-ee5cb6a69fec"
       ],
       "quotes": [
         {
@@ -44,8 +44,8 @@
           "text": "Hell. do not order anything from then. I would prefer blinkit over zepto. zepto is unethical. they often deliver curdled milk and do not refund the mo"
         },
         {
-          "review_id": "a80a8704-8e0d-4963-be79-55d83a0f2933",
-          "text": "you know why the prices are lower than mrp and no delivery fee? how they earn ? they sell expired products I have recieved expire, curdled milk, multi"
+          "review_id": "c803a574-614a-4330-8ad5-9d2489171ae4",
+          "text": "Worst Experience I have with this app... pls don't use it at any cost instead use flipkart minutes or blinkit... These are very well then Zepto.. I or"
         }
       ],
       "review_count": 20,
@@ -69,6 +69,7 @@
         "b6da22ad-5b86-4264-af11-21ecdcce9477",
         "16911149-53b3-4c8d-b252-61ac04b1a16b",
         "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
+        "c803a574-614a-4330-8ad5-9d2489171ae4",
         "a80a8704-8e0d-4963-be79-55d83a0f2933",
         "3b68852b-1782-4f10-b3bf-4941f74bf4e2",
         "619e1a4d-48fc-47b1-975d-56db931ebcc3",
@@ -79,8 +80,7 @@
         "5d42b8fa-5d0f-4e54-95d2-c045b7904922",
         "5dd976c3-f9ab-4566-909d-4f6c46c3369f",
         "266b943e-c091-4802-b026-f1e7ffff3043",
-        "25187d7f-658b-40a5-b0b1-035457f106aa",
-        "aa566a61-60cc-4c23-9d40-0083b308f58f"
+        "25187d7f-658b-40a5-b0b1-035457f106aa"
       ],
       "quotes": [
         {
@@ -115,8 +115,7 @@
         "26023e5f-81fc-4f9a-b309-118b98b677e3",
         "ab7d8303-dc3a-4149-aef4-ab12ac7bf53a",
         "6704063e-6bb2-4dc6-8bb2-06969ac17270",
-        "d9d82714-712b-4ba8-a832-8ceb1138053a",
-        "reddit_post_1ve58tl"
+        "d9d82714-712b-4ba8-a832-8ceb1138053a"
       ],
       "quotes": [
         {
@@ -126,14 +125,10 @@
         {
           "review_id": "a442f21d-6fc1-4717-a085-6393f049364b",
           "text": "Please start delivering medicines especially at night time. Other apps are useless. Night time emergency medicine and hospital services are terrible i"
-        },
-        {
-          "review_id": "reddit_post_1ve58tl",
-          "text": "Zepto is selling expired product and refused to acknowledge it and refund the item. Please don't buy from Zepto, this will be my last order. Atleast d"
         }
       ],
-      "review_count": 8,
-      "avg_rating": 2.25
+      "review_count": 7,
+      "avg_rating": 2.14
     },
     {
       "theme_id": "mc4_premium_organic_experimenters",
