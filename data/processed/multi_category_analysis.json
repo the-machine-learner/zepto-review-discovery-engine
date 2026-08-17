@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-08-10T07:52:50.557749+00:00",
+  "run_timestamp": "2026-08-17T07:06:55.593439+00:00",
   "sample_size": 450,
-  "total_corpus_size": 16622,
+  "total_corpus_size": 17332,
   "themes": [
     {
       "theme_id": "mc1_staples_and_snacks",
@@ -23,6 +23,7 @@
         "5dd976c3-f9ab-4566-909d-4f6c46c3369f",
         "266b943e-c091-4802-b026-f1e7ffff3043",
         "25187d7f-658b-40a5-b0b1-035457f106aa",
+        "6e769cf1-899f-4b06-85dc-cb0fd77a755c",
         "aa566a61-60cc-4c23-9d40-0083b308f58f",
         "3289bee2-b1cd-4bac-87d5-f57914c2ec79",
         "bf97e7c5-d766-4509-913f-89f463a007a9",
@@ -31,8 +32,7 @@
         "c95027e1-5b1f-42f0-bae6-ccce846a3a1b",
         "96737543-3905-44c9-b4dd-182339b50667",
         "yt_yt_cmt_7",
-        "reddit_post_1vbkfs1",
-        "79fc3f4d-6ec0-4e31-9697-ee5cb6a69fec"
+        "reddit_post_1vbkfs1"
       ],
       "quotes": [
         {
@@ -49,7 +49,7 @@
         }
       ],
       "review_count": 20,
-      "avg_rating": 1.45
+      "avg_rating": 1.3
     },
     {
       "theme_id": "mc2_price_trust_app_switching",
@@ -146,8 +146,8 @@
         "yt_yt_cmt_6",
         "3039433c-9783-4a89-ba9c-e66462809dcb",
         "yt_yt_cmt_8",
-        "5bd31e01-28c7-44d2-9d08-0732a37aaf1e",
-        "229521d7-0074-42d0-8e65-c4dcf2e0a85f"
+        "reddit_post_1vljyf0",
+        "reddit_post_1vljux8"
       ],
       "quotes": [
         {
@@ -164,7 +164,7 @@
         }
       ],
       "review_count": 8,
-      "avg_rating": 2.75
+      "avg_rating": 3.25
     }
   ],
   "platform_insights": [
