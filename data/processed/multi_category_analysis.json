@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-08-24T07:09:28.787897+00:00",
+  "run_timestamp": "2026-08-30T13:52:35.561534+00:00",
   "sample_size": 450,
-  "total_corpus_size": 18025,
+  "total_corpus_size": 18748,
   "themes": [
     {
       "theme_id": "mc1_staples_and_snacks",
@@ -14,6 +14,8 @@
       ],
       "supporting_review_ids": [
         "reddit_post_1va2chk",
+        "3cc038a2-86b0-445c-95fd-e7a12c3482c5",
+        "reddit_post_3093be49c52b8c2bdbe51a6d8cba389f",
         "reddit_post_1vun91j",
         "reddit_post_1vun86s",
         "reddit_post_1vun4xo",
@@ -30,9 +32,7 @@
         "25187d7f-658b-40a5-b0b1-035457f106aa",
         "6e769cf1-899f-4b06-85dc-cb0fd77a755c",
         "aa566a61-60cc-4c23-9d40-0083b308f58f",
-        "3289bee2-b1cd-4bac-87d5-f57914c2ec79",
-        "bf97e7c5-d766-4509-913f-89f463a007a9",
-        "81d4e8d2-07fd-47ed-9ac2-fe9668da433a"
+        "3289bee2-b1cd-4bac-87d5-f57914c2ec79"
       ],
       "quotes": [
         {
@@ -49,7 +49,7 @@
         }
       ],
       "review_count": 20,
-      "avg_rating": 1.5
+      "avg_rating": 1.6
     },
     {
       "theme_id": "mc2_price_trust_app_switching",
@@ -63,24 +63,24 @@
       "supporting_review_ids": [
         "64686682-d053-4467-b03d-da4e45467d40",
         "reddit_post_1va2chk",
+        "3cc038a2-86b0-445c-95fd-e7a12c3482c5",
+        "reddit_post_3093be49c52b8c2bdbe51a6d8cba389f",
         "reddit_post_1vun91j",
         "reddit_post_1vun86s",
         "reddit_post_1vun4xo",
         "reddit_post_1vun0ep",
+        "reddit_post_1vzmlb9",
         "c29b2723-1bcf-4604-b96b-b332933b801e",
         "yt_yt_cmt_5",
+        "reddit_post_1vf3y3b",
         "da1e05f6-9ed0-4f33-b012-432021187cc3",
         "b6da22ad-5b86-4264-af11-21ecdcce9477",
         "16911149-53b3-4c8d-b252-61ac04b1a16b",
         "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
         "c803a574-614a-4330-8ad5-9d2489171ae4",
         "7deabacd-0072-4e2c-adc1-c0a843c95a00",
-        "a80a8704-8e0d-4963-be79-55d83a0f2933",
-        "3b68852b-1782-4f10-b3bf-4941f74bf4e2",
-        "345da887-f3be-4594-88af-4d50076dda04",
-        "619e1a4d-48fc-47b1-975d-56db931ebcc3",
-        "4788b090-8766-4a84-8b1f-0a1f9e79ad1e",
-        "5489a7e3-42cc-4bc1-91bf-ad108a66d453"
+        "reddit_post_1vxxty9",
+        "345da887-f3be-4594-88af-4d50076dda04"
       ],
       "quotes": [
         {
@@ -92,12 +92,12 @@
           "text": "Please take a minute out of your busy day to read this idea. Your honest feedback could help shape a startup that supports both customers and local Ry"
         },
         {
-          "review_id": "reddit_post_1vun91j",
-          "text": "Looking to sublet my fully furnished private bedroom with an attached balcony in a 2BHK in Koramangala 8th Block from September 15 to November 30, 202"
+          "review_id": "3cc038a2-86b0-445c-95fd-e7a12c3482c5",
+          "text": "very very bad pathetic grocery app instead flipkart minutes ,blinkit and Instamart are far far better than zepto every time they charged 40 Rs as a ha"
         }
       ],
       "review_count": 20,
-      "avg_rating": 2.0
+      "avg_rating": 2.2
     },
     {
       "theme_id": "mc3_emergency_pharmacy_gaps",
@@ -110,6 +110,7 @@
       ],
       "supporting_review_ids": [
         "33227104-53e6-405a-9fda-d3a6be98d152",
+        "6b00b933-d89b-46e5-88c9-2e3fd68c6548",
         "ad5682dc-8a72-4a96-8fcf-f51a4ae86161",
         "a442f21d-6fc1-4717-a085-6393f049364b",
         "26023e5f-81fc-4f9a-b309-118b98b677e3",
@@ -127,8 +128,8 @@
           "text": "Please start delivering medicines especially at night time. Other apps are useless. Night time emergency medicine and hospital services are terrible i"
         }
       ],
-      "review_count": 7,
-      "avg_rating": 2.14
+      "review_count": 8,
+      "avg_rating": 2.0
     },
     {
       "theme_id": "mc4_premium_organic_experimenters",
@@ -141,8 +142,12 @@
       ],
       "supporting_review_ids": [
         "reddit_post_1va2chk",
+        "reddit_post_1vf3y3b",
+        "reddit_post_1w2dcf7",
         "yt_yt_cmt_7",
         "reddit_post_1v75b42",
+        "reddit_post_1uy3lrj",
+        "reddit_post_1uxsa8z",
         "yt_yt_cmt_6",
         "0a6ade83-b9f7-4c3f-936f-f4a47a9fad4e",
         "3039433c-9783-4a89-ba9c-e66462809dcb",
@@ -164,7 +169,7 @@
           "text": "The app has a major echo chamber problem. I buy milk, curd, and bread every single day. Now, my entire homepage is just milk and bread. I didn't even "
         }
       ],
-      "review_count": 9,
+      "review_count": 13,
       "avg_rating": 3.0
     }
   ],

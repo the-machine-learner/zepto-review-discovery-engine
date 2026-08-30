@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-08-24T07:09:28.263879+00:00",
+  "run_timestamp": "2026-08-30T13:52:34.951743+00:00",
   "sample_size": 450,
-  "total_corpus_size": 18025,
+  "total_corpus_size": 18748,
   "themes": [
     {
       "theme_id": "g1_missing_categories",
@@ -11,13 +11,13 @@
       "supporting_review_ids": [
         "d51df783-e2a7-46b4-8cf5-784e747efa11",
         "49918276-b8fb-42ab-beaa-63cc85707f4e",
+        "9ac21526-55c1-41cf-8067-42cfa56ae8d5",
         "2f43bf87-1bec-4e04-9616-8e06fd524ce4",
         "b68dd2fa-21a6-4709-ae4e-59ab422a7b84",
         "f51fd268-f86d-4479-9c74-b65b8d55198d",
         "2a7e9b26-eb14-4ed7-b82e-e812dae053b4",
         "9fb17e71-a267-45b8-a1dd-c4120183dcdf",
         "0a41ac39-43b4-4593-bd3b-3867f11afbca",
-        "9ac21526-55c1-41cf-8067-42cfa56ae8d5",
         "75c327ae-62f8-4f9f-b64e-2d1f49cb9887",
         "82b11f5e-ed94-49d5-abf5-8d322450a4ce",
         "98ae4f20-ca09-435c-bc60-a7d80070fa3b",
@@ -40,8 +40,8 @@
           "text": "one star is too high for the app as the customer service is very very very poor. Only email option is available for the customer support in case of mi"
         },
         {
-          "review_id": "2f43bf87-1bec-4e04-9616-8e06fd524ce4",
-          "text": "⭐ 1 Star. Ordered 4 items, received only 3. One item was missing. I immediately checked with the delivery person after sharing the OTP, and he told me"
+          "review_id": "9ac21526-55c1-41cf-8067-42cfa56ae8d5",
+          "text": "For the missing items they never inquire properly, at the end they say ''We understand your concern and appreciate your patience. As mentioned earlier"
         }
       ],
       "review_count": 118,
@@ -71,8 +71,7 @@
         "4417269b-1e37-4de0-a30f-430d097479e5",
         "fc0df127-d896-4d9b-8232-f0e8be38cd28",
         "52a83051-61a9-4628-9e65-46103bd26c32",
-        "e14bc0fe-b710-42d8-ba89-2789b955906f",
-        "reddit_post_1vbkfs1"
+        "e14bc0fe-b710-42d8-ba89-2789b955906f"
       ],
       "quotes": [
         {
@@ -81,7 +80,7 @@
         }
       ],
       "review_count": 84,
-      "avg_rating": 1.15
+      "avg_rating": 1.05
     },
     {
       "theme_id": "g3_item_details_expiry",
@@ -93,12 +92,14 @@
         "327afa57-4340-4d92-97c1-bd0b8f360941",
         "1b6c5c5f-4dab-4d48-bdd5-8015c55d4240",
         "eac4224f-6c86-4e1b-a18d-9f5ec114f088",
+        "9ac21526-55c1-41cf-8067-42cfa56ae8d5",
         "e053fd80-25ec-4f78-a71a-626ed01c7d53",
         "54fb3397-0ec8-4294-b425-4f8b72e30888",
         "b2189284-1baf-4c8f-9088-35e466b5873e",
         "2a7e9b26-eb14-4ed7-b82e-e812dae053b4",
         "0a41ac39-43b4-4593-bd3b-3867f11afbca",
-        "9ac21526-55c1-41cf-8067-42cfa56ae8d5",
+        "ea98b34d-83d3-4d3d-bfe6-d045bd64dbbd",
+        "0a6ade83-b9f7-4c3f-936f-f4a47a9fad4e",
         "12072800695",
         "75c327ae-62f8-4f9f-b64e-2d1f49cb9887",
         "fdbe23af-5606-4312-a8fa-b0a799e978f0",
@@ -106,9 +107,7 @@
         "f223d1ae-2e1b-4693-af85-407c247f6fd2",
         "a4550a16-fc78-4391-9b50-470a95b439c7",
         "40593885-e58a-41c0-982c-36af198bbd7e",
-        "1098bf22-702c-472d-b388-5357b53a3ceb",
-        "d785b6f9-8154-4d57-b115-0266cd51b0e7",
-        "6719cd75-c38c-4610-acd8-31bb07b59af9"
+        "1098bf22-702c-472d-b388-5357b53a3ceb"
       ],
       "quotes": [
         {
@@ -138,6 +137,7 @@
         "0a41ac39-43b4-4593-bd3b-3867f11afbca",
         "3d1c9923-3f08-4af2-a5ba-8e1bb53f9d3b",
         "e5763e1f-ea38-4e54-b446-8e652076c7ab",
+        "89ff93a9-b004-45cf-a991-d7e5de52bf4a",
         "3473737b-3d02-4d2c-ae27-1b86b01747f5",
         "4127cc07-94cc-4a28-bd57-ca0e0f98fb01",
         "29351147-1a30-48d5-ad26-f63599db44a4",
@@ -151,8 +151,7 @@
         "ee094faf-0273-4811-939f-0f8d561ff00d",
         "faea1be9-b085-400e-baaf-ac01d6150a25",
         "8dd2708d-6178-4d4b-a044-ab4aafaface7",
-        "d6bdfbac-d515-4f88-8cca-c169d628e741",
-        "068189ea-6f93-4240-abe9-1e7964a3a08b"
+        "d6bdfbac-d515-4f88-8cca-c169d628e741"
       ],
       "quotes": [
         {
