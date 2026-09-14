@@ -6,8 +6,8 @@
       "e5d6426f-9159-4230-ad39-830e656fbe35",
       "327afa57-4340-4d92-97c1-bd0b8f360941",
       "1b6c5c5f-4dab-4d48-bdd5-8015c55d4240",
-      "e053fd80-25ec-4f78-a71a-626ed01c7d53",
-      "54fb3397-0ec8-4294-b425-4f8b72e30888"
+      "d306f4b0-a5e5-4c07-9723-776ff3c92a36",
+      "e053fd80-25ec-4f78-a71a-626ed01c7d53"
     ]
   },
   {
@@ -22,9 +22,7 @@
   {
     "rank": 3,
     "statement": "Smarter search that auto-corrects typos and finds exact brand substitutes",
-    "supporting_review_ids": [
-      "e14bc0fe-b710-42d8-ba89-2789b955906f"
-    ]
+    "supporting_review_ids": []
   },
   {
     "rank": 4,
@@ -34,7 +32,7 @@
       "d6500e1a-982d-43f9-abd0-0f1124a3ad25",
       "572c7f1a-b0b7-4e69-89b7-d3b93a305189",
       "128b94c9-8d10-4150-9356-073535929cc6",
-      "35a801bd-ab54-430c-9443-3f35588f769f"
+      "2d513bec-a122-4e9b-b9dc-6a97873f1d30"
     ]
   }
 ]

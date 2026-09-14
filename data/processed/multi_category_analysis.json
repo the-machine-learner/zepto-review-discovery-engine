@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-09-07T12:06:45.070132+00:00",
+  "run_timestamp": "2026-09-14T12:21:33.782686+00:00",
   "sample_size": 450,
-  "total_corpus_size": 19509,
+  "total_corpus_size": 20187,
   "themes": [
     {
       "theme_id": "mc1_staples_and_snacks",
@@ -14,6 +14,7 @@
       ],
       "supporting_review_ids": [
         "reddit_post_1va2chk",
+        "reddit_post_1wfzj7s",
         "3cc038a2-86b0-445c-95fd-e7a12c3482c5",
         "reddit_post_3093be49c52b8c2bdbe51a6d8cba389f",
         "reddit_post_1vun91j",
@@ -31,10 +32,13 @@
         "266b943e-c091-4802-b026-f1e7ffff3043",
         "25187d7f-658b-40a5-b0b1-035457f106aa",
         "6e769cf1-899f-4b06-85dc-cb0fd77a755c",
-        "aa566a61-60cc-4c23-9d40-0083b308f58f",
-        "3289bee2-b1cd-4bac-87d5-f57914c2ec79"
+        "aa566a61-60cc-4c23-9d40-0083b308f58f"
       ],
       "quotes": [
+        {
+          "review_id": "reddit_post_1wfzj7s",
+          "text": "Tired of these stupid apps selling “crunchy sweet delicious shimla baby apple” for 80 RS (2 pieces). When tf did they change apple pricing from per ki"
+        },
         {
           "review_id": "c29b2723-1bcf-4604-b96b-b332933b801e",
           "text": "Very disappointing experience with Zepto. I received spoiled, curdled milk (Order #HONTKHTKG79227), and earlier I also received paneer with fungus. Th"
@@ -42,14 +46,10 @@
         {
           "review_id": "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
           "text": "Hell. do not order anything from then. I would prefer blinkit over zepto. zepto is unethical. they often deliver curdled milk and do not refund the mo"
-        },
-        {
-          "review_id": "c803a574-614a-4330-8ad5-9d2489171ae4",
-          "text": "Worst Experience I have with this app... pls don't use it at any cost instead use flipkart minutes or blinkit... These are very well then Zepto.. I or"
         }
       ],
       "review_count": 20,
-      "avg_rating": 1.6
+      "avg_rating": 1.7
     },
     {
       "theme_id": "mc2_price_trust_app_switching",
@@ -62,7 +62,10 @@
       ],
       "supporting_review_ids": [
         "64686682-d053-4467-b03d-da4e45467d40",
+        "444217cb-1ac3-4ac2-8919-a272bc1b9de4",
+        "reddit_post_1wfpz64",
         "reddit_post_1va2chk",
+        "reddit_post_1wfzj7s",
         "3cc038a2-86b0-445c-95fd-e7a12c3482c5",
         "reddit_post_3093be49c52b8c2bdbe51a6d8cba389f",
         "reddit_post_1vun91j",
@@ -77,10 +80,7 @@
         "b6da22ad-5b86-4264-af11-21ecdcce9477",
         "16911149-53b3-4c8d-b252-61ac04b1a16b",
         "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
-        "c803a574-614a-4330-8ad5-9d2489171ae4",
-        "7deabacd-0072-4e2c-adc1-c0a843c95a00",
-        "reddit_post_1vxxty9",
-        "345da887-f3be-4594-88af-4d50076dda04"
+        "c803a574-614a-4330-8ad5-9d2489171ae4"
       ],
       "quotes": [
         {
@@ -88,16 +88,16 @@
           "text": "iam loving the experience. as it's truly ahead of its competitors.. I have tried all platforms including Amazon fresh, flipkart minutes, blinkit,Swigg"
         },
         {
-          "review_id": "reddit_post_1va2chk",
-          "text": "Please take a minute out of your busy day to read this idea. Your honest feedback could help shape a startup that supports both customers and local Ry"
+          "review_id": "444217cb-1ac3-4ac2-8919-a272bc1b9de4",
+          "text": "Very disappointing experience with Zepto. I ordered a Sprite 750 ml, but instead received a Coca-Cola 750 ml. I contacted customer support and even pr"
         },
         {
-          "review_id": "3cc038a2-86b0-445c-95fd-e7a12c3482c5",
-          "text": "very very bad pathetic grocery app instead flipkart minutes ,blinkit and Instamart are far far better than zepto every time they charged 40 Rs as a ha"
+          "review_id": "reddit_post_1wfpz64",
+          "text": "Reliance launched an ice cream brand called Bombay Creamery on 1 September. What does this shelf look like to anyone deciding to enter it right now? W"
         }
       ],
       "review_count": 20,
-      "avg_rating": 2.2
+      "avg_rating": 2.3
     },
     {
       "theme_id": "mc3_emergency_pharmacy_gaps",
@@ -142,8 +142,10 @@
       ],
       "supporting_review_ids": [
         "reddit_post_1va2chk",
+        "reddit_post_1wfzj7s",
         "reddit_post_1vf3y3b",
         "reddit_post_1w2dcf7",
+        "reddit_post_1wdbfrf",
         "yt_yt_cmt_7",
         "reddit_post_1v75b42",
         "reddit_post_1uy3lrj",
@@ -169,7 +171,7 @@
           "text": "The app has a major echo chamber problem. I buy milk, curd, and bread every single day. Now, my entire homepage is just milk and bread. I didn't even "
         }
       ],
-      "review_count": 13,
+      "review_count": 15,
       "avg_rating": 3.0
     }
   ],
