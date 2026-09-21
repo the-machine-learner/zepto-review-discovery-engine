@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-09-14T12:21:32.889780+00:00",
+  "run_timestamp": "2026-09-21T12:29:37.387311+00:00",
   "sample_size": 450,
-  "total_corpus_size": 20187,
+  "total_corpus_size": 20868,
   "themes": [
     {
       "theme_id": "g1_missing_categories",
@@ -11,6 +11,9 @@
       "supporting_review_ids": [
         "d51df783-e2a7-46b4-8cf5-784e747efa11",
         "49918276-b8fb-42ab-beaa-63cc85707f4e",
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n",
+        "reddit_post_1th2men",
         "9ac21526-55c1-41cf-8067-42cfa56ae8d5",
         "2f43bf87-1bec-4e04-9616-8e06fd524ce4",
         "b68dd2fa-21a6-4709-ae4e-59ab422a7b84",
@@ -25,10 +28,7 @@
         "a4550a16-fc78-4391-9b50-470a95b439c7",
         "40593885-e58a-41c0-982c-36af198bbd7e",
         "85c1812c-114c-4942-a9c8-f231b64379e6",
-        "6e99ac60-ac08-4773-ac0c-f18f859a3694",
-        "8a5e3584-865b-4606-999e-bd962bcda692",
-        "4d785d2d-40b0-4a49-9e44-e0944a714711",
-        "767c4f0b-a4f1-46a8-a230-09d5e7c67366"
+        "6e99ac60-ac08-4773-ac0c-f18f859a3694"
       ],
       "quotes": [
         {
@@ -40,12 +40,12 @@
           "text": "one star is too high for the app as the customer service is very very very poor. Only email option is available for the customer support in case of mi"
         },
         {
-          "review_id": "9ac21526-55c1-41cf-8067-42cfa56ae8d5",
-          "text": "For the missing items they never inquire properly, at the end they say ''We understand your concern and appreciate your patience. As mentioned earlier"
+          "review_id": "reddit_post_1th2omp",
+          "text": "Hi r/Shopify - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter, which I've published weekly since 2021."
         }
       ],
       "review_count": 118,
-      "avg_rating": 1.05
+      "avg_rating": 1.35
     },
     {
       "theme_id": "g2_search_recommendation_fails",
@@ -53,6 +53,12 @@
       "summary": "Users complain that keyword searches yield unrelated items, filters fail to narrow down options, and recommended items on home screen feel clogged or push unwanted products.",
       "severity": "high",
       "supporting_review_ids": [
+        "reddit_post_1ucyh0w",
+        "reddit_post_1ucygom",
+        "reddit_post_1ucyd3n",
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n",
+        "reddit_post_1th2men",
         "fe867d6d-173f-455a-8278-d6a0337a9ae3",
         "0de689ed-41bb-441d-b7e2-b67477f7361b",
         "f51fd268-f86d-4479-9c74-b65b8d55198d",
@@ -66,17 +72,24 @@
         "6980a063-976e-44c4-a804-a795ec684875",
         "261968b8-75a3-46e1-b725-0b2d7d8b0941",
         "cb2deb4d-4953-4632-aba0-d2412bbc7fc7",
-        "7829ca17-9e06-41fa-9be3-3d9489c2c4c4",
-        "8c9de987-ac51-4c9e-8975-8391b599877b",
-        "1eb8cb05-1570-4128-8407-ed97da88ef36",
-        "cb484102-0c3c-44e3-b8cd-a845c416424d",
-        "a6005a1c-5a3f-473c-b4d3-c91e36c6990b",
-        "4417269b-1e37-4de0-a30f-430d097479e5",
-        "fc0df127-d896-4d9b-8232-f0e8be38cd28"
+        "7829ca17-9e06-41fa-9be3-3d9489c2c4c4"
       ],
-      "quotes": [],
+      "quotes": [
+        {
+          "review_id": "reddit_post_1ucyh0w",
+          "text": "Hi r/Shopify - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter, which I've published weekly since 2021."
+        },
+        {
+          "review_id": "reddit_post_1ucygom",
+          "text": "Hi r/ShopifyeCommerce - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter. Every week for the past 5 year"
+        },
+        {
+          "review_id": "reddit_post_1ucyd3n",
+          "text": "Hi r/ecommerce - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter. Every week for the past 5 years I've "
+        }
+      ],
       "review_count": 84,
-      "avg_rating": 1.05
+      "avg_rating": 1.65
     },
     {
       "theme_id": "g3_item_details_expiry",
@@ -87,6 +100,12 @@
         "e5d6426f-9159-4230-ad39-830e656fbe35",
         "327afa57-4340-4d92-97c1-bd0b8f360941",
         "1b6c5c5f-4dab-4d48-bdd5-8015c55d4240",
+        "reddit_post_1ucyh0w",
+        "reddit_post_1ucygom",
+        "reddit_post_1ucyd3n",
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n",
+        "reddit_post_1th2men",
         "eac4224f-6c86-4e1b-a18d-9f5ec114f088",
         "9ac21526-55c1-41cf-8067-42cfa56ae8d5",
         "d306f4b0-a5e5-4c07-9723-776ff3c92a36",
@@ -97,13 +116,7 @@
         "0a41ac39-43b4-4593-bd3b-3867f11afbca",
         "ea98b34d-83d3-4d3d-bfe6-d045bd64dbbd",
         "0a6ade83-b9f7-4c3f-936f-f4a47a9fad4e",
-        "9987503a-24a1-4110-81e0-51c8a20eaebf",
-        "12072800695",
-        "75c327ae-62f8-4f9f-b64e-2d1f49cb9887",
-        "fdbe23af-5606-4312-a8fa-b0a799e978f0",
-        "98ae4f20-ca09-435c-bc60-a7d80070fa3b",
-        "f223d1ae-2e1b-4693-af85-407c247f6fd2",
-        "a4550a16-fc78-4391-9b50-470a95b439c7"
+        "9987503a-24a1-4110-81e0-51c8a20eaebf"
       ],
       "quotes": [
         {
@@ -120,7 +133,7 @@
         }
       ],
       "review_count": 62,
-      "avg_rating": 1.05
+      "avg_rating": 1.6
     },
     {
       "theme_id": "g4_stock_availability",
@@ -130,6 +143,12 @@
       "supporting_review_ids": [
         "48e3dda4-d4db-4ffb-a02a-1efb7aca21e4",
         "e5d6426f-9159-4230-ad39-830e656fbe35",
+        "reddit_post_1ucyh0w",
+        "reddit_post_1ucygom",
+        "reddit_post_1ucyd3n",
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n",
+        "reddit_post_1th2men",
         "0a41ac39-43b4-4593-bd3b-3867f11afbca",
         "3d1c9923-3f08-4af2-a5ba-8e1bb53f9d3b",
         "e5763e1f-ea38-4e54-b446-8e652076c7ab",
@@ -141,13 +160,7 @@
         "41708176-b7ea-4df1-a3e5-8ab9c35a9f51",
         "a94bc05e-120d-4cce-8a02-3ce9807b0afc",
         "fc009cd4-969d-4196-be87-ff5edac4f553",
-        "33227104-53e6-405a-9fda-d3a6be98d152",
-        "eb2c1de8-d71e-4e8d-a1a7-d852502afb59",
-        "56436ea0-a459-4c8f-9ae0-0da55f63e004",
-        "ee094faf-0273-4811-939f-0f8d561ff00d",
-        "faea1be9-b085-400e-baaf-ac01d6150a25",
-        "8dd2708d-6178-4d4b-a044-ab4aafaface7",
-        "d6bdfbac-d515-4f88-8cca-c169d628e741"
+        "33227104-53e6-405a-9fda-d3a6be98d152"
       ],
       "quotes": [
         {
@@ -159,12 +172,12 @@
           "text": "Very disappointing experience with this order. I received a 1 kg product that is expiring in July 2026, which is a very short shelf life for such a la"
         },
         {
-          "review_id": "0a41ac39-43b4-4593-bd3b-3867f11afbca",
-          "text": "Extremely disappointed with Zepto service now. My order #KQGSSMWEJ02550 dated 06-08-2026 - Ordered 2 Kids Rakhi, received only 1. Refund still not don"
+          "review_id": "reddit_post_1ucyh0w",
+          "text": "Hi r/Shopify - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter, which I've published weekly since 2021."
         }
       ],
       "review_count": 43,
-      "avg_rating": 1.05
+      "avg_rating": 1.6
     }
   ],
   "unmet_needs": [
@@ -183,25 +196,33 @@
       "rank": 2,
       "statement": "Enhanced subcategory filtering for dietary preferences (sugar-free, organic, gluten-free)",
       "supporting_review_ids": [
-        "c8419450-1dd4-4fff-99b2-2662e2040f95",
-        "yt_yt_cmt_7",
-        "13675838-b8ef-44a1-81f1-272938c88cbe"
+        "reddit_post_1ucyh0w",
+        "reddit_post_1ucygom",
+        "reddit_post_1ucyd3n",
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n"
       ]
     },
     {
       "rank": 3,
       "statement": "Smarter search that auto-corrects typos and finds exact brand substitutes",
-      "supporting_review_ids": []
+      "supporting_review_ids": [
+        "reddit_post_1ucyh0w",
+        "reddit_post_1ucygom",
+        "reddit_post_1ucyd3n",
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n"
+      ]
     },
     {
       "rank": 4,
       "statement": "Decluttered home screen UI focusing on frequent repeat buys and relevant new arrivals",
       "supporting_review_ids": [
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n",
+        "reddit_post_1th2men",
         "3c3c649d-a9b7-42cb-aaa8-131c892f5307",
-        "d6500e1a-982d-43f9-abd0-0f1124a3ad25",
-        "572c7f1a-b0b7-4e69-89b7-d3b93a305189",
-        "128b94c9-8d10-4150-9356-073535929cc6",
-        "2d513bec-a122-4e9b-b9dc-6a97873f1d30"
+        "d6500e1a-982d-43f9-abd0-0f1124a3ad25"
       ]
     }
   ]

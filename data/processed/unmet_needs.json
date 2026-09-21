@@ -14,25 +14,33 @@
     "rank": 2,
     "statement": "Enhanced subcategory filtering for dietary preferences (sugar-free, organic, gluten-free)",
     "supporting_review_ids": [
-      "c8419450-1dd4-4fff-99b2-2662e2040f95",
-      "yt_yt_cmt_7",
-      "13675838-b8ef-44a1-81f1-272938c88cbe"
+      "reddit_post_1ucyh0w",
+      "reddit_post_1ucygom",
+      "reddit_post_1ucyd3n",
+      "reddit_post_1th2omp",
+      "reddit_post_1th2n3n"
     ]
   },
   {
     "rank": 3,
     "statement": "Smarter search that auto-corrects typos and finds exact brand substitutes",
-    "supporting_review_ids": []
+    "supporting_review_ids": [
+      "reddit_post_1ucyh0w",
+      "reddit_post_1ucygom",
+      "reddit_post_1ucyd3n",
+      "reddit_post_1th2omp",
+      "reddit_post_1th2n3n"
+    ]
   },
   {
     "rank": 4,
     "statement": "Decluttered home screen UI focusing on frequent repeat buys and relevant new arrivals",
     "supporting_review_ids": [
+      "reddit_post_1th2omp",
+      "reddit_post_1th2n3n",
+      "reddit_post_1th2men",
       "3c3c649d-a9b7-42cb-aaa8-131c892f5307",
-      "d6500e1a-982d-43f9-abd0-0f1124a3ad25",
-      "572c7f1a-b0b7-4e69-89b7-d3b93a305189",
-      "128b94c9-8d10-4150-9356-073535929cc6",
-      "2d513bec-a122-4e9b-b9dc-6a97873f1d30"
+      "d6500e1a-982d-43f9-abd0-0f1124a3ad25"
     ]
   }
 ]

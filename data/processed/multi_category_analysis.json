@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-09-14T12:21:33.782686+00:00",
+  "run_timestamp": "2026-09-21T12:29:38.070189+00:00",
   "sample_size": 450,
-  "total_corpus_size": 20187,
+  "total_corpus_size": 20868,
   "themes": [
     {
       "theme_id": "mc1_staples_and_snacks",
@@ -13,6 +13,13 @@
         "Fresh Produce"
       ],
       "supporting_review_ids": [
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n",
+        "reddit_post_1th2men",
+        "reddit_post_1ucyh0w",
+        "reddit_post_1ucygom",
+        "reddit_post_1ucyd3n",
+        "reddit_post_1wld2zs",
         "reddit_post_1va2chk",
         "reddit_post_1wfzj7s",
         "3cc038a2-86b0-445c-95fd-e7a12c3482c5",
@@ -25,16 +32,13 @@
         "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
         "c803a574-614a-4330-8ad5-9d2489171ae4",
         "7deabacd-0072-4e2c-adc1-c0a843c95a00",
-        "a80a8704-8e0d-4963-be79-55d83a0f2933",
-        "3b68852b-1782-4f10-b3bf-4941f74bf4e2",
-        "504a6d2e-003e-40a4-8fd1-f5b50b95ddc9",
-        "5dd976c3-f9ab-4566-909d-4f6c46c3369f",
-        "266b943e-c091-4802-b026-f1e7ffff3043",
-        "25187d7f-658b-40a5-b0b1-035457f106aa",
-        "6e769cf1-899f-4b06-85dc-cb0fd77a755c",
-        "aa566a61-60cc-4c23-9d40-0083b308f58f"
+        "a80a8704-8e0d-4963-be79-55d83a0f2933"
       ],
       "quotes": [
+        {
+          "review_id": "reddit_post_1wld2zs",
+          "text": "Here are the majority of things I made over the last week to eat and pack for lunch. I forgot to share them last couple of weeks but someone DMed last"
+        },
         {
           "review_id": "reddit_post_1wfzj7s",
           "text": "Tired of these stupid apps selling “crunchy sweet delicious shimla baby apple” for 80 RS (2 pieces). When tf did they change apple pricing from per ki"
@@ -42,14 +46,10 @@
         {
           "review_id": "c29b2723-1bcf-4604-b96b-b332933b801e",
           "text": "Very disappointing experience with Zepto. I received spoiled, curdled milk (Order #HONTKHTKG79227), and earlier I also received paneer with fungus. Th"
-        },
-        {
-          "review_id": "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
-          "text": "Hell. do not order anything from then. I would prefer blinkit over zepto. zepto is unethical. they often deliver curdled milk and do not refund the mo"
         }
       ],
       "review_count": 20,
-      "avg_rating": 1.7
+      "avg_rating": 2.4
     },
     {
       "theme_id": "mc2_price_trust_app_switching",
@@ -61,10 +61,18 @@
         "Groceries"
       ],
       "supporting_review_ids": [
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n",
+        "reddit_post_1th2men",
+        "reddit_post_1t651qq",
+        "reddit_post_1ucyh0w",
+        "reddit_post_1ucygom",
+        "reddit_post_1ucyd3n",
         "64686682-d053-4467-b03d-da4e45467d40",
         "444217cb-1ac3-4ac2-8919-a272bc1b9de4",
         "reddit_post_1wfpz64",
         "reddit_post_1va2chk",
+        "reddit_post_1wafdb8",
         "reddit_post_1wfzj7s",
         "3cc038a2-86b0-445c-95fd-e7a12c3482c5",
         "reddit_post_3093be49c52b8c2bdbe51a6d8cba389f",
@@ -72,32 +80,24 @@
         "reddit_post_1vun86s",
         "reddit_post_1vun4xo",
         "reddit_post_1vun0ep",
-        "reddit_post_1vzmlb9",
-        "c29b2723-1bcf-4604-b96b-b332933b801e",
-        "yt_yt_cmt_5",
-        "reddit_post_1vf3y3b",
-        "da1e05f6-9ed0-4f33-b012-432021187cc3",
-        "b6da22ad-5b86-4264-af11-21ecdcce9477",
-        "16911149-53b3-4c8d-b252-61ac04b1a16b",
-        "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
-        "c803a574-614a-4330-8ad5-9d2489171ae4"
+        "reddit_post_1vzmlb9"
       ],
       "quotes": [
         {
-          "review_id": "64686682-d053-4467-b03d-da4e45467d40",
-          "text": "iam loving the experience. as it's truly ahead of its competitors.. I have tried all platforms including Amazon fresh, flipkart minutes, blinkit,Swigg"
+          "review_id": "reddit_post_1th2omp",
+          "text": "Hi r/Shopify - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter, which I've published weekly since 2021."
         },
         {
-          "review_id": "444217cb-1ac3-4ac2-8919-a272bc1b9de4",
-          "text": "Very disappointing experience with Zepto. I ordered a Sprite 750 ml, but instead received a Coca-Cola 750 ml. I contacted customer support and even pr"
+          "review_id": "reddit_post_1th2n3n",
+          "text": "Hi r/ShopifyeCommerce - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter. Every week for the past 5 year"
         },
         {
-          "review_id": "reddit_post_1wfpz64",
-          "text": "Reliance launched an ice cream brand called Bombay Creamery on 1 September. What does this shelf look like to anyone deciding to enter it right now? W"
+          "review_id": "reddit_post_1th2men",
+          "text": "Hi r/ecommerce - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter. Every week for the past 5 years I've "
         }
       ],
       "review_count": 20,
-      "avg_rating": 2.3
+      "avg_rating": 2.9
     },
     {
       "theme_id": "mc3_emergency_pharmacy_gaps",
@@ -109,6 +109,10 @@
         "Confectionery"
       ],
       "supporting_review_ids": [
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n",
+        "reddit_post_1th2men",
+        "reddit_post_1t651qq",
         "33227104-53e6-405a-9fda-d3a6be98d152",
         "6b00b933-d89b-46e5-88c9-2e3fd68c6548",
         "ad5682dc-8a72-4a96-8fcf-f51a4ae86161",
@@ -120,6 +124,10 @@
       ],
       "quotes": [
         {
+          "review_id": "reddit_post_1t651qq",
+          "text": "A few years ago, same-day delivery felt fast. Now people expect groceries, medicines, chargers, snacks sometimes even beauty products at their doorste"
+        },
+        {
           "review_id": "33227104-53e6-405a-9fda-d3a6be98d152",
           "text": "very bad fruits and vegetables, On enquiring with customer care they say you need to reject at delivery time , when we reject at delivery time deliver"
         },
@@ -128,8 +136,8 @@
           "text": "Please start delivering medicines especially at night time. Other apps are useless. Night time emergency medicine and hospital services are terrible i"
         }
       ],
-      "review_count": 8,
-      "avg_rating": 2.0
+      "review_count": 12,
+      "avg_rating": 2.33
     },
     {
       "theme_id": "mc4_premium_organic_experimenters",
@@ -141,6 +149,13 @@
         "Health & Wellness"
       ],
       "supporting_review_ids": [
+        "reddit_post_1th2omp",
+        "reddit_post_1th2n3n",
+        "reddit_post_1th2men",
+        "reddit_post_1ucyh0w",
+        "reddit_post_1ucygom",
+        "reddit_post_1ucyd3n",
+        "reddit_post_1wld2zs",
         "reddit_post_1va2chk",
         "reddit_post_1wfzj7s",
         "reddit_post_1vf3y3b",
@@ -152,27 +167,25 @@
         "reddit_post_1uxsa8z",
         "yt_yt_cmt_6",
         "0a6ade83-b9f7-4c3f-936f-f4a47a9fad4e",
-        "3039433c-9783-4a89-ba9c-e66462809dcb",
-        "yt_yt_cmt_8",
-        "reddit_post_1vljyf0",
-        "reddit_post_1vljux8"
+        "reddit_post_1u6ctuw",
+        "reddit_post_1tulfni"
       ],
       "quotes": [
         {
-          "review_id": "yt_yt_cmt_7",
-          "text": "I used to only buy late-night cold drinks and chips on Zepto, but recently I noticed their fitness section. I ordered organic almond milk and high-pro"
+          "review_id": "reddit_post_1th2omp",
+          "text": "Hi r/Shopify - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter, which I've published weekly since 2021."
         },
         {
-          "review_id": "yt_yt_cmt_6",
-          "text": "Why doesn't Zepto offer any options in dog food? Every time I search for Pedigree or organic dog treats, they show 'Out of stock' or suggest unrelated"
+          "review_id": "reddit_post_1th2n3n",
+          "text": "Hi r/ShopifyeCommerce - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter. Every week for the past 5 year"
         },
         {
-          "review_id": "yt_yt_cmt_8",
-          "text": "The app has a major echo chamber problem. I buy milk, curd, and bread every single day. Now, my entire homepage is just milk and bread. I didn't even "
+          "review_id": "reddit_post_1th2men",
+          "text": "Hi r/ecommerce - I'm Paul and I follow the e-commerce industry closely for my Shopifreaks E-commerce Newsletter. Every week for the past 5 years I've "
         }
       ],
-      "review_count": 15,
-      "avg_rating": 3.0
+      "review_count": 20,
+      "avg_rating": 2.9
     }
   ],
   "platform_insights": [
