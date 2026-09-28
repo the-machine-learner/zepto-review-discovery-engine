@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-09-21T12:29:37.387311+00:00",
+  "run_timestamp": "2026-09-28T13:26:49.229226+00:00",
   "sample_size": 450,
-  "total_corpus_size": 20868,
+  "total_corpus_size": 21476,
   "themes": [
     {
       "theme_id": "g1_missing_categories",
@@ -9,6 +9,7 @@
       "summary": "Users report frustration over absent niche categories like specialized organic items, specific regional brands, pet supplies, and gourmet ingredients.",
       "severity": "high",
       "supporting_review_ids": [
+        "35473edd-55a0-48d5-9d6c-982bc619df19",
         "d51df783-e2a7-46b4-8cf5-784e747efa11",
         "49918276-b8fb-42ab-beaa-63cc85707f4e",
         "reddit_post_1th2omp",
@@ -27,8 +28,7 @@
         "98ae4f20-ca09-435c-bc60-a7d80070fa3b",
         "a4550a16-fc78-4391-9b50-470a95b439c7",
         "40593885-e58a-41c0-982c-36af198bbd7e",
-        "85c1812c-114c-4942-a9c8-f231b64379e6",
-        "6e99ac60-ac08-4773-ac0c-f18f859a3694"
+        "85c1812c-114c-4942-a9c8-f231b64379e6"
       ],
       "quotes": [
         {
@@ -68,11 +68,11 @@
         "572c7f1a-b0b7-4e69-89b7-d3b93a305189",
         "128b94c9-8d10-4150-9356-073535929cc6",
         "2d513bec-a122-4e9b-b9dc-6a97873f1d30",
+        "629f927b-8cfe-4794-b9e1-b3c4c6438208",
         "35a801bd-ab54-430c-9443-3f35588f769f",
         "6980a063-976e-44c4-a804-a795ec684875",
         "261968b8-75a3-46e1-b725-0b2d7d8b0941",
-        "cb2deb4d-4953-4632-aba0-d2412bbc7fc7",
-        "7829ca17-9e06-41fa-9be3-3d9489c2c4c4"
+        "cb2deb4d-4953-4632-aba0-d2412bbc7fc7"
       ],
       "quotes": [
         {
@@ -100,6 +100,7 @@
         "e5d6426f-9159-4230-ad39-830e656fbe35",
         "327afa57-4340-4d92-97c1-bd0b8f360941",
         "1b6c5c5f-4dab-4d48-bdd5-8015c55d4240",
+        "35473edd-55a0-48d5-9d6c-982bc619df19",
         "reddit_post_1ucyh0w",
         "reddit_post_1ucygom",
         "reddit_post_1ucyd3n",
@@ -115,8 +116,7 @@
         "2a7e9b26-eb14-4ed7-b82e-e812dae053b4",
         "0a41ac39-43b4-4593-bd3b-3867f11afbca",
         "ea98b34d-83d3-4d3d-bfe6-d045bd64dbbd",
-        "0a6ade83-b9f7-4c3f-936f-f4a47a9fad4e",
-        "9987503a-24a1-4110-81e0-51c8a20eaebf"
+        "0a6ade83-b9f7-4c3f-936f-f4a47a9fad4e"
       ],
       "quotes": [
         {
@@ -158,9 +158,9 @@
         "29351147-1a30-48d5-ad26-f63599db44a4",
         "1195579b-34cc-4f73-8c44-79ebb4e590df",
         "41708176-b7ea-4df1-a3e5-8ab9c35a9f51",
+        "cf561088-c959-4262-ba09-de53c3262cf9",
         "a94bc05e-120d-4cce-8a02-3ce9807b0afc",
-        "fc009cd4-969d-4196-be87-ff5edac4f553",
-        "33227104-53e6-405a-9fda-d3a6be98d152"
+        "fc009cd4-969d-4196-be87-ff5edac4f553"
       ],
       "quotes": [
         {
@@ -188,8 +188,8 @@
         "e5d6426f-9159-4230-ad39-830e656fbe35",
         "327afa57-4340-4d92-97c1-bd0b8f360941",
         "1b6c5c5f-4dab-4d48-bdd5-8015c55d4240",
-        "d306f4b0-a5e5-4c07-9723-776ff3c92a36",
-        "e053fd80-25ec-4f78-a71a-626ed01c7d53"
+        "35473edd-55a0-48d5-9d6c-982bc619df19",
+        "d306f4b0-a5e5-4c07-9723-776ff3c92a36"
       ]
     },
     {
