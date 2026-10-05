@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-09-28T13:26:49.906565+00:00",
+  "run_timestamp": "2026-10-05T14:10:42.056662+00:00",
   "sample_size": 450,
-  "total_corpus_size": 21476,
+  "total_corpus_size": 22086,
   "themes": [
     {
       "theme_id": "mc1_staples_and_snacks",
@@ -116,10 +116,7 @@
         "33227104-53e6-405a-9fda-d3a6be98d152",
         "6b00b933-d89b-46e5-88c9-2e3fd68c6548",
         "ad5682dc-8a72-4a96-8fcf-f51a4ae86161",
-        "a442f21d-6fc1-4717-a085-6393f049364b",
-        "26023e5f-81fc-4f9a-b309-118b98b677e3",
-        "ab7d8303-dc3a-4149-aef4-ab12ac7bf53a",
-        "6704063e-6bb2-4dc6-8bb2-06969ac17270"
+        "a442f21d-6fc1-4717-a085-6393f049364b"
       ],
       "quotes": [
         {
@@ -135,8 +132,8 @@
           "text": "Please start delivering medicines especially at night time. Other apps are useless. Night time emergency medicine and hospital services are terrible i"
         }
       ],
-      "review_count": 11,
-      "avg_rating": 2.45
+      "review_count": 8,
+      "avg_rating": 3.0
     },
     {
       "theme_id": "mc4_premium_organic_experimenters",
