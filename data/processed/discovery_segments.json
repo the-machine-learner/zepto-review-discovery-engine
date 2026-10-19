@@ -1,88 +1,88 @@
 {
-  "total_reviews": 22634,
+  "total_reviews": 23134,
   "summary": [
     {
       "segment_id": "general_shopper_negative",
       "label": "General Shopper Negative",
-      "count": 10146,
-      "percentage": 44.83,
+      "count": 10401,
+      "percentage": 44.96,
       "description": "General customers submitting negative feedback (1-2 stars) on app errors or delivery issues."
     },
     {
       "segment_id": "general_shopper_positive",
       "label": "General Shopper Positive",
-      "count": 2961,
-      "percentage": 13.08,
+      "count": 3051,
+      "percentage": 13.19,
       "description": "General customers submitting positive feedback (4-5 stars) without specific segment keywords."
     },
     {
       "segment_id": "household_replenisher",
       "label": "Household Replenisher",
-      "count": 2230,
-      "percentage": 9.85,
+      "count": 2282,
+      "percentage": 9.86,
       "description": "Shopping for family/households, buying daily groceries, staples, milk, cooking oil & vegetables."
     },
     {
       "segment_id": "habitual_trust_and_awareness_hesitant",
       "label": "Habitual Trust And Awareness Hesitant",
       "count": 1629,
-      "percentage": 7.2,
+      "percentage": 7.04,
       "description": "Habitual Shoppers (App Trust & Awareness Hesitant): Buys routine staples but hesitates on new categories due to lack of awareness, search friction, or skepticism of app offers & policies."
     },
     {
       "segment_id": "habitual_expiry_quality_hesitant",
       "label": "Habitual Expiry Quality Hesitant",
       "count": 1538,
-      "percentage": 6.8,
+      "percentage": 6.65,
       "description": "Habitual Shoppers (Expiry & Quality Hesitant): Buys routine staples but fears expired items, spoiled groceries, or stale stock in trial categories."
     },
     {
       "segment_id": "impulse_snaker_night_owl",
       "label": "Impulse Snaker Night Owl",
-      "count": 1027,
-      "percentage": 4.54,
+      "count": 1044,
+      "percentage": 4.51,
       "description": "Ordering late-night snacks, munchies, beverages, bachelors/students looking for convenience."
+    },
+    {
+      "segment_id": "hesitant_multi_platformer",
+      "label": "Hesitant Multi Platformer",
+      "count": 948,
+      "percentage": 4.1,
+      "description": "Compares prices across Blinkit, Instamart, BigBasket, Amazon; sensitive to delivery charges and trust."
     },
     {
       "segment_id": "habitual_price_sensitive",
       "label": "Habitual Price Sensitive",
       "count": 932,
-      "percentage": 4.12,
+      "percentage": 4.03,
       "description": "Habitual Shoppers (Price Sensitive): Uses Zepto for daily staples but switches to Amazon/BigBasket for other categories due to prices/fees."
-    },
-    {
-      "segment_id": "hesitant_multi_platformer",
-      "label": "Hesitant Multi Platformer",
-      "count": 888,
-      "percentage": 3.92,
-      "description": "Compares prices across Blinkit, Instamart, BigBasket, Amazon; sensitive to delivery charges and trust."
     },
     {
       "segment_id": "general_shopper_neutral",
       "label": "General Shopper Neutral",
-      "count": 601,
-      "percentage": 2.66,
+      "count": 609,
+      "percentage": 2.63,
       "description": "General customers submitting neutral/mixed feedback (3 stars)."
     },
     {
       "segment_id": "premium_gourmet_shopper",
       "label": "Premium Gourmet Shopper",
-      "count": 304,
-      "percentage": 1.34,
+      "count": 314,
+      "percentage": 1.36,
       "description": "Buying high-value items like electronics, branded apparel, smartwatches, luxury, or gourmet imported goods."
     },
     {
       "segment_id": "habitual_sos_single",
       "label": "Habitual Sos Single",
       "count": 252,
-      "percentage": 1.11,
+      "percentage": 1.09,
       "description": "Habitual Shoppers (SOS Gap-Fillers): Uses Zepto purely for urgent medicine or missing cooking ingredients and exits immediately."
     },
     {
       "segment_id": "emergency_sos_shopper",
       "label": "Emergency Sos Shopper",
-      "count": 126,
-      "percentage": 0.56,
+      "count": 134,
+      "percentage": 0.58,
       "description": "Urgent medicine, pharmacy, guest arrivals, last-minute cooking ingredient shortages."
     }
   ],
@@ -45976,14 +45976,6 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "3792b3fc-2848-411f-8a86-94688339d7f9",
-      "rating_tier": "negative",
-      "app_version": "26.3.5",
-      "inferred_segment": "general_shopper_negative",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
       "review_id": "707973e7-a4e9-47fa-9eff-9ed10e53da57",
       "rating_tier": "negative",
       "app_version": "",
@@ -62828,14 +62820,6 @@
       "rating_tier": "positive",
       "app_version": "26.5.2",
       "inferred_segment": "habitual_price_sensitive",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
-      "review_id": "45527150-1071-4cb7-80b1-9dc24b813050",
-      "rating_tier": "negative",
-      "app_version": "26.5.3",
-      "inferred_segment": "general_shopper_negative",
       "inferred": true,
       "confidence": "heuristic"
     },
@@ -115872,14 +115856,6 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "f2b22c9b-78cc-4f6d-bac8-9d6f93461463",
-      "rating_tier": "negative",
-      "app_version": "25.6.5",
-      "inferred_segment": "habitual_price_sensitive",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
       "review_id": "04850498-4650-44c6-afdc-b86c40f36cce",
       "rating_tier": "negative",
       "app_version": "26.7.3",
@@ -120675,14 +120651,6 @@
       "review_id": "6ef2a686-0f58-4988-8db0-6431ba5cca90",
       "rating_tier": "negative",
       "app_version": "26.7.3",
-      "inferred_segment": "general_shopper_negative",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
-      "review_id": "4a860262-04f2-4a0b-be20-dbb2a5be23b8",
-      "rating_tier": "negative",
-      "app_version": "",
       "inferred_segment": "general_shopper_negative",
       "inferred": true,
       "confidence": "heuristic"
@@ -137256,14 +137224,6 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "e2d97d05-7c1e-46d3-914d-6dba3127e331",
-      "rating_tier": "negative",
-      "app_version": "26.8.2",
-      "inferred_segment": "general_shopper_negative",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
       "review_id": "1c6b8f00-e315-4b52-9a21-b301c8bd9673",
       "rating_tier": "negative",
       "app_version": "",
@@ -141228,14 +141188,6 @@
       "rating_tier": "neutral",
       "app_version": "",
       "inferred_segment": "general_shopper_neutral",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
-      "review_id": "22542380-ce6e-4c50-9ddc-5d1397df1da5",
-      "rating_tier": "negative",
-      "app_version": "26.8.2",
-      "inferred_segment": "general_shopper_negative",
       "inferred": true,
       "confidence": "heuristic"
     },
@@ -146020,14 +145972,6 @@
       "rating_tier": "negative",
       "app_version": "",
       "inferred_segment": "hesitant_multi_platformer",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
-      "review_id": "9a10c93c-735e-48f4-85e8-269abd9e1e4c",
-      "rating_tier": "positive",
-      "app_version": "26.8.4",
-      "inferred_segment": "general_shopper_positive",
       "inferred": true,
       "confidence": "heuristic"
     },
@@ -163920,14 +163864,6 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "daf8d482-d8ec-4b90-990c-9224df17656d",
-      "rating_tier": "negative",
-      "app_version": "26.8.6",
-      "inferred_segment": "general_shopper_negative",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
       "review_id": "064e548d-ee56-4c7f-b136-87b6284f1bda",
       "rating_tier": "positive",
       "app_version": "26.8.7",
@@ -167513,14 +167449,6 @@
     },
     {
       "review_id": "a9be1515-02da-4299-8dfe-38e828d447cd",
-      "rating_tier": "negative",
-      "app_version": "26.9.2",
-      "inferred_segment": "general_shopper_negative",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
-      "review_id": "61a5d4b3-544c-4656-b889-8ecbf0b6448d",
       "rating_tier": "negative",
       "app_version": "26.9.2",
       "inferred_segment": "general_shopper_negative",
@@ -175520,14 +175448,6 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "4a9e72f2-f598-48d0-893d-01209ec72f8c",
-      "rating_tier": "negative",
-      "app_version": "26.9.4",
-      "inferred_segment": "general_shopper_negative",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
       "review_id": "5a41323b-7774-43e9-b139-5900ded55701",
       "rating_tier": "positive",
       "app_version": "",
@@ -177744,14 +177664,6 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "283a660f-c5ef-4977-9884-20e9c6d0d75e",
-      "rating_tier": "negative",
-      "app_version": "26.9.3",
-      "inferred_segment": "general_shopper_negative",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
       "review_id": "88337091-6103-4262-9c57-0e96a29928ac",
       "rating_tier": "negative",
       "app_version": "",
@@ -178075,6 +177987,14 @@
       "review_id": "8cc195bc-3eb9-49e4-bb9d-3b37fd6cb274",
       "rating_tier": "negative",
       "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4a9e72f2-f598-48d0-893d-01209ec72f8c",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
       "inferred_segment": "general_shopper_negative",
       "inferred": true,
       "confidence": "heuristic"
@@ -179064,14 +178984,6 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "146d4ce5-fe18-483c-8f1f-61373aa92243",
-      "rating_tier": "neutral",
-      "app_version": "26.10.1",
-      "inferred_segment": "general_shopper_neutral",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
       "review_id": "b8d53d3c-ce94-4b75-822a-46a2bf4570f7",
       "rating_tier": "positive",
       "app_version": "26.9.4",
@@ -179276,6 +179188,14 @@
       "rating_tier": "negative",
       "app_version": "",
       "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "62a93b56-bff5-49b0-a036-8e901842306f",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
       "inferred": true,
       "confidence": "heuristic"
     },
@@ -180704,14 +180624,6 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "23b37f01-cb26-4c71-9845-fa1534b92cd2",
-      "rating_tier": "negative",
-      "app_version": "26.10.1",
-      "inferred_segment": "impulse_snaker_night_owl",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
       "review_id": "e4d32f7a-d2c1-4fab-aa49-24dbf42130d6",
       "rating_tier": "positive",
       "app_version": "26.9.4",
@@ -180880,6 +180792,4094 @@
       "confidence": "heuristic"
     },
     {
+      "review_id": "3034011f-1101-40c5-ab76-055ddefdc104",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "dc4f4863-b08d-45ff-be28-40575661593e",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "92d59980-5eed-40bf-ab06-7d730755040b",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8d96842f-4587-4224-8630-fc07d250efbf",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "52fa7709-9d50-419c-849f-640705efcd15",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "277df46f-25b3-401e-9615-1a37664ab989",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7e46f521-ff71-4c13-85ef-9c0fdc14887a",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a51247c2-e065-4b2d-8a04-19d1b24c981c",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "81cfafaa-0bc3-4cc1-b1eb-568ac1b43868",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ca3d57fd-950d-4d5e-b69c-91d479bdee0f",
+      "rating_tier": "positive",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "fa9fb2f3-92db-4a55-bad5-e5b95e69a9df",
+      "rating_tier": "negative",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "142771eb-9bbe-4040-b639-dfe255b611cc",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "09043f88-b681-49ae-8385-d22c63f745a3",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b756a24f-063e-49b0-a608-ba7f89bfc7d5",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8a4f4536-e4a0-4b3c-9c2c-ab102ee662de",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0ef4e989-de26-4a88-8f21-8505a9994475",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "432856f1-91fe-4dfc-8e36-d3cb4f53f1b4",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "09690360-7313-46b5-8423-2c79dc287478",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c6c7e9fe-eb1d-44e6-bad7-02ae878654dc",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "fa6a30e2-7d0f-4834-864a-ea9d3db0f8a6",
+      "rating_tier": "negative",
+      "app_version": "26.9.3",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "cae0301b-e179-4f79-b598-75dfcd3ca115",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ba5bd862-b019-4857-bd14-16369302f6be",
+      "rating_tier": "positive",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5fd189d8-4d62-4699-a372-065d2f151a4a",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "01bc4f62-f49f-471b-b72c-420250105f95",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ec1ac657-e191-419e-bd3d-8bef6aa1501f",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "176aeb83-d339-4f44-8fcc-136e2fbc9b54",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b9229e11-f494-49f3-abc2-2dcb3506aa55",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4a860262-04f2-4a0b-be20-dbb2a5be23b8",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1wy7u4v",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1wy29yk",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1x409bj",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1wzwlje",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1wz65wt",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1wyq474",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1wyefiz",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1wyb0sq",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1wy2bx1",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "331b1bd4-d20d-4358-887c-4c48baf700ed",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b1e74e5b-b01b-42db-9595-861303d57c00",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "435c6b24-b252-4f63-9e5c-6ef911618ce7",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "748a3ab8-1466-46a1-8da3-2a4dc76b77e9",
+      "rating_tier": "negative",
+      "app_version": "26.1.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c1a6c2df-2567-483f-a520-661f2a514a7f",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "becfc71e-441e-441b-9c00-25fb551371d3",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d2ced1d2-a026-4f4a-996c-6c1f59022ead",
+      "rating_tier": "positive",
+      "app_version": "26.9.4",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1f48a165-9e01-4573-9b9c-9cc3afb74e8f",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "afed8ccd-010f-4cfd-a58e-362cc6874424",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "fe0c3ccf-f082-44d5-907c-cb117e0ae59a",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "819d6c0e-1b2e-448c-8f6c-730a8f076c58",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "194f4e08-980c-46a6-b01f-d9eec11e8dbb",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7b4948c6-3621-4fe8-8e86-63c59ad39d18",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "260aff7a-18c0-4d7c-9edb-7e82a721c628",
+      "rating_tier": "negative",
+      "app_version": "26.7.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e99ab57b-7205-44bb-8638-8ee781645632",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6aef67dc-68b5-4466-81cf-95cda1dbc492",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b27e6a68-2db3-495d-bea5-36a314da53e6",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3dfb860f-f406-4928-8ead-d5c78653727f",
+      "rating_tier": "negative",
+      "app_version": "25.8.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8fcf3215-2cae-4060-ae7f-923f8cda206f",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d1463aac-9829-40fe-af39-6d0a5e4679c9",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c33b0920-7535-4fc9-bac5-05621ddf0f8e",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ce065197-077f-433a-9b6e-0069d80d6e5f",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "19610db4-6401-4c42-9f7e-e7ee5b174cad",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "30d0a8b6-85b4-4008-b157-59aa5c0859d7",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "27f64066-3a4f-46ea-a5c9-291d283f8a8e",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3f452f48-3b1d-4403-ba87-0b1b52902cd5",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c24e7497-fbc1-4098-9f47-5c32165a382f",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b76e1192-cc69-41f7-bce7-8e05432942ed",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "985943c9-16e7-4671-8301-47d5d0fdfcd5",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "85d8b54f-6d44-44e1-a15a-f1a62442a3b4",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "86fda9ae-dbfa-4116-8671-5fc1366de62e",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d9b83648-24c6-4aa4-8fd2-b1167f2d917a",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a73dd0e5-b5d8-4058-8898-3dcccd7ff1ff",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c4812e2b-4ff5-4594-bbbf-0ee2ad1a4ef6",
+      "rating_tier": "negative",
+      "app_version": "26.5.5",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "68cc8f4b-680d-4ed2-b234-07c27dec93f9",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "29bf12b4-4e1d-4217-8706-fca7c3dcef1c",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5ff76c9d-3d23-449a-8625-ab674ced3a5e",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c4ed7607-0474-4617-8988-9454d80f1a4b",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0e596583-1675-45b1-aac9-3ba133498c23",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "969c2808-10eb-4a60-9e81-9190fb3b7e83",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6d5a7486-fd3e-439c-8608-76f61c3f4291",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c6d3c559-2e64-4daa-8f15-cb7744a4303e",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9db0c28f-f1f0-428a-bef9-6f0c4d408a7f",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "059d36c3-c88c-4453-8153-cbc7a07eec0c",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "efe51467-abe5-4ea2-a0db-57841af61d44",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8580df82-6c33-4c7a-ba34-1e49e99a48ac",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "03358657-9443-4b4c-8541-36f283232b6c",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4fa9fb50-11b6-42f7-bb47-16628f118f11",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7e436ace-137a-4582-bbf8-2e0a8aa8fdb6",
+      "rating_tier": "neutral",
+      "app_version": "26.9.4",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c61e530c-17af-4374-bba9-cf04138b3fe8",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "be33b747-c069-4dd2-9888-8ef859567b72",
+      "rating_tier": "negative",
+      "app_version": "26.8.4",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f0b9e1ba-9eea-4eeb-99e3-c9244e971493",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "632dfc43-fa48-47a2-8b02-6991c2078c22",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5b8471d6-fb8e-4901-b0ae-ac2c2bdf562b",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8dedb86a-61eb-4870-8877-2bc3baccd80a",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "18c3dea4-260c-4293-ae5f-98bca36baa62",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1abca0ad-3991-491c-b2ea-f5ae481f9cd9",
+      "rating_tier": "positive",
+      "app_version": "26.9.3",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6a250b7b-cfa7-49b8-8636-1e24b5b46026",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f40a13d8-8a39-4f5d-acdd-87abd1b109a4",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "028bb5aa-aeb9-4a3c-aa2f-69d2cd776365",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9a10c93c-735e-48f4-85e8-269abd9e1e4c",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "146d4ce5-fe18-483c-8f1f-61373aa92243",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "23b37f01-cb26-4c71-9845-fa1534b92cd2",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7e720b80-2e62-4217-bd68-85c4eded8876",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f3ef2c67-2669-4ed2-a433-abdd68a1e441",
+      "rating_tier": "negative",
+      "app_version": "26.5.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "26b24563-3011-40a2-ab24-b377330f9fd8",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e43a79df-94b3-41bd-acb3-68994b8a4c88",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ccb42b5f-bcd0-4627-980f-e44ecd82d007",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "68b9f30b-b7f6-4ded-8d44-99287f3c8df0",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "bc139fce-ebd8-4790-91f2-5abb42548efd",
+      "rating_tier": "negative",
+      "app_version": "26.9.4",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "57aec56f-399f-4b91-9939-46aec41ef852",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b2230b76-823c-43d4-aef4-6aa65503fc7d",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "74ed34ea-3220-4933-b35c-bfbce8e66fb0",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1f2d29e8-1b53-40b6-8353-1f2fe5c11571",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8840749b-a540-46e5-81f9-154fd455d0f8",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "cc4761c8-26fa-4b44-9cfa-fb99f9118cec",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ed7f111d-1bad-48bf-9a84-1baa43c7585d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "944f74d7-c539-4763-8231-c69e7692421c",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "250e7a4c-e6cd-42e0-895d-ec4f8f9515e2",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "74a9af40-4a9f-49a2-9db6-508d35453308",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c26e9b21-e707-44af-914c-19c76eab453b",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "45966999-c6c5-467a-b13d-a5542e6d9a9c",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0a9c592f-8c44-44d6-a330-4fc09e070c0c",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "bfc8cce5-7309-463b-b4c7-1bf0138bbe5d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3dd36ed4-725f-4f52-b909-1f25ba86f8a6",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "66f282e0-af68-4055-849e-7516f5f56817",
+      "rating_tier": "negative",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ccaa1ad2-db3d-49b2-812b-b820bf2539cf",
+      "rating_tier": "negative",
+      "app_version": "26.9.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c7712ada-0fb6-4f1d-ad2b-147bef4dfda5",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "510f45d3-0b93-441c-a142-2e2f9040cdd7",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9963fe0c-a653-48f5-9c46-842c19cb6822",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "bab2a0e1-e3d0-450e-bb7a-4461b979d267",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1abdd79f-aa36-48a4-ac43-a445edc243b6",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5a69150a-d245-43d0-a68d-34a04bf6f44b",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "899c21a9-c64b-4dce-9c36-41542be3750e",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d6306dca-9efa-405d-acd7-9eef6373b33c",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c4af4180-e816-46a6-b3f0-9c36a6359201",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e6ad95fb-271b-42dd-a2a2-9aa3ca772579",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3046cbe3-5ea3-42ea-9971-9d1fd243f7be",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "16ca5815-2939-4195-896c-e57919d99fdf",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ac0ba329-7867-41fa-bf7e-422f06924991",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "41f1dbf2-d44d-4d95-bb6e-e438e7724ab3",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "29dcc8a7-08d8-4641-9333-4a1b20d79091",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8643d1be-a06e-47c0-8ae6-a3a2abc677fb",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a8e01d27-419a-4686-9e70-bbd658af8799",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "28dc5f10-93a6-4d41-b982-00dfcacc8eeb",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "87139389-0c6e-4967-8f28-2e75d32e746f",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "06fe8994-2b59-422a-af09-b38bda3ebc44",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "aa7505ec-6d78-4ea7-ad5f-d59329649673",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "971f0f43-aaa9-4f95-9be7-c266ad2b2285",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "da607eb9-3fb3-447a-9ab2-353f9c390f29",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5f6572cc-7d23-4ff9-8ed6-39365037c54f",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "319f5ace-4f21-46d4-a21c-94a8f64f5d28",
+      "rating_tier": "negative",
+      "app_version": "24.2.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7b142b22-54d3-44a0-8260-5a8b41907ec5",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "98e1f52b-ee30-4e29-8ef2-4e544e2f4bde",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "117a7a3e-0cce-4ec6-ac41-7c9c0f61b4cf",
+      "rating_tier": "negative",
+      "app_version": "26.9.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7977166c-9534-485e-a6ca-d832042eccb4",
+      "rating_tier": "neutral",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3ff08913-8df3-460e-8222-2d86bc6cd8ce",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f57974c3-2894-4caa-936b-4770138e6004",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a106526a-abd9-42f8-ade1-aa9410140896",
+      "rating_tier": "neutral",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "75d5f191-451f-418d-bcd9-6d1945880266",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2dcb40da-4452-45b9-9f89-3c3ddc966f8c",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "51e059cd-50b9-4212-bd3c-f8cef14654da",
+      "rating_tier": "negative",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7717f4c4-0d4f-4a0d-8c45-b2a4b47db706",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2a51d368-67e8-4c2d-902b-4718b5926273",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6c3c6b76-fdca-4b6c-b599-7353863b187c",
+      "rating_tier": "neutral",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1d50fbde-63d7-4a08-8d2a-8cfc563f9a8a",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "99fe1991-0410-49bf-91ea-973f2d7dc159",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "06af3f0a-de0c-4e11-8339-5feb0314ed4d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f2b22c9b-78cc-4f6d-bac8-9d6f93461463",
+      "rating_tier": "negative",
+      "app_version": "26.9.2",
+      "inferred_segment": "habitual_price_sensitive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "22542380-ce6e-4c50-9ddc-5d1397df1da5",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "daf8d482-d8ec-4b90-990c-9224df17656d",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "61a5d4b3-544c-4656-b889-8ecbf0b6448d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "283a660f-c5ef-4977-9884-20e9c6d0d75e",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "09e7532f-984e-4d1a-b903-d994fccb6d6b",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "50748326-ad54-49a2-af04-c23ba74ace7a",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d5ff5e61-1a96-48de-8c96-e7ed783d1491",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "bfc4f871-2214-48e9-ab8b-d987b3478a2f",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "972bf00d-6bf8-4a5e-9cb6-8b98d67b35a4",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ebeadd00-ed16-4333-8df4-49b3f7d153c9",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a6464018-014e-4c09-8434-fe01690b1b76",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2cf0de1f-b646-4475-a9ba-3083fb4037de",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9bbc18cc-1533-4dc3-9720-748d8996f845",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2761967d-d732-4e83-add2-6b770ec2a2e0",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "998a7b61-ad96-4769-8586-1289d2c41afb",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7837baec-4b72-49c3-b36a-fd629c23e633",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5c87c952-651a-4fa2-93e1-16fb6657a378",
+      "rating_tier": "negative",
+      "app_version": "26.7.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a9379662-2f91-47e8-bb46-187ad30a864b",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "87346adb-0a0d-44b8-877f-a61e8ab741b3",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f98eea3c-f1c0-4ad6-8555-b59b89032fdb",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "27295440-a627-47ad-9857-b2b5ade97e95",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2276db80-7b3d-4b70-b51c-5f752b75bd5c",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "04939c1b-4850-414d-b064-cb0861552943",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3186f040-4a76-4db5-9d2d-1c6d7ad639d1",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3794932b-155a-4903-81e2-6b8e464f75d9",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "82941dba-44b1-43d1-a052-f0ef927501df",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3bf66bac-5970-4d0a-b69b-115cc950985e",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b4f4e539-6ef6-44a0-9da3-60d63e169e21",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "71250f57-3059-45f0-ba0d-c487301e007e",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1bc50d97-dea4-416e-8bf6-952c960eab5f",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0a77fa7c-61f2-48dc-9d18-dfde4fce10e2",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d6fb8c5a-5dd3-42fa-9996-0b8028720704",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "38c94348-8414-4d30-a799-4d87eaffb6f6",
+      "rating_tier": "negative",
+      "app_version": "26.6.5",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d16d648d-a949-4e52-af9d-2e191da8346f",
+      "rating_tier": "positive",
+      "app_version": "26.4.3",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "37132ed1-1991-47c6-9116-76a6c059b4cf",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "12a02c7b-d008-42c9-a1fa-a45f20babb65",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e9a9bac9-5bb0-4bce-bcd3-8a0cee473d04",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5aa88956-6612-4856-af47-cca33eeb1df1",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "35d1533a-318e-43af-9856-f00b14b1a81d",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0e8af36a-d619-4d1d-9719-1f61f9460a1b",
+      "rating_tier": "negative",
+      "app_version": "26.9.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "51c63d84-dcc3-489e-a32f-d9ab5fd7850e",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "adcfcffb-ad70-4a85-8578-0c6fbceb3725",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4268176d-cd36-4ce0-83b0-0a451148aa7b",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9e49efaf-7803-468f-9196-b9acfb070ab3",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1ebb15c4-6378-425c-b41c-b3431c1022d7",
+      "rating_tier": "negative",
+      "app_version": "25.9.4",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "50617898-0db1-4afc-9cc6-edeaee95f7b9",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "29b88822-a789-4a7e-adbc-e3fac20b975b",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "214eab0a-43c0-4221-9335-9f7028e5e3dc",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4ce081a5-7e75-43c3-9050-ce733ceee350",
+      "rating_tier": "negative",
+      "app_version": "24.12.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a09a5d6b-aa9b-4905-87ba-302ed16ee07f",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "aca27c6d-fdc1-4d78-9cf0-cd6cdb82ddc5",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "863cbbe6-dfdd-43a6-942d-2c3b91923707",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8fd16c46-dd2c-4ea8-9748-71e55ac6a9de",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "12f28622-3c6d-4ce5-b000-42b669f60cfe",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9cc2f3a8-54a6-4451-b161-44103a63696a",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "dbc1c31c-c41e-44ed-88f2-3f85879c11e6",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8c230093-b3f7-4e0e-9ac7-65b2c2f54483",
+      "rating_tier": "negative",
+      "app_version": "26.8.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7a7206ec-130a-4119-8739-ebeb66026297",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "117a044a-9d7a-49d7-9929-73479fd92fc2",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "695f1528-c3eb-491a-8448-5cdce50ef6d2",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f9ded81d-1fa6-404c-a4de-caf51a6cd6d8",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "adaa7d4a-8a57-4cd3-a327-a4d266d353a7",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2ee34b83-d806-4fed-a20b-8a5996990897",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9ecab349-6d76-4e3b-8fef-22c5f95ed95e",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1a3acf36-b715-4e8e-914a-56487879333a",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b55aa0c5-cdfc-4ec4-b6dc-5ea283815e4c",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "76377694-0334-404e-906f-b13a83fa8c44",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f39ae3e5-c766-4d14-b121-818d0736d9b1",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c55c8a2b-9776-4b71-9cd9-fc9bf3d0fd71",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9ff3abed-f8d8-4cc7-9ccf-09ede54be451",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1a7a1299-8e94-48ad-a88c-ea56ccbca5aa",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2f47ec74-a39b-45b2-b9b7-46701365d8fc",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2cee151b-a93d-44a1-bac8-e1ff27fc1b3d",
+      "rating_tier": "negative",
+      "app_version": "26.9.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1f3b6643-cdd9-4ade-8779-8fe94d73477a",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8df6edcb-fdad-4a70-8bdf-447dbd9c1890",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a00cd567-6f9f-496c-8222-73bb8df6c18f",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "69932d42-38c3-4752-adcf-69e5eb758282",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a07004ef-dc0b-44c5-9256-e780d04423ce",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "73de9aee-032f-4078-a386-9adbb6e45f8d",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2243f5d9-9952-49ca-8ef3-f801e3e89c58",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2ae89a40-823f-4b5c-b295-fbf3fc5ed3b5",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "67baf890-6e2f-43c2-9a07-994e6bd65957",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ae19a64d-77c8-406f-a2b6-0bb96647e792",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1e9f780e-e436-46b9-afae-a3629ac75c1f",
+      "rating_tier": "positive",
+      "app_version": "26.3.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2f630efe-1bc8-4bcf-a1d3-7d0ae54e1770",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "cdac45b6-c9ee-4253-895d-1ae9a3289f30",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c4e72010-a907-4d8a-a946-15476f23d567",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4972ef7b-4bdc-48b0-b429-0b43302ed4f1",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4d1572fd-6407-4343-b661-8c199cdd8c51",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0b0f6435-82c5-4415-bfa7-b9afaef31f93",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6956f78d-b960-4636-ad38-f5c096a20d93",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "73dbf0fa-43d0-484c-b0b4-d9f990afcb37",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c8cad726-2f32-4363-b751-fc1a9985fef2",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c07d3d84-41aa-44f0-b5ea-c266e253609c",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2d5bb41c-f887-407c-83c9-a1e85a624bd1",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1d2fb3a6-43f6-474f-aed7-e6e5e98e813c",
+      "rating_tier": "negative",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a9a405df-a77c-48f6-8125-d48208426874",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "bdea17b4-8671-4d78-8d7b-8108868573cf",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "00d08b1c-2750-40fe-a668-7cef7c5f18ff",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ca04aff2-0239-47bd-bd3c-08dc9c20e177",
+      "rating_tier": "negative",
+      "app_version": "26.9.4",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "db6d3e14-8cd5-4203-acbb-6ccb3bcfe701",
+      "rating_tier": "negative",
+      "app_version": "26.8.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b57b824b-6f92-4083-acc7-f1d60b4678aa",
+      "rating_tier": "negative",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8edc3a00-97b9-40c6-a00f-54a537788cf3",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d24a8ff8-b883-46be-b19b-78c5fec82fca",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e3a498e4-ee94-479b-a4b0-c5b8659a8eb9",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a36848ec-b093-4661-b216-631efdea05cf",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "63059d68-634a-49a4-9bb2-e100927d2f17",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "75bf3d3c-9641-48df-966a-764c5631887d",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a7871513-adae-42cc-bd3c-1d164b5c7db5",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "966ff2f8-3a1f-4f75-a40b-26512a0a32c2",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "32f2a15b-b25a-4cf6-8abf-af2ac0b18dd6",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "71683846-0830-4a56-8b81-0753f7a0e74b",
+      "rating_tier": "negative",
+      "app_version": "25.4.7",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "811f301c-881e-4cdd-bcf9-a6853d939074",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ec00142e-6d99-458b-a454-7cf77b2d588f",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1949de92-8286-426f-8d6c-43b7d4a7794e",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6158db79-7f10-44e3-a79c-8b455fcf32cf",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3f8b4490-e44b-42e2-8dba-77b342838b5f",
+      "rating_tier": "positive",
+      "app_version": "26.9.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5adef510-c6e1-4fb3-8175-08055cdf40eb",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e7b7fb03-f030-4d27-aec0-0f31d17c8e0c",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "09e24ee3-ab17-45cb-8c70-3a039195f337",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "20394fd4-3c54-4a0b-b122-f60302e4c831",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5fa823c4-8cdd-4871-a994-bff8d92c94c1",
+      "rating_tier": "neutral",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d23f45f7-30f3-4f83-9b7b-e50c298ffec3",
+      "rating_tier": "negative",
+      "app_version": "24.1.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e64f35a5-95dc-4d20-a338-4db02e4c8f1f",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e90f0c8e-d85e-4a0b-8f17-b643d77da4ce",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "983aaf8b-6c8a-4e37-afad-5f9062716f66",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "84cbb85e-a269-4cf9-818b-e49d97e38787",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e9d4a8ac-0515-4363-b3be-855bf6b6843a",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6e281a05-3ba6-4b4e-8e6e-996d93ae3b9b",
+      "rating_tier": "negative",
+      "app_version": "26.8.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7bd34a45-825a-4a50-877a-dddf6efb4e9d",
+      "rating_tier": "positive",
+      "app_version": "26.9.3",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6d657394-455f-4c56-bf45-dc5bb1fc0620",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1aec0bfa-d872-427a-b2a9-a2b523a070b4",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "45527150-1071-4cb7-80b1-9dc24b813050",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e2d97d05-7c1e-46d3-914d-6dba3127e331",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a417f406-e207-4c33-bac2-635c1c1cf5f3",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d9561eed-d947-459e-825a-9059de727d36",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "915f9575-a650-49cd-8214-69630820994c",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ef593680-af81-49c9-9284-63d3d7b68e5e",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c84da047-35a9-4ae5-b32f-cb1fc9f60ba4",
+      "rating_tier": "neutral",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "39034e4e-e658-4fef-b9b7-c12eb9d8deb4",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "71331b78-eaa3-4f7a-bb7c-f6000f540614",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "aea7150e-4d6b-4fd3-8c38-ce87036ac9de",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "cfa3144a-f9ae-4d3d-840d-d3d80cdb2afb",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "633997af-2b82-48ff-9454-4b9eec6840d6",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "937eb0ee-f0d6-4af1-baa8-6afa5864f554",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "93b58907-b64e-4acf-8756-99b2f87d7a27",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "161ecd3f-119e-4dd7-ba8b-d1da3d82a7fb",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "21ad1fb9-510b-4c5d-878a-1529f935a23d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "656cfd80-61cf-4678-bc1b-2b4ea76dda09",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "cf7e338e-13ba-4cb5-ac8e-a73f58c60669",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "856eaa33-2d68-4d62-a4e8-5c7859361a4b",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e8d84c83-f42a-4dba-a83f-3b3c74f12211",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "62bd43f1-33ad-4f6e-aecb-aff3ce5c814e",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3415e758-00e6-4784-a374-f9eee428a0e2",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "344fe3c4-b609-4698-a1dd-3bf7dd3aa6c2",
+      "rating_tier": "negative",
+      "app_version": "25.7.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "abe1c20b-3441-4b93-85e7-5ddb1ecdd18c",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b5e5fb30-86bf-4b59-b451-d5c847de3db8",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a9279145-539f-431a-a34e-ac68a2cb79de",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7fda3ac5-be1b-410d-a8f1-0bdef19351da",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9a2db78a-88f8-43c1-acca-0eecf0452fe8",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2206d167-00ca-4533-922f-a2a592e452da",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4d186d6e-a8a2-4fe9-ad51-41e2042a23f2",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8837a83d-809c-43f1-8f93-4c5f7d3016f1",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "74df907c-54df-4e6c-996f-43e0a7dbb607",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7e78f520-b6cc-48ae-bf7f-fd114b37d714",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9c1a951f-1161-48fc-b9c4-ac0e3da248b5",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ac166cde-b960-4694-86a1-0d439ac00d09",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "668707e1-e3e3-40f4-a915-8ccab8e309ec",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "bd4750f7-0de2-4287-ab8f-8bc15118db84",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "336980ba-6819-4ef6-b786-2e21c4c40bf9",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "aebe33d8-bab5-48e7-9753-209684fcb4cd",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6c5c9e41-5120-491f-b4fd-07e017e94a94",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "822c1041-9963-4ad7-a490-6b8d6ef277d8",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d28538f2-f09f-4cfe-b8d0-9c56e83ec3d5",
+      "rating_tier": "neutral",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "db85a9e2-c7a6-4894-b139-b8bddad52428",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "82136935-d01e-4a40-bfbf-f07db8777797",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b574ea36-e2d8-4994-963d-637f02402d48",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6a03f863-7524-490b-925a-170e3d5bd6da",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7543884e-792e-4aba-9b80-cc872de9fe67",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0e71beb3-7ccc-4024-aefb-5ead62ea0385",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e1dda954-5abb-43e0-b91c-2b4aee735f79",
+      "rating_tier": "negative",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "eb0ce955-b4c7-4c4d-b348-da4acbbd72f4",
+      "rating_tier": "negative",
+      "app_version": "26.4.3",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "cdc25eb6-a893-4a96-b435-b39cb59f7282",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f320f254-a20f-4ee4-94d9-7214f038483f",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "074217e3-b86c-4f9e-bf91-95a3dda194cf",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "238a92f2-d228-486e-a66f-84dd4953eeb7",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d1a5f85d-e9e2-4e32-be92-5ad696f82e6d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0a79a231-4dfe-490b-97d2-98fe7fea89db",
+      "rating_tier": "positive",
+      "app_version": "26.9.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6100e433-b33a-4b0e-9041-684c09e8cdfb",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8474c16f-ed01-493b-b4c3-ca054fb9e15a",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "34b70558-c866-42df-a5dd-7e00e99c1629",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5df69ad6-d1f7-4f8b-96f2-b426a20751ee",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "cc92bb9a-14d8-4920-be18-976be5504105",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "972a59bc-6b3c-4b9f-b4a4-63c4d4c62170",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "de0d3f2b-3ca6-4ddd-b48b-9c0d7603e4fb",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7cdbb84b-f6ef-4045-a404-9dc40adeef82",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "52753865-46ea-4547-bc95-029441fa470a",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9b1594cd-0598-43f6-b0f2-67e161eb3d57",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "33e28268-c64c-4cf5-9fe6-bd4340e1e039",
+      "rating_tier": "neutral",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "04bcb8fd-866d-4c0d-aad6-164149a5711a",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6c5ea85d-facc-4cb9-8036-78e8e58c5c36",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "74243ff7-7f0f-4a7d-87dc-9591c092b164",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f27a3e20-f946-4fb9-96b8-3a50f7a192a5",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8d7f7d6b-486b-45e1-9804-0307cfa5e77b",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6c4fa8b0-2255-4b30-9321-149ca73580f4",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b3c6a573-ebff-4f5a-bb4a-a794ca598e51",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c27393ba-07ff-450a-ba26-a8e60b6207d5",
+      "rating_tier": "negative",
+      "app_version": "25.1.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d9f70e77-5a16-4099-9864-08c16e5c4d85",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6a0bbca4-d921-4247-b17e-f22475fe5592",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7d5e7793-55ca-4654-81ec-125648d11aca",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "bcd95b9c-841a-459f-9462-d39cb7688da1",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d729a91f-391f-46be-89e8-38cd5c59f942",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3792b3fc-2848-411f-8a86-94688339d7f9",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c0c31f50-2de8-45c5-ba5e-ae384cf7165a",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "cedc810d-7a18-4806-9d74-5753288353d9",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b4e09b77-cdaa-47d6-8cd7-b25eaf041d3b",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0dab3db9-813c-477e-abde-36eba76bb2f3",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "14f2a173-9792-4b9e-8c7e-43a10bd37885",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "99579495-7a1a-4aa8-9fc1-a2d739bfabde",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ed8b997b-ef0f-4e4c-a9d3-03b5b9428d60",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1cbb6121-9eac-4ef3-b2b9-c82768ed158c",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b3f9e18d-df7d-4fb2-a526-b9ac92e82b4b",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "735e2d3e-5725-4df2-a92d-3f90a0cd27b6",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "22508140-98f6-4fed-a638-b522213f6914",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0116b751-40e8-4fa6-b66f-088a868849ee",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "febb539c-5585-4949-8d1d-c08c40751b31",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f675c155-f05c-4485-912a-d97c3ed95de5",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9ceaaaed-9da6-4bbc-9c13-cb8cb0dea5ff",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ae11a7db-3e4d-432f-9ca1-daf04c378e21",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5139e392-3a51-4cd4-aebb-b1b18ce6fa7f",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a8ec423b-3905-4416-a926-bfbc639c4c22",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3ea05bd8-18ce-47f8-81d9-38bc9138c134",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8452a60e-ff35-47ca-8baa-b949ddf733f2",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9493fc72-ce54-4946-8597-65a3a35fd0e3",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d181d445-6c60-4b26-817f-de8b0226da91",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e6873936-0671-4e24-8304-0c2b046bab6a",
+      "rating_tier": "neutral",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_neutral",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "96d63ba8-0763-4125-a02e-5fe7eb6d6827",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "df3e18cb-11f4-402a-888c-00fb33e7e50e",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b8a94691-f04c-41f0-bcca-d17e094ec88e",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "84c9b943-d7e9-4fdf-9827-b6f5c2f7cce8",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0dbf989b-4d51-4c1a-974a-ddb73cf8d67c",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1b6d325f-61cc-44a7-ad06-b8d6ae8e4b50",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "689f6b1a-942d-4373-9be7-c5d7a7fa901b",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2aedac0d-c2e0-43c8-814d-e64c6b84943e",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ddd34df1-ec1e-4c1d-b107-a52addce653f",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a00b2841-8646-45df-8fed-e2412a25a8bd",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f5619707-3cbf-4a70-b5a7-283310713973",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "efa7a7fc-3f45-435b-9742-0988ac8c0dd2",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "865d5c4c-2861-413b-8641-f25d4a49dabb",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c50e72f7-23d4-4f82-88f4-764a53c745ad",
+      "rating_tier": "positive",
+      "app_version": "26.9.3",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "701afc57-4528-4e32-94cf-6d3fb747ed52",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "52d029ae-dcfb-442f-bbd4-f96da20494de",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "98950221-05fd-4c17-9e6f-1d5fba5248e8",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0cb44762-3a5f-43f3-854d-2e8c9a8da80d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "43449865-e2bc-493c-bee1-986fcdeb8219",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a1c49ff4-7259-4a73-b8cf-ec601548e29b",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8c236a64-a637-47c4-b602-2cae685b008e",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2960b1a2-dbcb-44fc-b6e5-b49c6a980f60",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2c522eb7-9f54-41cb-8717-34de2f3df6a0",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "da160271-1100-403d-8922-366632fa8733",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "70e27592-2732-47b7-aa44-13e76e2164f1",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "49f205e4-7d68-4827-ab2a-3bd323c491ce",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "806b6d0d-5ef9-4d43-9cbc-00fb06f14d4f",
+      "rating_tier": "neutral",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "fd3c3c54-fff3-433d-981b-10f06474f997",
+      "rating_tier": "negative",
+      "app_version": "25.10.5",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "188a000c-bd63-4e8e-a66f-066736837f5f",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f5d15980-bd19-4e36-a351-acddc1ed059b",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e312d638-2ea1-4437-8915-955f7e89b06c",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "21b11b9a-796a-4060-8392-c65a716ffbfa",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1d6cd4da-b274-40f4-ab55-09388dc52e53",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "897cdd2b-1ec6-40cd-a523-97e979b597c5",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "73866c6b-af03-4981-bb1d-5430385e34da",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1564c72e-7e22-493e-a1be-7d2d003548b0",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "03c610e5-a146-4b3e-a430-6c529f83f629",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "240d8fb3-1509-42a8-a028-72d253f1081a",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c408c634-a961-4b7a-a4b2-da0eec86a89c",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d4b6ea3a-e808-4c5d-acc5-9dedc6c203df",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a61e2a65-ecf0-4b0b-84db-f809bd0a6b7e",
+      "rating_tier": "negative",
+      "app_version": "26.7.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8c072522-088d-4d32-93d2-b84b998630d4",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a9a90e19-8f77-4353-94f0-791f79adb92d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "ec4681ac-48bc-4469-8c6c-2515ca1ed2f7",
+      "rating_tier": "negative",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8d771343-2c4a-4635-82bc-1e35588bf0cc",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f17642e6-9eef-4d25-8c41-bf3f3a1aa101",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e5fbd862-e617-44fd-abf7-ba8eb51881a8",
+      "rating_tier": "negative",
+      "app_version": "26.10.1",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "19f33000-7a08-447f-965f-c2d71c00c86d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "da5861c5-bd7a-4431-8fce-68f214129ac5",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "fd7f8f68-30eb-4979-94c4-50c1b51ff55f",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "989c838b-4a52-42ff-885b-2aa8196aa67c",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9494615a-f82c-4280-a61f-3347f9ed357a",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "cb331e5d-e032-4683-8339-d57cf3b3dbac",
+      "rating_tier": "positive",
+      "app_version": "26.9.1",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e019406d-2f37-40d1-ab6c-342e37747d5f",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1f0e4fb2-00d6-461b-b2da-f7fcd9ddf287",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "01b722c9-094f-48ce-b400-0fc4b7d42e7c",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "fb36b1ed-a26a-4041-8f28-b09ca180db64",
+      "rating_tier": "negative",
+      "app_version": "26.9.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f4cf908c-f2a1-4477-be33-c3b124d6a537",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9d3bb4ed-42ee-4a8d-b948-24f498c37225",
+      "rating_tier": "positive",
+      "app_version": "",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "5532613a-0468-4144-9866-50c23162e0f9",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "emergency_sos_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3c5990cf-39d4-42c2-9e89-e2093f8ab7f0",
+      "rating_tier": "positive",
+      "app_version": "26.9.4",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4d99095c-6cd9-4e99-9283-de085997b90d",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a70d25b7-6125-4415-a685-e027cb3b7662",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "fbac688b-2443-4a29-a9a5-a0676e67207b",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "3ee10df0-6f2a-49b8-8407-ab16b613357a",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "82c76aba-aa1b-4907-b2cf-4082f5dad157",
+      "rating_tier": "negative",
+      "app_version": "26.9.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c974bfef-68d9-49a0-ba2d-87589a3fed2a",
+      "rating_tier": "negative",
+      "app_version": "26.9.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "04395313-ccc1-4205-9374-a14efd68f21b",
+      "rating_tier": "negative",
+      "app_version": "25.6.4",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e6df04ea-91aa-48f7-8d06-7e427e639dea",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f475ea9f-7b1a-477e-ac37-45f8417a12ad",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7f124f5f-1535-4784-ae06-7666dc453c64",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8a50e3f1-c1ab-4d84-9203-e0fe29b7c187",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "premium_gourmet_shopper",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "293859f0-d55b-480d-b136-7721b2a7d6da",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "75a82b9a-2633-407b-a510-8208ff3c061e",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b06f2838-2c47-483a-a5b0-5ae22afe3932",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "9caf1aea-c697-4526-b53e-a7434343ddcd",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c698d506-0e15-4017-a4a9-b580cca35dfa",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "6543597c-1c73-4fdd-b4f3-f2bec0bc3637",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "781ec3bc-8ef7-48bc-8355-2c0e91b05eae",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "1bcd8c75-d905-457f-a5cc-5f5c62795c8d",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "e17f750e-867c-4e6e-9686-a352e0b4c83b",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2a6f7464-9c38-401d-99ac-7fb7bb339f54",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "050c0c4f-0476-4c59-be90-710b53a13923",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b10c599e-74b1-42ac-a6a8-15b6db97f99c",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f147750a-2cfa-43a8-8685-0a83edda1507",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "4779c248-7ca8-422c-92ae-5673a5400ccb",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8a497d04-d852-459d-b041-cae6d1a07550",
+      "rating_tier": "negative",
+      "app_version": "26.8.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c7d51c1f-1870-45c4-b6cb-8d2d81c8eaec",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "df0dad74-99b9-4570-8854-026e05f648f1",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "b79232a8-9590-4023-9fc5-bd31c5fc886d",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "7d46644c-c31c-439c-92ea-b77bb3e8b79b",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "dc2f7eaf-e705-4f84-8af8-8f0bbcc0d2bd",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "25ce3d5f-a260-4377-bd9f-5caac3c3bfc9",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "8604ae08-1a97-4160-a0eb-b9ddb5c83347",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "edbb8af2-c612-4804-9056-569b572dcfdc",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "0cb7928a-184d-419f-b468-4c1d74207cef",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "01a191ee-4e27-47f9-b5d3-c93ed8b2faa2",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "2fa6a0f1-8072-4f22-9318-68bb5e2f0aa7",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_positive",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "a497f51f-2e21-4e98-9c90-ef8ca8787931",
+      "rating_tier": "negative",
+      "app_version": "26.10.3",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "90cf68b1-0cae-4ae3-ad89-1a7b4bffbb6a",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "27eb228c-8ac0-4a9b-a4ae-c54cad611697",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "c7f6c481-b631-4e5b-806b-25f16a7ebbac",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "96c5f1ea-f67e-4a60-9229-267652c68e75",
+      "rating_tier": "positive",
+      "app_version": "26.10.2",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "d7bc9ce0-b4cc-4ad8-91ea-56e6a86bb2bb",
+      "rating_tier": "positive",
+      "app_version": "26.10.1",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "49275551-8605-4d51-a178-a5a83bdb3e41",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "f5e8fb67-bf7a-4ec0-a525-843a0cca36b7",
+      "rating_tier": "negative",
+      "app_version": "26.7.6",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "65e94e45-df7f-4072-86ca-fe0c17685b82",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "hesitant_multi_platformer",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "dadd7035-f777-46d6-8359-f3b758a44315",
+      "rating_tier": "negative",
+      "app_version": "",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "98f57b7c-5dfd-41f6-8ad5-d36553865f40",
+      "rating_tier": "negative",
+      "app_version": "26.10.2",
+      "inferred_segment": "general_shopper_negative",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
       "review_id": "reddit_post_89314b62d0bce3e716a547917a76d0fa",
       "rating_tier": "neutral",
       "app_version": "",
@@ -180984,31 +184984,7 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "reddit_post_1wy7u4v",
-      "rating_tier": "neutral",
-      "app_version": "",
-      "inferred_segment": "general_shopper_neutral",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
-      "review_id": "reddit_post_1wy29yk",
-      "rating_tier": "neutral",
-      "app_version": "",
-      "inferred_segment": "emergency_sos_shopper",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
       "review_id": "reddit_post_1x40e57",
-      "rating_tier": "neutral",
-      "app_version": "",
-      "inferred_segment": "premium_gourmet_shopper",
-      "inferred": true,
-      "confidence": "heuristic"
-    },
-    {
-      "review_id": "reddit_post_1x409bj",
       "rating_tier": "neutral",
       "app_version": "",
       "inferred_segment": "premium_gourmet_shopper",
@@ -181112,7 +185088,15 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "reddit_post_1wzwlje",
+      "review_id": "reddit_post_1x9vqeh",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "impulse_snaker_night_owl",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1x8gizq",
       "rating_tier": "neutral",
       "app_version": "",
       "inferred_segment": "general_shopper_neutral",
@@ -181120,42 +185104,58 @@
       "confidence": "heuristic"
     },
     {
-      "review_id": "reddit_post_1wz65wt",
+      "review_id": "reddit_post_1x8dlco",
       "rating_tier": "neutral",
       "app_version": "",
-      "inferred_segment": "general_shopper_neutral",
+      "inferred_segment": "impulse_snaker_night_owl",
       "inferred": true,
       "confidence": "heuristic"
     },
     {
-      "review_id": "reddit_post_1wyq474",
+      "review_id": "reddit_post_1x7f2rx",
       "rating_tier": "neutral",
       "app_version": "",
-      "inferred_segment": "general_shopper_neutral",
+      "inferred_segment": "hesitant_multi_platformer",
       "inferred": true,
       "confidence": "heuristic"
     },
     {
-      "review_id": "reddit_post_1wyefiz",
+      "review_id": "reddit_post_1x5rpgg",
       "rating_tier": "neutral",
       "app_version": "",
-      "inferred_segment": "general_shopper_neutral",
+      "inferred_segment": "premium_gourmet_shopper",
       "inferred": true,
       "confidence": "heuristic"
     },
     {
-      "review_id": "reddit_post_1wyb0sq",
+      "review_id": "reddit_post_1x5rmvg",
       "rating_tier": "neutral",
       "app_version": "",
-      "inferred_segment": "general_shopper_neutral",
+      "inferred_segment": "premium_gourmet_shopper",
       "inferred": true,
       "confidence": "heuristic"
     },
     {
-      "review_id": "reddit_post_1wy2bx1",
+      "review_id": "reddit_post_1x5jqnz",
       "rating_tier": "neutral",
       "app_version": "",
-      "inferred_segment": "emergency_sos_shopper",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1x5iqqz",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
+      "inferred": true,
+      "confidence": "heuristic"
+    },
+    {
+      "review_id": "reddit_post_1x4tkni",
+      "rating_tier": "neutral",
+      "app_version": "",
+      "inferred_segment": "household_replenisher",
       "inferred": true,
       "confidence": "heuristic"
     }
