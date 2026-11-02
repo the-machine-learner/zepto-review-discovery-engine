@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-10-26T12:37:23.835319+00:00",
+  "run_timestamp": "2026-11-02T15:17:21.728940+00:00",
   "sample_size": 450,
-  "total_corpus_size": 23653,
+  "total_corpus_size": 24181,
   "themes": [
     {
       "theme_id": "g1_missing_categories",
@@ -65,14 +65,14 @@
         "6e99ac60-ac08-4773-ac0c-f18f859a3694",
         "c8419450-1dd4-4fff-99b2-2662e2040f95",
         "d6500e1a-982d-43f9-abd0-0f1124a3ad25",
+        "reddit_post_1xlpsmm",
         "572c7f1a-b0b7-4e69-89b7-d3b93a305189",
         "128b94c9-8d10-4150-9356-073535929cc6",
         "2d513bec-a122-4e9b-b9dc-6a97873f1d30",
         "629f927b-8cfe-4794-b9e1-b3c4c6438208",
         "35a801bd-ab54-430c-9443-3f35588f769f",
         "6980a063-976e-44c4-a804-a795ec684875",
-        "261968b8-75a3-46e1-b725-0b2d7d8b0941",
-        "cb2deb4d-4953-4632-aba0-d2412bbc7fc7"
+        "261968b8-75a3-46e1-b725-0b2d7d8b0941"
       ],
       "quotes": [
         {
@@ -89,7 +89,7 @@
         }
       ],
       "review_count": 84,
-      "avg_rating": 1.65
+      "avg_rating": 1.75
     },
     {
       "theme_id": "g3_item_details_expiry",
@@ -160,7 +160,7 @@
         "41708176-b7ea-4df1-a3e5-8ab9c35a9f51",
         "cf561088-c959-4262-ba09-de53c3262cf9",
         "a94bc05e-120d-4cce-8a02-3ce9807b0afc",
-        "fc009cd4-969d-4196-be87-ff5edac4f553"
+        "reddit_post_1xlpsmm"
       ],
       "quotes": [
         {
@@ -177,7 +177,7 @@
         }
       ],
       "review_count": 43,
-      "avg_rating": 1.6
+      "avg_rating": 1.7
     }
   ],
   "unmet_needs": [
