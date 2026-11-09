@@ -1,7 +1,7 @@
 {
-  "run_timestamp": "2026-11-02T15:17:22.532815+00:00",
+  "run_timestamp": "2026-11-09T15:46:35.247592+00:00",
   "sample_size": 450,
-  "total_corpus_size": 24181,
+  "total_corpus_size": 24749,
   "themes": [
     {
       "theme_id": "mc1_staples_and_snacks",
@@ -19,6 +19,7 @@
         "reddit_post_1ucyh0w",
         "reddit_post_1ucygom",
         "reddit_post_1ucyd3n",
+        "reddit_post_1xot444",
         "reddit_post_1wld2zs",
         "reddit_post_1va2chk",
         "reddit_post_1wfzj7s",
@@ -31,8 +32,7 @@
         "c29b2723-1bcf-4604-b96b-b332933b801e",
         "8ac119fc-8c24-4a8c-a5ea-e7b352c7b461",
         "c803a574-614a-4330-8ad5-9d2489171ae4",
-        "7deabacd-0072-4e2c-adc1-c0a843c95a00",
-        "a80a8704-8e0d-4963-be79-55d83a0f2933"
+        "7deabacd-0072-4e2c-adc1-c0a843c95a00"
       ],
       "quotes": [
         {
@@ -49,7 +49,7 @@
         }
       ],
       "review_count": 20,
-      "avg_rating": 2.4
+      "avg_rating": 2.5
     },
     {
       "theme_id": "mc2_price_trust_app_switching",
@@ -68,6 +68,7 @@
         "reddit_post_1ucyh0w",
         "reddit_post_1ucygom",
         "reddit_post_1ucyd3n",
+        "reddit_post_1xot444",
         "64686682-d053-4467-b03d-da4e45467d40",
         "444217cb-1ac3-4ac2-8919-a272bc1b9de4",
         "reddit_post_1wfpz64",
@@ -79,8 +80,7 @@
         "reddit_post_1vun91j",
         "reddit_post_1vun86s",
         "reddit_post_1vun4xo",
-        "reddit_post_1vun0ep",
-        "reddit_post_1vzmlb9"
+        "reddit_post_1vun0ep"
       ],
       "quotes": [
         {
@@ -113,6 +113,7 @@
         "reddit_post_1th2n3n",
         "reddit_post_1th2men",
         "reddit_post_1t651qq",
+        "reddit_post_1xot444",
         "33227104-53e6-405a-9fda-d3a6be98d152",
         "6b00b933-d89b-46e5-88c9-2e3fd68c6548",
         "ad5682dc-8a72-4a96-8fcf-f51a4ae86161",
@@ -124,15 +125,15 @@
           "text": "A few years ago, same-day delivery felt fast. Now people expect groceries, medicines, chargers, snacks sometimes even beauty products at their doorste"
         },
         {
-          "review_id": "33227104-53e6-405a-9fda-d3a6be98d152",
-          "text": "very bad fruits and vegetables, On enquiring with customer care they say you need to reject at delivery time , when we reject at delivery time deliver"
+          "review_id": "reddit_post_1xot444",
+          "text": "Australia’s Top 100 Innovators of 2026 Welcome to this year’s Top 100 Innovators where a new wave of Australian entrepreneurs is mounting an aggressiv"
         },
         {
-          "review_id": "a442f21d-6fc1-4717-a085-6393f049364b",
-          "text": "Please start delivering medicines especially at night time. Other apps are useless. Night time emergency medicine and hospital services are terrible i"
+          "review_id": "33227104-53e6-405a-9fda-d3a6be98d152",
+          "text": "very bad fruits and vegetables, On enquiring with customer care they say you need to reject at delivery time , when we reject at delivery time deliver"
         }
       ],
-      "review_count": 8,
+      "review_count": 9,
       "avg_rating": 3.0
     },
     {
@@ -151,6 +152,7 @@
         "reddit_post_1ucyh0w",
         "reddit_post_1ucygom",
         "reddit_post_1ucyd3n",
+        "reddit_post_1xot444",
         "reddit_post_1wld2zs",
         "reddit_post_1va2chk",
         "reddit_post_1wfzj7s",
@@ -163,8 +165,7 @@
         "reddit_post_1uy3lrj",
         "reddit_post_1uxsa8z",
         "yt_yt_cmt_6",
-        "0a6ade83-b9f7-4c3f-936f-f4a47a9fad4e",
-        "reddit_post_1u6ctuw"
+        "0a6ade83-b9f7-4c3f-936f-f4a47a9fad4e"
       ],
       "quotes": [
         {
